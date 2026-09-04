@@ -1,0 +1,23 @@
+{
+  "_说明": "把要并行使用的 ollama 都写进 workers。weight 决定分片大小；endpoint 填 ollama 的 HTTP 地址；model 填该服务器上的自定义模型名。",
+  "workers": [
+    {
+      "name": "local",
+      "endpoint": "http://127.0.0.1:11434",
+      "model": "qwen3.5:9b",
+      "concurrency": 1,
+      "weight": 1,
+      "batch_size": 24,
+      "timeout": 900
+    },
+    {
+      "name": "server-gpu",
+      "endpoint": "http://192.168.x.x:11434",
+      "model": "qwen3.5:27b",
+      "concurrency": 2,
+      "weight": 2,
+      "batch_size": 24,
+      "timeout": 900
+    }
+  ]
+}

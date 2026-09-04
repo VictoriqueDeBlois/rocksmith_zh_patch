@@ -1,0 +1,32 @@
+# --- 大体积二进制 / 解包产物（不入库，由脚本重建） ---
+*.7z
+*.psarc
+*.rar
+*.zip
+*.exe
+*.dll
+*.dds
+*.gfx
+rstoolkit/
+extracted/
+unpacked_learnplay/
+unpacked_legacy/
+validation_unpack/
+learnplay_cache*/
+legacy_cache*/
+hybrid_cache*/
+hybrid_built/
+hybrid_built.psarc
+cache*.hybrid.rebuilt.7z
+work/
+.tmp/
+source_page.html
+*.log
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- IDE ---
+.idea/
+.vscode/

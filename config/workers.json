@@ -1,0 +1,13 @@
+{
+  "workers": [
+    {
+      "name": "local",
+      "endpoint": "http://127.0.0.1:11434",
+      "model": "qwen3.5:9b",
+      "concurrency": 1,
+      "weight": 1,
+      "batch_size": 24,
+      "timeout": 900
+    }
+  ]
+}
