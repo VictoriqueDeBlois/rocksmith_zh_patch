@@ -1,0 +1,9 @@
+{
+  "_说明": "DeepSeek V4 Flash 校对 API 配置。复制为 config/api.json 并填入 api_key（api.json 已被 .gitignore 忽略，不会提交）。官方 OpenAI 兼容：base_url=https://api.deepseek.com，模型=deepseek-v4-flash。",
+  "provider": "deepseek",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-v4-flash",
+  "api_key": "sk-在这里填入你的DeepSeek API Key",
+  "temperature": 0,
+  "timeout": 300
+}

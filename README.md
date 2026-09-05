@@ -65,14 +65,16 @@ scripts/
   extract_legacy_translations.py     # 提取汉化组人工译文 -> json
   translate_new_strings.py           # 旧版: 只翻译新 id(参考用)
   translate_remaining.py             # 翻译全部剩余英文(断点续传/多 worker)
-  proofread_translations.py          # 校对 AI 译文(跳过汉化组)
+  proofread_translations.py          # 用 ollama 校对 AI 译文(参考用)
+  proofread_translations_api.py     # 用 DeepSeek V4 Flash API 校对(主用, 支持并发/抽样)
   merge_and_audit_translations.py    # 合并+审计 -> translations_final.json
   apply_translation_overrides.py     # 把人工术语覆盖写入某个 json
   build_hybrid_localization.py       # 把 final 写回 maingame.csv English 列
   build_package.ps1                  # 重建 cache4/cache8.7z 并打包 psarc
 config/
-  workers.json                       # 远程服务器 qwen3.8 (默认)
+  workers.json                       # 远程服务器 qwen3.8 (翻译用)
   workers.example.json               # 本机+服务器并行示例
+  api.example.json                   # DeepSeek API 配置模板(复制为 api.json 填 key)
   overrides.json                     # 人工复核过的 UI 术语覆盖
 data/
   translations_legacy.json           # 汉化组人工译文 (id -> 中文)
@@ -108,9 +110,13 @@ uv run python scripts\extract_legacy_translations.py legacy_cache4\maingame.csv 
 uv run python scripts\translate_remaining.py --legacy legacy_cache4\maingame.csv --current learnplay_cache4\localization\maingame.csv --out data\translations_remaining.json --config config\workers.json
 ```
 
-3) 校对 AI 译文(跳过汉化组人工条目)：
+3) 校对 AI 译文(DeepSeek V4 Flash API，跳过汉化组人工条目)：
+   先填 key：把 config\api.example.json 复制为 config\api.json，填入 api_key。
+   建议先抽 100 条看效果，再全量：
 ```powershell
-uv run python scripts\proofread_translations.py --current learnplay_cache4\localization\maingame.csv --translations data\translations_remaining.json --skip data\translations_legacy.json --out data\translations_proofread.json --changes data\proofread_changes.json --config config\workers.json
+uv run python scripts\proofread_translations_api.py --current learnplay_cache4\localization\maingame.csv --translations data\translations_remaining.json --skip data\translations_legacy.json --out data\proofread_sample.json --changes data\proofread_sample_changes.json --api-config config\api.json --limit 100 --seed 42
+
+uv run python scripts\proofread_translations_api.py --current learnplay_cache4\localization\maingame.csv --translations data\translations_remaining.json --skip data\translations_legacy.json --out data\translations_proofread.json --changes data\proofread_changes.json --api-config config\api.json
 ```
 
 4) 合并+审计(生成 `data\audit_final.json`，应看到 missing_count=0)：
