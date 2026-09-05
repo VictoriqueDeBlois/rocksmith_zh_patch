@@ -119,9 +119,10 @@ uv run python scripts\proofread_translations_api.py --current learnplay_cache4\l
 uv run python scripts\proofread_translations_api.py --current learnplay_cache4\localization\maingame.csv --translations data\translations_remaining.json --skip data\translations_legacy.json --out data\translations_proofread.json --changes data\proofread_changes.json --api-config config\api.json
 ```
 
-4) 合并+审计(生成 `data\audit_final.json`，应看到 missing_count=0)：
+4) 合并+审计(生成 `data\audit_final.json`，应看到 missing_count=0)。
+   优先级：人工 overrides > 汉化组 legacy > 人工锁定 proofread_manual > API 校对 > 新翻译：
 ```powershell
-uv run python scripts\merge_and_audit_translations.py --current learnplay_cache4\localization\maingame.csv --legacy-json data\translations_legacy.json --ai data\translations_proofread.json data\translations_remaining.json --overrides config\overrides.json --out data\translations_final.json --report data\audit_final.json
+uv run python scripts\merge_and_audit_translations.py --current learnplay_cache4\localization\maingame.csv --legacy-json data\translations_legacy.json --ai data\proofread_manual.json data\translations_proofread.json data\translations_remaining.json --overrides config\overrides.json --out data\translations_final.json --report data\audit_final.json
 ```
 
 5) 生成汉化 CSV + 重建缓存与 psarc(自动使用 .venv 里的 python)：
