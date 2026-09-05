@@ -1,10 +1,38 @@
 {
+  "_说明": "4 个 worker 对应服务器 4 张 RTX A6000(物理 GPU0-3, CUDA_DEVICE_ORDER=PCI_BUS_ID), 各自 ollama 实例(端口 11435-11438, 每实例 OLLAMA_NUM_PARALLEL=2)。本机经 SSH 隧道 127.0.0.1:11435-11438 访问。",
   "workers": [
     {
-      "name": "server-gpu",
+      "name": "server-gpu0",
       "endpoint": "http://127.0.0.1:11435",
       "model": "qwen3.8:latest",
-      "concurrency": 1,
+      "concurrency": 2,
+      "weight": 1,
+      "batch_size": 24,
+      "timeout": 900
+    },
+    {
+      "name": "server-gpu1",
+      "endpoint": "http://127.0.0.1:11436",
+      "model": "qwen3.8:latest",
+      "concurrency": 2,
+      "weight": 1,
+      "batch_size": 24,
+      "timeout": 900
+    },
+    {
+      "name": "server-gpu2",
+      "endpoint": "http://127.0.0.1:11437",
+      "model": "qwen3.8:latest",
+      "concurrency": 2,
+      "weight": 1,
+      "batch_size": 24,
+      "timeout": 900
+    },
+    {
+      "name": "server-gpu3",
+      "endpoint": "http://127.0.0.1:11438",
+      "model": "qwen3.8:latest",
+      "concurrency": 2,
       "weight": 1,
       "batch_size": 24,
       "timeout": 900

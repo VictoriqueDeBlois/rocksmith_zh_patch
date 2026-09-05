@@ -3,13 +3,14 @@
 与旧脚本 translate_new_strings.py 相比:
 - 不只翻译 learnplay 新增 id, 而是翻译“全部仍为英文”的 id
   (含汉化组未汉化的旧 id 与所有新增 id);
-- 支持 config/workers.json 配置多台 ollama 服务(本机 + 服务器), 进程内并行;
+- 支持 config/workers.json 配置多台 ollama(本机 + 服务器), 进程内并行;
+- 每个 worker 支持 concurrency: 多张卡(多个 ollama 实例) x 每卡多并发;
 - 按英文原文去重后翻译, 断点续传, 每批落盘;
 - 自动拆分/还原 {C} {B} {L} [1] 等占位符, 保证占位符不丢失;
 - 单批失败自动降级为逐条翻译, 个别顽固条目记录到 .failed.json 不影响整体。
 
 用法示例:
-  python scripts/translate_remaining.py ^
+  uv run python scripts/translate_remaining.py ^
       --legacy legacy_cache4/localization/maingame.csv ^
       --current learnplay_cache4/localization/maingame.csv ^
       --existing data/translations_merged.json ^
@@ -26,6 +27,7 @@ import threading
 import time
 import urllib.request
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from localization import (
@@ -183,15 +185,17 @@ def translate_worker(worker: dict, texts: list[str], text_to_ids: dict,
     name = worker["name"]
     batch_size = int(worker.get("batch_size", 24))
     timeout = int(worker.get("timeout", 900))
+    concurrency = max(1, int(worker.get("concurrency", 1)))
     max_chars = 15000  # 防止长文本把请求撑爆 num_ctx
 
     pending = [t for t in texts if not text_done(t, done, text_to_ids)]
     total = len(pending)
-    print(f"[{name}] worker start: {model} @ {endpoint} | pending unique texts: {total}", flush=True)
+    print(f"[{name}] worker start: {model} @ {endpoint} | concurrency={concurrency} | "
+          f"pending unique texts: {total}", flush=True)
     if total == 0:
         return
 
-    # 给每条文本一个稳定且短小的 id, 避免把整段原文塞进 id 导致模型出错
+    # 稳定短 id (与全量 texts 的排序一致, 保证续传不串)
     short_id = {}
     id_to_text = {}
     for i, text in enumerate(sorted(texts)):
@@ -199,25 +203,29 @@ def translate_worker(worker: dict, texts: list[str], text_to_ids: dict,
         short_id[text] = sid
         id_to_text[sid] = text
 
-    batch: list[dict] = []
-    batch_chars = 0
-    batch_index = 0
+    # 预分批
+    batches: list[list[dict]] = []
+    cur: list[dict] = []
+    chars = 0
+    for text in pending:
+        if cur and chars + len(text) > max_chars:
+            batches.append(cur)
+            cur = []
+            chars = 0
+        cur.append({"id": short_id[text], "text": text})
+        chars += len(text)
+        if len(cur) >= batch_size:
+            batches.append(cur)
+            cur = []
+            chars = 0
+    if cur:
+        batches.append(cur)
+
+    lock = threading.Lock()
     failed_log: dict[str, str] = {}
+    stats = {"batch": 0, "failed_items": 0}
 
-    def commit(received: dict[str, str]):
-        for canonical_short, translated in received.items():
-            source = id_to_text[canonical_short]
-            translated = translated.replace(",", "，")
-            for sid in text_to_ids[source]:
-                done[sid] = translated
-        write_json(out_part, dict(done))
-        if failed_out is not None:
-            write_json(failed_out, failed_log)
-
-    def flush():
-        nonlocal batch, batch_chars, batch_index
-        if not batch:
-            return
+    def process(batch: list[dict]) -> None:
         received = None
         last_error = ""
         for attempt in range(1, 4):
@@ -227,12 +235,11 @@ def translate_worker(worker: dict, texts: list[str], text_to_ids: dict,
             except Exception as exc:
                 received = None
                 last_error = str(exc)
-                print(f"[{name}] batch {batch_index + 1} attempt {attempt} failed: {last_error}", flush=True)
+                print(f"[{name}] batch attempt {attempt} failed: {last_error}", flush=True)
                 time.sleep(attempt * 3)
         if received is None:
-            # 降级: 逐条翻译, 避免一条坏数据拖垮整批
             received = {}
-            print(f"[{name}] batch {batch_index + 1} -> fallback per-item ...", flush=True)
+            print(f"[{name}] fallback per-item ...", flush=True)
             for item in batch:
                 ok = False
                 for attempt in range(1, 4):
@@ -246,25 +253,29 @@ def translate_worker(worker: dict, texts: list[str], text_to_ids: dict,
                         time.sleep(attempt * 2)
                 if not ok:
                     failed_log[item["id"]] = last_error
+                    with lock:
+                        stats["failed_items"] += 1
                     print(f"[{name}] FAILED text: {id_to_text[item['id']][:90]!r} ({last_error})", flush=True)
-        commit(received)
-        batch_index += 1
-        print(f"[{name}] batch {batch_index}: {len(received)} texts -> saved {len(done)} ids"
-              f"{' | failed ' + str(len(failed_log)) if failed_log else ''}", flush=True)
-        batch = []
-        batch_chars = 0
+        with lock:
+            for canonical_short, translated in received.items():
+                source = id_to_text[canonical_short]
+                translated = translated.replace(",", "，")
+                for sid in text_to_ids[source]:
+                    done[sid] = translated
+            write_json(out_part, dict(done))
+            if failed_out is not None:
+                write_json(failed_out, dict(failed_log))
+            stats["batch"] += 1
+            print(f"[{name}] +{len(received)} texts -> saved {len(done)} ids "
+                  f"(batches done {stats['batch']}/{len(batches)})", flush=True)
 
-    for text in pending:
-        sid = short_id[text]
-        if batch and batch_chars + len(text) > max_chars:
-            flush()
-        batch.append({"id": sid, "text": text})
-        batch_chars += len(text)
-        if len(batch) >= batch_size:
-            flush()
-    flush()
+    with ThreadPoolExecutor(max_workers=concurrency) as ex:
+        futs = [ex.submit(process, b) for b in batches]
+        for f in as_completed(futs):
+            f.result()  # 抛错则整体失败(异常已内层消化, 这里仅作保险)
+
     print(f"[{name}] worker done: {len(done)} ids saved to {out_part}"
-          f"{' | failed ' + str(len(failed_log)) if failed_log else ''}", flush=True)
+          f"{' | failed ' + str(stats['failed_items']) if stats['failed_items'] else ''}", flush=True)
 
 
 def main() -> None:
