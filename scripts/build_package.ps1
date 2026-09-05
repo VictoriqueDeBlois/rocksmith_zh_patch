@@ -14,9 +14,10 @@
 #>
 param(
     [string]$Python = "",
-    [string]$Root = $PSScriptRoot
+    [string]$Root = ""
 )
 $ErrorActionPreference = "Stop"
+if (-not $Root) { $Root = Split-Path -Parent $PSScriptRoot }
 if (-not $Python) {
     $venvPy = Join-Path $Root ".venv\Scripts\python.exe"
     if (Test-Path -LiteralPath $venvPy) { $Python = $venvPy } else { $Python = "python" }
@@ -57,14 +58,16 @@ Assert-Exists $sevenZip "缺少 7za"
 Assert-Exists $packer   "缺少 packer"
 
 # ---------- 0. 前置数据 ----------
-& $Python -X utf8 (Join-Path $Root "scripts\extract_legacy_translations.py") $legacyCsv $legacyJson
-if ($LASTEXITCODE -ne 0) { throw "extract_legacy_translations failed" }
+# translations_legacy.json 是已修复/校对过的数据层；仅首次缺失时才从老版 CSV 生成
+if (-not (Test-Path -LiteralPath $legacyJson)) {
+    & $Python -X utf8 (Join-Path $Root "scripts\extract_legacy_translations.py") $legacyCsv $legacyJson
+    if ($LASTEXITCODE -ne 0) { throw "extract_legacy_translations failed" }
+}
 
 $aiArgs = @()
-if (Test-Path -LiteralPath $proofJson) { $aiArgs += $proofJson }
+if (Test-Path -LiteralPath (Join-Path $Root "data\proofread_manual.json")) { $aiArgs += (Join-Path $Root "data\proofread_manual.json") }
 if (Test-Path -LiteralPath $remaining) { $aiArgs += $remaining }
-if (Test-Path -LiteralPath $mergedJson) { $aiArgs += $mergedJson }
-if ($aiArgs.Count -eq 0) { throw "没有可用的 AI 翻译 json" }
+if ($aiArgs.Count -eq 0) { throw "没有可用的 AI 翻译 json (proofread_manual / translations_remaining)" }
 
 $auditArgs = @(
     (Join-Path $Root "scripts\merge_and_audit_translations.py"),
@@ -98,22 +101,29 @@ $cache8New = Join-Path $pkgDir "cache8.7z"
 if (Test-Path -LiteralPath $cache4New) { Remove-Item -LiteralPath $cache4New -Force }
 if (Test-Path -LiteralPath $cache8New) { Remove-Item -LiteralPath $cache8New -Force }
 Push-Location $hybridCache4
-try { & $sevenZip a -t7z -mx=5 $cache4New * | Out-Null } finally { Pop-Location }
+try { & $sevenZip a -t7z -mx=5 -ms=off $cache4New * | Out-Null } finally { Pop-Location }
 if ($LASTEXITCODE -ne 0) { throw "7za cache4 failed" }
 Push-Location $hybridCache8Out
-try { & $sevenZip a -t7z -mx=5 $cache8New * | Out-Null } finally { Pop-Location }
+try { & $sevenZip a -t7z -mx=5 -ms=off $cache8New * | Out-Null } finally { Pop-Location }
 if ($LASTEXITCODE -ne 0) { throw "7za cache8 failed" }
 
-# ---------- 4. 组装其余原版 cache (不要 NamesBlock.bin) ----------
+# ---------- 4. 同步到稳定的打包输入目录 cache_RS2014_Pc ----------
+$cacheRoot = Join-Path $Root "cache_RS2014_Pc"
+if (-not (Test-Path -LiteralPath $cacheRoot)) { New-Item -ItemType Directory -Force -Path $cacheRoot | Out-Null }
 foreach ($name in @("cache0.7z","cache1.7z","cache3.7z","cache6.7z","cache7.7z")) {
-    $src = Join-Path $origUnpack $name
-    Assert-Exists $src "缺少原版 $name"
-    Copy-Item -LiteralPath $src -Destination (Join-Path $pkgDir $name) -Force
+    $dst = Join-Path $cacheRoot $name
+    if (-not (Test-Path -LiteralPath $dst)) {
+        $src = Join-Path $origUnpack $name
+        Assert-Exists $src "缺少原版 $name"
+        Copy-Item -LiteralPath $src -Destination $dst -Force
+    }
 }
+Copy-Item -LiteralPath $cache4New -Destination (Join-Path $cacheRoot "cache4.7z") -Force
+Copy-Item -LiteralPath $cache8New -Destination (Join-Path $cacheRoot "cache8.7z") -Force
 
 # ---------- 5. packer 打包 cache.psarc ----------
 if (-not (Test-Path -LiteralPath $outDir)) { New-Item -ItemType Directory -Force -Path $outDir | Out-Null }
-& $packer -p -f Pc -v RS2014 -i $pkgDir -o (Join-Path $outDir "cache")
+& $packer -p -f Pc -v RS2014 -i $cacheRoot -o (Join-Path $outDir "cache")
 if ($LASTEXITCODE -ne 0) { throw "packer failed" }
 $outPsarc = Join-Path $outDir "cache.psarc"
 Assert-Exists $outPsarc "打包失败, 未生成 cache.psarc"

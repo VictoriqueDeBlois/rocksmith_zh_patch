@@ -61,13 +61,20 @@ def main() -> None:
             final[sid] = translated
 
     # ----- 审计 -----
-    missing = []
+    covered_keys = set(legacy) | set(overrides)
+    for ai in ai_sources:
+        covered_keys |= set(ai)
+    missing = []          # 完全没有译文来源覆盖且仍为英文
+    kept_english = []     # 有来源覆盖，但译文有意保留英文(品牌/专名等)
     placeholder_errors = []
     empty = []
     no_cjk = []
     embedded = []
     for sid in sorted(current, key=int):
         source = current[sid]
+        if sid not in final and sid in covered_keys:
+            kept_english.append(sid)
+            continue
         if is_translatable(source) and sid not in final:
             missing.append(sid)
             continue
@@ -90,6 +97,8 @@ def main() -> None:
         "ai_ids_used": {str(p): len(load_json(p)) for p in args.ai},
         "missing": missing,
         "missing_count": len(missing),
+        "kept_english_count": len(kept_english),
+        "kept_english": kept_english,
         "placeholder_errors": placeholder_errors,
         "empty": empty,
         "no_cjk_count": len(no_cjk),
