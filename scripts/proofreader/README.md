@@ -24,7 +24,7 @@ uv run python -m scripts.proofreader.cli --limit 200 --seed 42 --per-category 20
 
 相同参数重新执行即可续传。断点指纹包含实际样本、提示词、配置与 Python 实现；内容变化会拒绝旧断点，使用新输出名即可重新测试。网络/响应格式失败降级单条，仍失败不记完成，下次重试；有失败以退出码 2 结束。候选文本违反校验则保留原译并计入 skipped。原译自身可能已经违规，因此报告单独列出 final_violations，不能将拒绝坏候选等同于修好了原数据。
 
-路由优先级为 SKIP → C → E → D → B → F → A → G，使用词边界减少子串误判；对教学连续动作、Session Mode 和型号有专门处理。七类 prompt 都包含完整硬约束、术语和从 review.md 提取的二十条规则。分类是启发式，混合语境仍需复核。
+路由优先级为 SKIP → C → E → D → B → F → A → G，使用词边界减少子串误判；对教学连续动作、Session Mode 和型号有专门处理。七类 prompt 都包含完整硬约束、术语和从 docs/review_500_verdicts.md 提取的二十条规则。分类是启发式，混合语境仍需复核。
 
 复用 `localization.load_slots/load_json/write_json/CJK_RE/PLACEHOLDER_RE`；新模块扩展数字花括号占位符。校对采用整句 source/translation 配对，避免拆段丢失否定和条件上下文；模型删除、增加或换序占位符时直接拒绝整条候选，不擅自修补语义位置。Ollama 协议与 translate_remaining.chat_once 一致，响应严格按 id 匹配。每 worker 有独立线程池和落盘锁，按桶分批，最多 batch_size 条/约 10000 输入字符。当前均分 id，不使用 weight 加权。
 

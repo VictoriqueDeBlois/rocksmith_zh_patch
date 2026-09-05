@@ -44,7 +44,7 @@ major chord=大三和弦；octave=八度音程；Phrygian Dominant=弗里吉亚�
   - 现译：`data/translations_remaining.json`（16067，`{id:zh}`）
   - 英文原文：`learnplay_cache4/localization/maingame.csv`（id,英文,其余列…）
   - 跳过：`data/proofread_manual.json`(256)、`config/overrides.json`(64)
-  - 规则全文：`review.md`（20 条规则）
+  - 规则全文：`docs/review_500_verdicts.md`（20 条规则）
 
 ## 5. 架构建议
 
@@ -101,7 +101,7 @@ uv run python -m scripts.proofreader.cli --current learnplay_cache4\localization
 1. 角色句（如“你是 Rocksmith 吉他教学文本的资深校对”）。
 2. 第 2 节“硬约束”全量。
 3. 第 3 节“术语表”（可按桶裁剪，但 profile/cab/联排/制音/音阶指型等核心必带）。
-4. 第 6 节该桶“额外强调”（引用 review.md 对应规则编号）。
+4. 第 6 节该桶“额外强调”（引用 docs/review_500_verdicts.md 对应规则编号）。
 5. 输出指令：`只输出 JSON 对象 {"translations":[{"id","text"}]}，数量与输入一致，id 一一对应；现译正确就原样返回`。
 USER 内容：`[{"id","source","translation"}]` 数组。
 
@@ -125,7 +125,7 @@ USER 内容：`[{"id","source","translation"}]` 数组。
 
 ## 10. 参考（GPT 可读）
 
-- 规则全文：`./review.md`
+- 规则全文：`./docs/review_500_verdicts.md`
 - 术语/上下文：`...\docs\gpt_fullproofread_guide.md`
 - 现有调用/并发示例：`...\scripts\translate_remaining.py`、`...\scripts\localization.py`
 - 数据样例：`...\data\translations_remaining.json`、`...\learnplay_cache4\localization\maingame.csv`

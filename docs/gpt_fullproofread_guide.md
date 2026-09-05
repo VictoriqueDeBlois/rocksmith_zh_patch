@@ -33,10 +33,10 @@
 | 人工 UI 术语（跳过） | `...\config\overrides.json` |
 | 汉化组（默认跳过） | `...\data\translations_legacy.json` |
 | 英文原文（按 id 查） | `...\learnplay_cache4\localization\maingame.csv`（第 1 列 id、第 2 列英文原文） |
-| 审阅规则全文（重要） | `...\review.md`（A 逐条 + B 20 条规则 + C 程序化建议） |
+| 审阅规则全文（重要） | `...\docs/review_500_verdicts.md`（A 逐条 + B 20 条规则 + C 程序化建议） |
 | 规则扫描候选 | `...\docs\rule_scan_report.md`、`...\data\rule_scan_candidates.json` |
 | 待核实上下文队列 | `...\data\review_context_queue.json` |
-| 500 条抽样审阅做法参考 | `...\docs\proofread_sample500_review.md`、`...\docs\review_guide_prompt.md` |
+| 500 条抽样审阅做法参考 | `...\docs\proofread_sample500_docs/review_500_verdicts.md`、`...\docs\review_guide_prompt.md` |
 
 JSON 结构：`translations_remaining.json` 是 `{ "id": "中文" }`，英文原文要从 maingame.csv 按 id 取第 2 列。
 
