@@ -105,17 +105,17 @@ uv run python scripts\extract_legacy_translations.py legacy_cache4\localization\
 
 2) 翻译剩余英文(用服务器 qwen3.8，断点续传，每批落盘)：
 ```powershell
-uv run python scripts\translate_remaining.py --legacy legacy_cache4\localization\maingame.csv --current learnplay_cache4\localization\maingame.csv --existing data\translations_merged.json --out data\translations_remaining.json --config config\workers.json
+uv run python scripts\translate_remaining.py --legacy legacy_cache4\localization\maingame.csv --current learnplay_cache4\localization\maingame.csv --out data\translations_remaining.json --config config\workers.json
 ```
 
 3) 校对 AI 译文(跳过汉化组人工条目)：
 ```powershell
-uv run python scripts\proofread_translations.py --current learnplay_cache4\localization\maingame.csv --translations data\translations_merged.json --skip data\translations_legacy.json --out data\translations_proofread.json --changes data\proofread_changes.json --config config\workers.json
+uv run python scripts\proofread_translations.py --current learnplay_cache4\localization\maingame.csv --translations data\translations_remaining.json --skip data\translations_legacy.json --out data\translations_proofread.json --changes data\proofread_changes.json --config config\workers.json
 ```
 
 4) 合并+审计(生成 `data\audit_final.json`，应看到 missing_count=0)：
 ```powershell
-uv run python scripts\merge_and_audit_translations.py --current learnplay_cache4\localization\maingame.csv --legacy-json data\translations_legacy.json --ai data\translations_proofread.json data\translations_remaining.json data\translations_merged.json --overrides config\overrides.json --out data\translations_final.json --report data\audit_final.json
+uv run python scripts\merge_and_audit_translations.py --current learnplay_cache4\localization\maingame.csv --legacy-json data\translations_legacy.json --ai data\translations_proofread.json data\translations_remaining.json --overrides config\overrides.json --out data\translations_final.json --report data\audit_final.json
 ```
 
 5) 生成汉化 CSV + 重建缓存与 psarc(自动使用 .venv 里的 python)：

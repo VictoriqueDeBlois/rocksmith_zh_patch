@@ -44,7 +44,6 @@ $ArgList = @(
     $Script,
     '--legacy',   (Join-Path $Root 'legacy_cache4\localization\maingame.csv'),
     '--current',  (Join-Path $Root 'learnplay_cache4\localization\maingame.csv'),
-    '--existing', (Join-Path $Root 'data\translations_merged.json'),
     '--out',      (Join-Path $Root 'data\translations_remaining.json'),
     '--config',   (Join-Path $Root 'config\workers.json')
 )
