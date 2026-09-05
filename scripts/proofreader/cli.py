@@ -29,9 +29,12 @@ def select(items, limit, seed, per_category=0):
 
 def main():
     parser = argparse.ArgumentParser(__doc__)
+    workers_default = ("config/workers.local.json"
+                       if (ROOT / "config/workers.local.json").exists()
+                       else "config/workers.json")
     for flag, default in (("current", "learnplay_cache4/localization/maingame.csv"),
                           ("translations", "data/translations_remaining.json"),
-                          ("config", "config/workers.json"), ("legacy", "data/translations_legacy.json"),
+                          ("config", workers_default), ("legacy", "data/translations_legacy.json"),
                           ("out", "data/proofread_routed.json"), ("changes", "data/proofread_routed_changes.json")):
         parser.add_argument("--" + flag, type=Path, default=ROOT / default)
     parser.add_argument("--skip", action="append", type=Path, default=[])

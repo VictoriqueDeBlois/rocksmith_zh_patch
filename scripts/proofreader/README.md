@@ -1,6 +1,6 @@
 # 分类校对提案模块
 
-在仓库根目录运行，使用现有 `config/workers.json` 的四个 Ollama 服务。默认排除人工锁定、overrides 和 legacy；只写提案，不修改翻译输入。无需新增 Python 依赖。
+在仓库根目录运行。若存在本地私有的 `config/workers.local.json`，则优先使用；否则使用公开示例 `config/workers.json`。默认排除人工锁定、overrides 和 legacy；只写提案，不修改翻译输入。无需新增 Python 依赖。
 
 ```powershell
 uv run python -m scripts.proofreader.cli --limit 200 --seed 42 --out scripts/proofreader/selftest/release_random200.json --changes scripts/proofreader/selftest/release_random200_changes.json

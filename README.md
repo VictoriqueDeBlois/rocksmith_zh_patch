@@ -54,18 +54,17 @@ uv run python scripts\xxx.py ...
 ```
 所有脚本只依赖标准库；翻译/校对调用 ollama HTTP API。
 
-## 配置：只使用远程服务器 ollama (qwen3.8)
+## 配置 Ollama（仅在重新翻译或校对时需要）
 
-`config/workers.json` 已配置为**只连远程服务器** `remote-ollama-host` 的
-`qwen3.8:latest`，不调用本机模型：
+`config/workers.json` 提供单个本地 Ollama 的通用示例：
 
 ```json
 {
   "workers": [
     {
-      "name": "server-gpu",
-      "endpoint": "http://127.0.0.1:11435",
-      "model": "qwen3.8:latest",
+      "name": "local",
+      "endpoint": "http://127.0.0.1:11434",
+      "model": "your-model-name",
       "concurrency": 1,
       "weight": 1,
       "batch_size": 24,
@@ -75,13 +74,8 @@ uv run python scripts\xxx.py ...
 }
 ```
 
-运行前先建立 SSH 隧道(把服务器 11434 映射到本机 11435)：
-```powershell
-ssh -N -L 11435:127.0.0.1:11434 remote-ollama-host
-curl http://127.0.0.1:11435/api/tags   # 自检
-```
-
-`config/workers.example.json` 只是“本机+服务器并行”示例，供以后需要时参考。
+如需使用远程服务器或多个 worker，请复制为 `config/workers.local.json` 后修改，
+不要提交实际主机名、地址或凭据。`config/workers.example.json` 提供多 worker 结构示例。
 
 ## 目录
 
@@ -99,7 +93,8 @@ scripts/
   build_hybrid_localization.py       # 把 final 写回 maingame.csv English 列
   build_package.ps1                  # 重建 cache4/cache8.7z 并打包 psarc
 config/
-  workers.json                       # 远程服务器 qwen3.8 (翻译用)
+  workers.json                       # 通用本地 Ollama 示例
+  workers.local.json                 # [本地私有] 实际 worker 配置，不入库
   workers.example.json               # 本机+服务器并行示例
   api.example.json                   # DeepSeek API 配置模板(复制为 api.json 填 key)
   overrides.json                     # 人工复核过的 UI 术语覆盖

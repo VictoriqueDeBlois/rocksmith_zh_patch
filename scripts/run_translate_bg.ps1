@@ -38,6 +38,8 @@ $Py         = if (Test-Path -LiteralPath $VenvPy) { $VenvPy } else { 'python' }
 $Script     = Join-Path $Root 'scripts\translate_remaining.py'
 $Progress   = Join-Path $Root 'data\translations_remaining.json'
 $Failed     = Join-Path $Root 'data\translations_remaining.failed.json'
+$LocalWorkers = Join-Path $Root 'config\workers.local.json'
+$WorkersConfig = if (Test-Path -LiteralPath $LocalWorkers) { $LocalWorkers } else { Join-Path $Root 'config\workers.json' }
 
 $ArgList = @(
     '-X', 'utf8',
@@ -45,7 +47,7 @@ $ArgList = @(
     '--legacy',   (Join-Path $Root 'legacy_cache4\maingame.csv'),
     '--current',  (Join-Path $Root 'learnplay_cache4\localization\maingame.csv'),
     '--out',      (Join-Path $Root 'data\translations_remaining.json'),
-    '--config',   (Join-Path $Root 'config\workers.json')
+    '--config',   $WorkersConfig
 )
 
 function Get-RunningPid {

@@ -27,6 +27,16 @@ from localization import (
     write_json,
 )
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+
+def public_path(path: Path) -> str:
+    """Return a stable report path without exposing the builder's home directory."""
+    try:
+        return path.resolve().relative_to(PROJECT_ROOT).as_posix()
+    except ValueError:
+        return path.name
+
 
 def main() -> None:
     ap = argparse.ArgumentParser()
@@ -94,7 +104,7 @@ def main() -> None:
         "legacy_ids": len(legacy),
         "override_ids": len(overrides),
         "unknown_override_ids": unknown_overrides,
-        "ai_ids_used": {str(p): len(load_json(p)) for p in args.ai},
+        "ai_ids_used": {public_path(p): len(load_json(p)) for p in args.ai},
         "missing": missing,
         "missing_count": len(missing),
         "kept_english_count": len(kept_english),

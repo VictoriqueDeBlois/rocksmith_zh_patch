@@ -5,8 +5,8 @@
   "override_ids": 142,
   "unknown_override_ids": [],
   "ai_ids_used": {
-    "C:\\Users\\haoran\\Documents\\PycharmProjects\\rocksmith_zh_patch\\data\\proofread_manual.json": 952,
-    "C:\\Users\\haoran\\Documents\\PycharmProjects\\rocksmith_zh_patch\\data\\translations_remaining.json": 16067
+    "data/proofread_manual.json": 952,
+    "data/translations_remaining.json": 16067
   },
   "missing": [],
   "missing_count": 0,

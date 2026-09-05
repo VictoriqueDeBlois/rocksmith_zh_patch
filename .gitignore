@@ -35,6 +35,7 @@ __pycache__/
 .venv/
 
 config/api.json
+config/workers.local.json
 
 data/translations_remaining.part*.json
 

@@ -1,6 +1,6 @@
 # 实现与真实模型自测结果
 
-日期：2026-09-05。交付版本以 `release_*` 文件为准。使用 `config/workers.json` 四个 server-gpu worker，各 concurrency=2、batch_size=24，模型 `qwen3.8:latest`。通过 remote-ollama-host 的 SSH 隧道访问服务器 11435–11438；模型元数据见 `model_info.json`。
+日期：2026-09-05。交付版本以 `release_*` 文件为准。测试使用四个 Ollama worker，各 concurrency=2、batch_size=24；模型元数据见 `model_info.json`。
 
 ## 第 9 节验收
 

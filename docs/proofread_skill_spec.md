@@ -1,7 +1,7 @@
 # 规格说明：分类路由 + 多 Prompt 的 qwen 全文校对脚本（做成 skill 式模块）
 
 > 本文档是给 GPT 的**实现规格**。目标：写一个脚本/模块（类 skill），
-> 用**服务器 qwen3.8** 对 Rocksmith 2014 全量译文按“不同情况”用**不同校对 prompt** 分批校对。
+> 用配置的 Ollama 模型对 Rocksmith 2014 全量译文按“不同情况”用**不同校对 prompt** 分批校对。
 > 产出“修订提案 JSON”，经人工/其它模型复核后锁进 `proofread_manual.json`。
 > GPT 只负责把脚本写好并自测；不要修改仓库里现有翻译数据。
 
@@ -38,8 +38,8 @@ major chord=大三和弦；octave=八度音程；Phrygian Dominant=弗里吉亚�
 - 并发/断点续传参考 `scripts/translate_remaining.py` 的 worker 写法（ThreadPool、按 worker 落盘、续传）。
 - ollama 调用参考 `scripts/translate_remaining.py::chat_once/restore_and_map`（含占位符拆分与还原、
   id 匹配、validate）。
-- 服务配置：`config/workers.json`（4 个 server-gpu0..3，endpoint `http://127.0.0.1:11435~11438`，
-  model `qwen3.8:latest`，concurrency=2，batch=24）。
+- 服务配置：`config/workers.json` 或本地私有的 `config/workers.local.json`；支持多个 worker、
+  独立 endpoint、model、concurrency 和 batch 参数。
 - 输入数据：
   - 现译：`data/translations_remaining.json`（16067，`{id:zh}`）
   - 英文原文：`learnplay_cache4/localization/maingame.csv`（id,英文,其余列…）
