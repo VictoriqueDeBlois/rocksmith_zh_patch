@@ -1,8 +1,23 @@
 # Rocksmith 2014 中文化管线 (rocksmith_zh_patch)
 
+## 安装汉化补丁
+
+适用于 Steam 版 **Rocksmith 2014 Edition – Remastered**。
+
+1. 退出游戏。在 Steam 库中右键 Rocksmith 2014，选择“管理 → 浏览本地文件”。
+2. 在游戏目录中找到 `cache.psarc`，将它重命名为 `cache.psarc.bak` 作为备份。
+3. 从 [最新 Release](https://github.com/VictoriqueDeBlois/rocksmith_zh_patch/releases/latest) 下载 `cache.psarc`。
+4. 将下载的 `cache.psarc` 复制到游戏目录，与 `Rocksmith2014.exe` 放在同一层。
+5. 在 Steam 中把游戏语言设为英语，然后启动游戏。补丁把中文写入游戏的 English 文本列。
+
+如需恢复原版，退出游戏，删除补丁的 `cache.psarc`，再把 `cache.psarc.bak` 改回
+`cache.psarc`。也可以通过 Steam 的“验证游戏文件完整性”恢复官方文件。
+
+> 本补丁仅供已合法拥有游戏的玩家使用。Release 附件包含运行汉化所需的修改版缓存；
+> Git 源码历史不收录该二进制文件。本项目与 Ubisoft、Steam 无隶属关系。
+
 > Rocksmith 2014 (Remastered) Simplified-Chinese localization toolchain & scripts.
-> 只包含脚本、流程和本仓库作者整理的译文/审阅记录；**不包含游戏本体或任何游戏资源文件**。
-> 使用需要你自己拥有合法游戏并自行解包(见下文“复现需要”)。
+> 仓库包含脚本、流程和本仓库作者整理的译文/审阅记录；可安装补丁在 Releases 中提供。
 
 把 Rocksmith 2014 (Remastered / learnplay) 的英文 UI 文本补全为中文。
 沿用之前 agent 的方案：把中文写入 `maingame.csv` 的 **English 列**
