@@ -38,3 +38,6 @@ config/api.json
 
 data/translations_remaining.part*.json
 
+scripts/proofreader/selftest/**/*.part.*.json
+scripts/proofreader/selftest/development/
+
