@@ -1,0 +1,982 @@
+{
+  "6393": {
+    "accept": "重译",
+    "final": "子账户",
+    "reason": "与 6372 的“主账户”统一，避免同一账户体系混用“账户／账号”。",
+    "source": "sub account",
+    "before": "子账号"
+  },
+  "6528": {
+    "accept": "重译",
+    "final": "你需要登录 Xbox LIVE 才能访问 Xbox LIVE 游戏功能。",
+    "reason": "补齐中英文之间的空格。",
+    "source": "You need to be signed into Xbox LIVE to access Xbox LIVE game play features.",
+    "before": "你需要登录Xbox LIVE才能访问Xbox LIVE游戏功能。"
+  },
+  "6551": {
+    "accept": "重译",
+    "final": "本游戏会在特定时刻自动保存数据。显示此图标时请勿关闭电源。",
+    "reason": "certain points 在此指时间节点，“特定点”不自然。",
+    "source": "This game saves data automatically at certain points. Do not switch off the power when this icon is displayed.",
+    "before": "此游戏会在特定点自动保存数据。显示此图标时请勿关闭电源。"
+  },
+  "6578": {
+    "accept": "重译",
+    "final": "已存在存档。选择“继续”以覆盖存档，或选择“取消”以继续而不保存。",
+    "reason": "“以不保存继续”语序不通。",
+    "source": "A saved game already exists. Select \"Continue\" to overwrite or \"Cancel\" to continue without saving.",
+    "before": "已存在存档。选择“继续”以覆盖，或选择“取消”以不保存继续。"
+  },
+  "6647": {
+    "accept": "重译",
+    "final": "此会话已满，无法加入。",
+    "reason": "与 6041、6209 的多人 session 译名统一。",
+    "source": "You cannot join this session because it is full.",
+    "before": "该场次已满，无法加入。"
+  },
+  "6786": {
+    "accept": "重译",
+    "final": "你已被队长移出此会话。",
+    "reason": "group leader 不宜未经确认就等同于 host；同时统一 session。",
+    "source": "You have been removed from the session by the group leader.",
+    "before": "你已被房主移出场次。"
+  },
+  "6794": {
+    "accept": "重译",
+    "final": "你可以在试用期内游玩 [NAME OF THE CONTENT HERE IN CAPS]。如果你想在试用期结束后继续游玩{C}请立即获取完整版。",
+    "reason": "补译 EXPIRES、FULL VERSION NOW；play 在此不是“播放”。",
+    "source": "You can play the [NAME OF THE CONTENT HERE IN CAPS] during the TRIAL PERIOD. If you want to continue playing when the Trial Period EXPIRES{C} get the FULL VERSION NOW.",
+    "before": "你可以在试用期内播放 [NAME OF THE CONTENT HERE IN CAPS]。如果你想在使用期 EXPIRES 后继续游玩{C}请立即获取 FULL VERSION NOW。"
+  },
+  "6802": {
+    "accept": "重译",
+    "final": "队长已变更。",
+    "reason": "与 6786 的 group leader 统一，“群组领导者”不符合游戏提示语体。",
+    "source": "The group leader has changed.",
+    "before": "群组领导者已变更。"
+  },
+  "6873": {
+    "accept": "DS",
+    "final": "LT{C} RT",
+    "reason": "恢复两个拉丁字母按键标签之间的原有间隔；不据此推导所有占位符后的空格规则。",
+    "source": "LT{C} RT",
+    "before": "LT{C}RT"
+  },
+  "6896": {
+    "accept": "重译",
+    "final": "由于另一位使用相同在线 ID 的用户已登录，现已返回主菜单。",
+    "reason": "“你已被返回”是生硬的被动句；补齐 ID 两侧空格。",
+    "source": "You have been returned to the main menu because another user with the same online ID has signed in.",
+    "before": "由于另一位使用相同在线ID的用户已登录，你已被返回主菜单。"
+  },
+  "6954": {
+    "accept": "重译",
+    "final": "由于网络错误（%x），现已返回单人模式。请确保网络配置正确。",
+    "reason": "消除“你已被返回”的翻译腔。",
+    "source": "You have been returned to the single player mode due to a network error (%x). Make sure your network is correctly configured.",
+    "before": "由于网络错误（%x），你已被返回单人模式。请确保网络配置正确。"
+  },
+  "7351": {
+    "accept": "重译",
+    "final": "本游戏可能会在特定时刻自动发送数据。显示此图标时，请勿退出 Xbox LIVE。",
+    "reason": "补齐英文名称前的空格，并调整语序。",
+    "source": "This game may send data automatically at certain points. Do not sign out of Xbox LIVE when this icon is displayed.",
+    "before": "此游戏可能会在特定时刻自动发送数据。当此图标显示时，请勿退出Xbox LIVE。"
+  },
+  "7508": {
+    "accept": "重译",
+    "final": "你必须连接 Xbox LIVE 才能使用 Xbox LIVE 功能。",
+    "reason": "补齐中英文空格。",
+    "source": "You must be connected to Xbox LIVE in order to access Xbox LIVE functionality.",
+    "before": "你必须连接Xbox LIVE才能访问Xbox LIVE功能。"
+  },
+  "7516": {
+    "accept": "重译",
+    "final": "要公开你的对局吗？{L}{L}公开后，任何人都可以加入，对局将自动开始。",
+    "reason": "除了既有代词规则，还需统一 match 为“对局”，改善“对公众开放”的表达。",
+    "source": "Open your match to the public?{L}{L}Allows everyone to join and the match will start automatically.",
+    "before": "将您的比赛对公众开放？{L}{L}允许所有人加入，比赛将自动开始。"
+  },
+  "7535": {
+    "accept": "重译",
+    "final": "创建对局失败。连接无响应。",
+    "reason": "match 是对局，matchmaking 才是匹配过程。",
+    "source": "Failed to create a match.  The connection is not responding.",
+    "before": "创建匹配失败。连接无响应。"
+  },
+  "8267": {
+    "accept": "重译",
+    "final": "确保两根手指同时落下，让小七和弦的各音同时响起{C}清晰干净。",
+    "reason": "minor-7 漏译；强调各音同时发声，避免“一次性发出声音”的歧义。",
+    "source": "Be sure both fingers come down at the same time so you get that minor-7 sound coming in all at once{C} nice and clean.",
+    "before": "确保两根手指同时落下，以便一次性发出干净的 minor-7 声音{C} 清晰悦耳。"
+  },
+  "8404": {
+    "accept": "重译",
+    "final": "推弦只能让音高从起始音升高。但有时，你可能想获得音高下降的推弦效果。为此{C}你可以使用预推弦。",
+    "reason": "up／falling 指音高变化，不是琴弦或音符的空间移动；DS 只删除“通常”仍未解决。",
+    "source": "One thing about bends is that they can only really go up from where you start. But sometimes you might want to get that bend sound with a falling note.  For that{C} you can use pre-bends.",
+    "before": "关于推弦的一点是，它们通常只能从起始位置向上推。但有时你可能想要那种音符下落的推弦效果。为此{C}你可以使用预推弦。"
+  },
+  "8437": {
+    "accept": "重译",
+    "final": "好了{C}现在来到难点。你要用无名指推弦{C}同时不要抬起食指，也不要误碰另一根弦使其消音。",
+    "reason": "明确指法编号；without picking up 是“不抬起”，不要求食指完全不动。",
+    "source": "Alright{C} now the tricky part. You've got to bend the note with your third finger{C} without picking up your first finger or accidently muting the other string.",
+    "before": "好了{C}现在是难点部分。你必须用第三根手指推弦{C}同时保持第一根手指不动，也不要意外闷住另一根弦。"
+  },
+  "9204": {
+    "accept": "重译",
+    "final": "不要用力拉弦到使音高发生变化{C}只需在松开手指时轻轻拨动琴弦。",
+    "reason": "原文是禁止用力过度，现译“不需要”弱化了限制，还容易误读为拉弦改变音高是目标。",
+    "source": "You don't want to pull it hard enough to change the pitch{C} you're just going for a little pluck as you release.",
+    "before": "你不需要用力拉弦来改变音高{C}，你只是在松手时轻轻拨动一下。"
+  },
+  "9391": {
+    "accept": "重译",
+    "final": "不错{C}现在让我们连续演奏几个手掌制音强力和弦。",
+    "reason": "保留 palm 的动作区别，并与 25083 统一。",
+    "source": "Good{C} now let's try a few of those palm muted power chords in a row.",
+    "before": "不错{C}现在让我们连续演奏几个闷音强力和弦。"
+  },
+  "9572": {
+    "accept": "DS",
+    "final": "先把食指放在 A 弦第 3 品。",
+    "reason": "补出 Start with 的步骤起始关系。",
+    "source": "Start with your first finger on the 3rd fret of the A string.",
+    "before": "食指放在 A 弦第 3 品。"
+  },
+  "9669": {
+    "accept": "重译",
+    "final": "然后你还可以在两拍之间加入上扫弦……我们把这些位置称为反拍。",
+    "reason": "这里说的是两拍之间的位置，笼统译“弱拍”会与小节内的弱拍混淆。",
+    "source": "Then you can also fill in with up-strums between the beats... we'll call those upbeats.",
+    "before": "然后你可以在节拍之间加入上扫弦……我们称之为弱拍。"
+  },
+  "9865": {
+    "accept": "重译",
+    "final": "你也可以只横按两根琴弦……",
+    "reason": "can 表示可选做法，现译“只需要”变成了操作要求；统一省略号。",
+    "source": "You can barre just two strings...",
+    "before": "你只需要横按两根琴弦..."
+  },
+  "10158": {
+    "accept": "重译",
+    "final": "没错……原本负责拨弦的手现在要移到指板上，在相应品位点按琴弦。",
+    "reason": "点弦动作作用于琴弦，“敲击琴品”容易造成错误操作理解。",
+    "source": "That's right ... what used to be your picking hand comes up to the fretboard and taps the fret.",
+    "before": "没错……原本负责拨弦的手现在要移到指板上，敲击琴品。"
+  },
+  "10385": {
+    "accept": "重译",
+    "final": "其他的则用带子固定。",
+    "reason": "原文没有“部分”；缺少先行词时不应擅自补成零件。strap 是否具体为背带需上下文确认，先用中性表达。",
+    "source": "Others are attached with a strap.",
+    "before": "其他部分用背带固定。"
+  },
+  "10918": {
+    "accept": "重译",
+    "final": "先做一次普通推弦。把音高推高半音{C}然后松回原来的音高。",
+    "reason": "明确半音指音高差；“它始于”不适合动作教学。",
+    "source": "It starts with just a regular bend. You bend it up a half-step{C} and then you let it come back down.",
+    "before": "它始于一个普通的推弦。你向上推半音{C} 然后让它回落。"
+  },
+  "11772": {
+    "accept": "重译",
+    "final": "好的{C}让我们开始练习这个滑音。",
+    "reason": "dive into 是开始投入练习，不能直译为“深入这个滑音”。",
+    "source": "Alright{C} let's dive into this slide.",
+    "before": "好的{C} 让我们深入这个滑音。"
+  },
+  "12029": {
+    "accept": "重译",
+    "final": "这样，松开手指后空弦还会继续发声{C}但你也可以用这个技巧勾弦，奏出另一个按住的音。",
+    "reason": "pull off 不是滑音；DS 虽修正技巧，仍留下“按指的音符”的生硬表达。",
+    "source": "That'll leave that open string ringing after you let it go{C} but you can also use this technique to pull off to another fingered note.",
+    "before": "这样会在你松开手指后让空弦继续共鸣{C} 但你也可以利用这个技巧滑向另一个按指的音符。"
+  },
+  "12489": {
+    "accept": "重译",
+    "final": "不过{C}如果你想自己动手{C}方法如下。",
+    "reason": "调整 though 的转折位置；DS 只添逗号，未修复语序。",
+    "source": "If you want to do it yourself{C} though{C} here's how.",
+    "before": "如果你想自己动手{C}不过{C}方法如下。"
+  },
+  "12493": {
+    "accept": "重译",
+    "final": "请记住，不同贝斯的装弦方式可能不同。我们会用这把贝斯演示{C}但你的贝斯可能采用不同的装弦方式{C}需要相应调整。如果你不确定该怎么做{C}当地琴行的店员通常会很乐意帮忙。",
+    "reason": "strung 指安装琴弦，不是琴弦排列顺序。",
+    "source": "Keep in mind that basses are designed to be strung in different ways. We'll demonstrate with this bass{C} but yours may work differently{C} and you'll have to account for that. If you're unsure what to do{C} your local guitar shop guy will probably be glad to help you out.",
+    "before": "请记住，贝斯的设计允许不同的弦序方式。我们将以这把贝斯为例进行演示{C} 但你的乐器可能有所不同{C} 你需要对此加以考虑。如果你不确定该怎么做{C} 当地的吉他店店员通常会很乐意帮助你。"
+  },
+  "13038": {
+    "accept": "DS",
+    "final": "花一分钟复习一下基本的下拨。意思就是向下拨动琴弦。",
+    "reason": "单弦 picking 应译为拨弦，不能混成扫弦。",
+    "source": "Let's take a minute and go over the basic down stroke. That just means that you pick down through the string.",
+    "before": "花一分钟复习一下基本的下拨。意思就是向下扫过琴弦。"
+  },
+  "13370": {
+    "accept": "重译",
+    "final": "好的{C}现在让我们在一首歌中综合运用这些技巧。",
+    "reason": "原文是在歌曲中综合练习，不是把技巧组合、创作成一首歌。",
+    "source": "OK{C} now let's put it all together in a song.",
+    "before": "好的{C} 现在让我们把这些组合成一首歌。"
+  },
+  "13576": {
+    "accept": "重译",
+    "final": "这里还有一种琶音型，供你练习。",
+    "reason": "与 34492 的 Arpeggios 统一；pattern 指演奏音型。",
+    "source": "Here's one more arpeggio pattern for you to try.",
+    "before": "这是另一个供你尝试的分解和弦模式。"
+  },
+  "13605": {
+    "accept": "重译",
+    "final": "……然后用无名指和小指分别按住 A 弦和 D 弦的第 14 品。",
+    "reason": "明确两根手指与两根弦的对应关系，统一指法和省略号。",
+    "source": "... and then your third and fourth fingers play the 14th fret on the A and D strings.",
+    "before": "... 然后你的第三和第四指按在 A 弦和 D 弦的第 14 品。"
+  },
+  "17294": {
+    "accept": "重译",
+    "final": "尽情扫弦吧。反复扫弦，直到蓄满量表。想让声音更响{C}就加大扫弦力度。",
+    "reason": "此处 more noise 强调响度，“制造更多噪音”容易误导；“填满计量表”不自然。",
+    "source": "Don't hold back. Keep strumming the strings repeatedly until you fill up the meter. To make more noise{C} strum harder.",
+    "before": "不要保留实力。反复扫弦直到填满计量表。要制造更多噪音{C}就用力扫弦。"
+  },
+  "17554": {
+    "accept": "重译",
+    "final": "如果你想调整歌单中的歌曲{C}可以使用菜单选项添加{C}移除或替换歌曲。请查看歌单详情，了解每个活动允许的最少和最多歌曲数量。",
+    "reason": "将 using the menu options 放回修饰操作的位置。",
+    "source": "If you'd like to change up the songs in your setlist{C} you can add{C} remove or replace songs using the menu options. Make sure to check the setlist details for the minimum and maximum songs allowed for each Event.",
+    "before": "如果你想更改歌单中的歌曲{C}你可以添加{C}移除或替换歌曲，请使用菜单选项。请务必查看歌单详情，了解每个活动允许的最少和最多歌曲数量。"
+  },
+  "17606": {
+    "accept": "重译",
+    "final": "已解锁新的原曲音色：",
+    "reason": "Authentic Tone 指还原歌曲原有声音的音色，“真实音色”不明确。",
+    "source": "New Authentic Tone Unlocked:",
+    "before": "解锁新真实音色："
+  },
+  "17819": {
+    "accept": "重译",
+    "final": "此歌曲已解锁不插电模式。在不显示音符提示的情况下演奏，打破得分极限！",
+    "reason": "without notes 指没有屏幕音符提示，不是无需跟随音符演奏。",
+    "source": "Unplugged Mode unlocked for this song. Play without notes and shatter the score barrier!",
+    "before": "此歌曲已解锁不插电模式。无需跟随音符演奏，打破得分极限！"
+  },
+  "18396": {
+    "accept": "重译",
+    "final": "这是 E 大三和弦的指型。",
+    "reason": "E-major chord 是和弦种类，不是“E 大调中的和弦”；同时补空格。",
+    "source": "This is the E-major chord shape.",
+    "before": "这是E大调和弦的指型。"
+  },
+  "18442": {
+    "accept": "重译",
+    "final": "当音符道上的 D 大三和弦到达屏幕上的琴弦时，扫响这四根弦。",
+    "reason": "区分大调与大三和弦。",
+    "source": "Strum those four strings when the D-major chord on the noteway hits the strings on the screen.",
+    "before": "当音符道上的 D 大调和弦到达屏幕上的琴弦时，扫这四根弦。"
+  },
+  "18707": {
+    "accept": "重译",
+    "final": "看看琴颈朝上的侧边{C}你会看到标记特定品位的小圆点。",
+    "reason": "这里描述琴颈侧面的品位标记，“琴颈的顶部”容易让人看向琴头。",
+    "source": "Looking at the top side of the neck{C} you'll see small dots which label specific frets.",
+    "before": "观察琴颈的顶部{C}你会看到标记特定品位的小圆点。"
+  },
+  "18931": {
+    "accept": "重译",
+    "final": "这些表示和弦弹奏。",
+    "reason": "chord hits 不是敲打乐器的“和弦击打”。",
+    "source": "These are chord hits.",
+    "before": "这些是和弦击打。"
+  },
+  "19066": {
+    "accept": "重译",
+    "final": "琴身",
+    "reason": "与 13108 的 body 译名统一。",
+    "source": "Body",
+    "before": "琴体"
+  },
+  "20032": {
+    "accept": "重译",
+    "final": "快速反复拨弦，让角色跑起来！",
+    "reason": "此处 tremolo 是反复拨弦的动作；“颤音跑起来”既不通顺，也不清楚如何操作。",
+    "source": "Tremolo to run!",
+    "before": "颤音跑起来！"
+  },
+  "21074": {
+    "accept": "重译",
+    "final": "从歌曲原曲音色预设列表中选择。",
+    "reason": "与 Authentic Tone 的译名统一，避免“真实的歌曲”修饰歧义。",
+    "source": "Choose from a list of authentic song tone presets.",
+    "before": "从一系列真实的歌曲音色预设中进行选择。"
+  },
+  "21222": {
+    "accept": "重译",
+    "final": "金质技巧奖章：[1] / [2]",
+    "reason": "“金牌技巧奖章”定语叠加不自然。",
+    "source": "Gold Technique Medals: [1] of [2]",
+    "before": "金牌技巧奖章：[1] / [2]"
+  },
+  "21226": {
+    "accept": "重译",
+    "final": "金质大师徽章：[1] / [2]",
+    "reason": "统一奖励等级用语，清除冒号后的重复空格。",
+    "source": "Gold Master Badges:  [1] of [2]",
+    "before": "金牌大师徽章：  [1] / [2]"
+  },
+  "21769": {
+    "accept": "重译",
+    "final": "你受邀前往 The Regency 演出。{L}{L}要查看此场馆的推荐歌单{C}请前往活动管理器。",
+    "reason": "补译通用界面名词 Venue、Event Manager；DS 仍保留中英文紧贴的问题。",
+    "source": "You've been invited to play at The Regency.{L}{L}To access your suggested setlist for this venue{C} go to the Event Manager.",
+    "before": "你被邀请去The Regency演出。{L}{L}要访问这个Venue的建议歌单{C}请前往Event Manager。"
+  },
+  "21796": {
+    "accept": "重译",
+    "final": "在吉他街机游戏《Super Slider》中获得超过 15{C}000{C}000 分。",
+    "reason": "恢复原文数值结构；beat 要明确为超过，而不是只获得该分数。",
+    "source": "Beat 15{C}000{C}000 points in the Guitarcade game: Super Slider",
+    "before": "在吉他街机游戏《Super Slider》中{C}获得15{C}000000分"
+  },
+  "21983": {
+    "accept": "重译",
+    "final": "手掌制音通过在拨弦时同时抑制琴弦振动来实现{C}能产生类似打击乐的声音。",
+    "reason": "现译首句缺主语，“在琴弦上制造打击乐声音”不自然。",
+    "source": "Achieved by muting and picking at the same time{C} palm muting is a technique used to create a percussive sound against the strings.",
+    "before": "通过同时制音和拨弦获得{C} 手掌制音是一种用于在琴弦上制造打击乐声音的技巧。"
+  },
+  "21992": {
+    "accept": "重译",
+    "final": "已解锁新技巧：双音",
+    "reason": "演奏 technique 应与其他条目统一为“技巧”。",
+    "source": "New Technique Unlocked: Double Stops",
+    "before": "解锁新技术：双音"
+  },
+  "22255": {
+    "accept": "重译",
+    "final": "勾拍通过勾起琴弦后松开的动作来完成。",
+    "reason": "Pop 是贝斯勾拍技法，不应漏译为“Pop 音”，也不只是普通拨弦。",
+    "source": "A pop is performed by using a plucking type motion.",
+    "before": "Pop 音通过拨弦动作演奏。"
+  },
+  "22269": {
+    "accept": "重译",
+    "final": "然后{C}保持手掌压在琴弦上{C}拨动琴弦。",
+    "reason": "掌制音语境中 still down 指保持接触琴弦，不只是手掌朝向向下。",
+    "source": "Then{C} with your palm still down{C} pick the string.",
+    "before": "然后{C}保持手掌向下{C}拨动琴弦。"
+  },
+  "22301": {
+    "accept": "重译",
+    "final": "欢迎进行试音。我们会在这里测试你的贝斯音量{C}检查音准{C}并弹奏几个音符进行练习。",
+    "reason": "Soundcheck 译“试音”更符合音乐语境；check the tuning 是检查音准。",
+    "source": "Welcome to Soundcheck.  Here we’ll test out your bass’s volume{C} check the tuning{C} and play a few practice notes.",
+    "before": "欢迎来到声音检查。在这里我们将测试你的贝斯音量{C}检查调弦{C}并演奏几个练习音符。"
+  },
+  "22372": {
+    "accept": "重译",
+    "final": "切分音指的是偏离正拍位置演奏的音符。",
+    "reason": "按本句原文表述，off the beat 不应缩窄成“弱拍”；此处也不是完整的切分定义。",
+    "source": "Syncopation describes notes that are played off the beat.",
+    "before": "切分音描述的是在弱拍上演奏的音符。"
+  },
+  "22459": {
+    "accept": "重译",
+    "final": "一款 20 世纪 80 年代的 2x10 贝斯箱体。声音有冲击力，中频突出，并配有高频单元以增强高频表现。",
+    "reason": "除既有箱体规则外，speaker driver 应译“扬声器单元”，不是“驱动器”。",
+    "source": "1980's 2x10 bass cab. Punchy and mid-forward with an added hi frequency driver for hi frequency presence.",
+    "before": "1980 年代 2x10 贝斯音箱。声音有力且中频突出，额外的高频驱动器增强了高频存在感。"
+  },
+  "22469": {
+    "accept": "重译",
+    "final": "一款效果夸张的法兹效果器。",
+    "reason": "DS 修复 fuzz，但 preposterous 在产品描述中表达夸张效果，不宜直译为“荒谬”。",
+    "source": "Preposterous fuzz pedal",
+    "before": "荒谬的模糊效果器"
+  },
+  "22566": {
+    "accept": "重译",
+    "final": "完成一场贝斯活动",
+    "reason": "event 应与活动管理器、活动歌单统一，不是软件“事件”。",
+    "source": "Complete a bass event",
+    "before": "完成一个贝斯事件"
+  },
+  "23680": {
+    "accept": "重译",
+    "final": "你刚才推弦过头了。这里只需轻微推弦{C}幅度不到半音。",
+    "reason": "明确 tiny 修饰推弦幅度，避免现译拆散定语。",
+    "source": "You overshot the bend there. This is just a tiny one{C} less than a half-step.",
+    "before": "你刚才推弦过头了。这只是一个很小的{C} 不到半音的推弦。"
+  },
+  "23723": {
+    "accept": "重译",
+    "final": "按住 B 弦第 13 品，同时在 G 弦第 15 品进行推弦。",
+    "reason": "统一弦名、品数两侧空格。",
+    "source": "Hold down the 13th fret of the B string while you bend at the 15th fret of the G string.",
+    "before": "按住B弦第13品，同时在G弦第15品进行推弦。"
+  },
+  "23786": {
+    "accept": "重译",
+    "final": "听起来你刚才漏掉了低音 E 弦。让我们试着把两个音符都弹出来。",
+    "reason": "补齐弦名前的空格。",
+    "source": "Sounds like you missed the low E string that time. Let's try to get both notes in there.",
+    "before": "听起来你刚才漏掉了低音E弦。让我们试着把两个音符都弹出来。"
+  },
+  "23934": {
+    "accept": "重译",
+    "final": "你把低音 E 空弦也弹响了。试着只弹 A 弦和 D 弦{C}并让其余琴弦保持静音。",
+    "reason": "“空弦的低音 E 弦”和“制音其余琴弦”不自然；同时修复空格。",
+    "source": "You're getting that open low E string in there. Try to play only the A and D strings{C} and mute the rest.",
+    "before": "你弹到了空弦的低音E弦。试着只弹A弦和D弦{C}并制音其余琴弦。"
+  },
+  "23964": {
+    "accept": "重译",
+    "final": "没有声音……手指要在金属品丝正上方轻触琴弦，才能发出这个音，否则只会使琴弦消音。",
+    "reason": "结合泛音操作判断，over 表示位置，原文没有要求把弦按在品丝上；现译会误导实际操作。",
+    "source": "Not getting anything... A note will only sound if your finger is directly over the metal fret wire - otherwise you'll just mute the string.",
+    "before": "没有声音……只有当手指直接按在金属品丝上时，音符才会发声，否则只会闷住琴弦。"
+  },
+  "24225": {
+    "accept": "重译",
+    "final": "现在{C}选一个游戏，开始玩吧！",
+    "reason": "明确错译：game 被译成了歌曲。",
+    "source": "Now{C} pick a game and get playing!",
+    "before": "现在{C}选一首歌开始演奏吧！"
+  },
+  "24240": {
+    "accept": "重译",
+    "final": "不要让第一个和弦消音。击弦奏出那两个音后，让和弦继续发声。",
+    "reason": "“在你击弦那两个音符后”不符合中文动宾搭配。",
+    "source": "Don't mute that first chord. Let it keep ringing out after you hammer on those two notes.",
+    "before": "不要制音第一个和弦。在你击弦那两个音符后，让它继续共鸣。"
+  },
+  "24318": {
+    "accept": "重译",
+    "final": "听起来像是第 17 品。我们要按第 15 品。",
+    "reason": "与其他品数提示统一空格。",
+    "source": "That sounded like the 17th fret. We're going for the 15th fret.",
+    "before": "听起来像是第17品。我们要按第15品。"
+  },
+  "24330": {
+    "accept": "重译",
+    "final": "听起来像是第 21 品。我们要的是第 19 品。",
+    "reason": "与其他品数提示统一空格。",
+    "source": "That sounded like the 21st fret. We're going for the 19th fret.",
+    "before": "听起来像是第21品。我们要的是第19品。"
+  },
+  "24658": {
+    "accept": "重译",
+    "final": "听起来你弹的是 G 弦。这次勾拍应该在 D 弦上完成。",
+    "reason": "现译过于泛化，DS 的“爆音”又把演奏动作译成了声音现象。",
+    "source": "Sounds like you're on the G string. This pop happens on the D string.",
+    "before": "听起来你在G弦上。这个拨弦动作在D弦上。"
+  },
+  "24803": {
+    "accept": "重译",
+    "final": "你只需拨响预先推好的琴弦{C}然后放松推弦，让音高回到原来的按弦音。",
+    "reason": "just 是“只需”，不是“刚刚”；回落的是音高，不是把琴弦拉向某个音符。",
+    "source": "You just pluck the string you pre-bent{C} and then bring it back down to the regular fretted note.",
+    "before": "你刚刚拨动了预先推弦的琴弦{C}然后将其拉回正常的按弦音符。"
+  },
+  "24981": {
+    "accept": "DS",
+    "final": "你可以在和弦扫弦中加入一些左手制音，为你的演奏增添打击乐元素。",
+    "reason": "本条新增问题是“扫弦和弦”的语序，DS 已修正。",
+    "source": "You can mix some frethand mutes into your chord strumming to add a percussive element to your playing.",
+    "before": "你可以在扫弦和弦中加入一些左手制音，为你的演奏增添打击乐元素。"
+  },
+  "24995": {
+    "accept": "重译",
+    "final": "这种一边滑音一边快速反复拨弦的效果，是冲浪摇滚中的经典音效。",
+    "reason": "把 sliding tremolo 的组合动作说清楚，避免“滑音颤音”的歧义。",
+    "source": "This sliding tremolo thing is a classic effect heard in surf rock.",
+    "before": "这种滑音颤音效果是冲浪摇滚中的经典音效。"
+  },
+  "25061": {
+    "accept": "重译",
+    "final": "你可以在弹响一个音后立即滑音{C}也可以让它持续一会儿再滑音。",
+    "reason": "教学中的 hit a note 是弹响音符，不是击中目标。",
+    "source": "You can slide immediately after you hit a note{C} or you can hold it for a while and then slide.",
+    "before": "你可以在击中音符后立即滑音{C}或者保持一段时间后再滑音。"
+  },
+  "25092": {
+    "accept": "重译",
+    "final": "双音是由两个音组成的和弦，非常适合用来伴奏，或增强独奏的力度。{L}{L}即兴演奏模式中的音阶音符显示，能帮助你找到可以组合成双音的音。只需同时按住音阶中的两个音{C}就组成了双音！下次即兴演奏时{C}试着从指板上的音阶指型中选取一些双音。",
+    "reason": "“潜在的双音”“抓取双音”不自然；统一 Scale Shape，补明同时按住。",
+    "source": "Double stops are two-note chords that are great for Comping or building Intensity in a solo. {L}{L}The Scale Notes in Session Mode make it easy to see potential double stops. Just hold down any two notes in the scale{C} and you've got a double stop! In the next Session{C} try grabbing some double stops from the Scale Shapes on the fretboard.",
+    "before": "双音是两个音符组成的和弦，非常适合用于伴奏或增强独奏的张力。{L}{L}即兴演奏模式中的音阶音符让你能轻松发现潜在的双音。只需按住音阶中的任意两个音符{C}你就得到了一个双音！在下一次即兴演奏中{C}试着从指板上的音阶型中抓取一些双音。"
+  },
+  "25101": {
+    "accept": "重译",
+    "final": "除了偏好与哪些乐器搭配之外{C}即兴演奏模式中的乐器对演奏设置也很挑剔。每种乐器的描述都会提示它最适合哪些设置。为乐器选用合适的设置，让它发挥最佳音色。",
+    "reason": "who 与 what 的对比是搭配对象和设置；DS 的“喜欢谁／喜欢什么”仍不够明确。",
+    "source": "On top of who they like{C} Session Mode instruments can be very picky about WHAT they like. The description of each instrument gives you some hints about what settings it likes the most. Equip an instrument with settings it likes to get it to sound its best.",
+    "before": "在它们喜欢的东西之上{C} 即兴演奏模式的乐器对它们喜欢什么非常挑剔。每种乐器的描述都会给你一些关于它最喜欢哪些设置的提示。装备它喜欢的设置，让它发挥最佳音色。"
+  },
+  "25156": {
+    "accept": "重译",
+    "final": "你有没有发现，音阶的其他把位看起来很熟悉？当然熟悉……你全都弹过。你练习过的这些音阶指型，沿着整个琴颈彼此相连。{L}{L}接下来{C}你应该逐渐把音阶看成一张覆盖整个指板的路线图。你越清楚这些音阶指型如何衔接{C}演奏时的选择就越多。",
+    "reason": "修复“越来越多地”的直译；末句讨论同一音阶各把位的衔接，不能泛化为不同音阶之间的连接。",
+    "source": "Did you notice that other positions of the scale look pretty familiar? They should... you've played them all. The Scale Shapes you've been playing are always connected to each other all the way up and down the neck. {L}{L}More and more{C} you should think about scales as a road map that covers the whole fretboard. The more you see how scales are connected{C} the more options you have.",
+    "before": "你注意到音阶的其他把位看起来很熟悉吗？应该如此……你都弹过。你一直在弹奏的音阶形状在指板上从头到尾都是相互连接的。 {L}{L}越来越多地{C} 你应该把音阶看作覆盖整个指板的路线图。你越了解音阶之间的连接{C} 你的选择就越多。"
+  },
+  "25424": {
+    "accept": "重译",
+    "final": "快速反复拨弦的音符带有波浪形尾部，表示你应连续反复弹奏同一个音。",
+    "reason": "明确 tremolo 的具体动作，避免与揉弦混淆。",
+    "source": "A tremolo note has a wavy tail and means you should play the note repeatedly over and over.",
+    "before": "颤音音符带有波浪形尾部，表示应反复弹奏该音符。"
+  },
+  "25554": {
+    "accept": "重译",
+    "final": "如果和弦面板中显示着淡化的音符{C}那就表示琶音。和弦中的音要分开弹奏{C}但保持整个和弦指型会更容易演奏。",
+    "reason": "ghosted 描述显示效果，不是另一种演奏技法“幽灵音符”；统一琶音与指型。",
+    "source": "If a chord pane has notes ghosted inside{C} then it's an arpeggio.  The chord is broken up{C} but it's a lot easier to play if you hold down the chord shape.",
+    "before": "如果和弦面板内有幽灵音符{C}那就是分解和弦。和弦被拆分了{C}但按住和弦形状演奏会容易得多。"
+  },
+  "25805": {
+    "accept": "重译",
+    "final": "尽量别用特别薄的拨片，它们不利于获得好的音色。",
+    "reason": "现译“忍住不用……的冲动”把否定关系翻反了。",
+    "source": "Resist the urge to play with a really thin pick. They're not great for your tone.",
+    "before": "忍住不用极薄拨片的冲动。它们对你的音色没有帮助。"
+  },
+  "26233": {
+    "accept": "重译",
+    "final": "将“自动模式”设为“关”，再使用哇音效果中的“踏板”控制，手动调高或调低哇音滤波器的频率。",
+    "reason": "up and down 指扫动频率，不是移动滤波器的位置。",
+    "source": "Turn the \"auto-mode\" to \"OFF\" and use the \"Pedal\" control in a wah effect to move the wah filter up and down manually.",
+    "before": "将“自动模式”设为“关”，并使用哇音效果中的“踏板”控制手动上下移动哇音滤波器。"
+  },
+  "26568": {
+    "accept": "重译",
+    "final": "使用拨片演奏时{C}最好养成交替拨弦的习惯{C}也就是在正拍向下拨，在两拍之间的反拍向上拨。",
+    "reason": "此处讲述拨弦与节拍细分的对应，不是按小节强弱拍决定方向。",
+    "source": "When you play with a pick{C} it's good to get in the habit of Alternate picking{C} where your pick always alternates between going down on downbeats and up on upbeats.",
+    "before": "当你使用拨片演奏时{C}养成交替拨弦的习惯是很好的{C}即拨片始终在强拍向下、弱拍向上之间交替。"
+  },
+  "26815": {
+    "accept": "重译",
+    "final": "与 [1] 乐队一起弹奏。",
+    "reason": "补齐动态名称两侧的空格。",
+    "source": "Play with the [1] Band.",
+    "before": "与[1]乐队一起弹奏。"
+  },
+  "26833": {
+    "accept": "重译",
+    "final": "包容差异",
+    "reason": "普通标题整句漏译。",
+    "source": "EMBRACING OUR DIFFERENCES",
+    "before": "EMBRACING OUR DIFFERENCES"
+  },
+  "26853": {
+    "accept": "重译",
+    "final": "将复杂度设为“渐进式”进行演奏。",
+    "reason": "Complexity 应与 Difficulty 区分，不能都译“难度”。",
+    "source": "Play with Complexity set to Progressive.",
+    "before": "将难度设为渐进式进行演奏。"
+  },
+  "26869": {
+    "accept": "重译",
+    "final": "学习音阶指型：弗里吉亚属音阶。",
+    "reason": "统一 Scale Shape 为“音阶指型”。",
+    "source": "Learn a Scale Shape: Phrygian Dominant.",
+    "before": "学习音阶形态：弗里吉亚属音阶。"
+  },
+  "26874": {
+    "accept": "重译",
+    "final": "学习音阶指型：和声小调音阶。",
+    "reason": "统一 Scale Shape，并与并列音阶名称格式一致。",
+    "source": "Learn a Scale Shape: Harmonic Minor.",
+    "before": "学习音阶形态：和声小调。"
+  },
+  "26928": {
+    "accept": "重译",
+    "final": "循环往复",
+    "reason": "普通标题漏译。",
+    "source": "ON REPEAT",
+    "before": "ON REPEAT"
+  },
+  "26938": {
+    "accept": "重译",
+    "final": "高音",
+    "reason": "普通标题漏译；是否需要表达双关，可待任务上下文确认。",
+    "source": "THE HIGH NOTE",
+    "before": "THE HIGH NOTE"
+  },
+  "27031": {
+    "accept": "重译",
+    "final": "有所收获",
+    "reason": "标题漏译；gain 若同时影射音箱增益，可在结合任务内容时再优化双关。",
+    "source": "SOMETHING TO GAIN",
+    "before": "SOMETHING TO GAIN"
+  },
+  "27145": {
+    "accept": "重译",
+    "final": "卡带鼓组",
+    "reason": "乐器列表中的 Kit 应按鼓组解释；Cartridge 与 30237 的“卡带”统一。",
+    "source": "Cartridge Kit",
+    "before": "Cartridge Kit"
+  },
+  "27689": {
+    "accept": "重译",
+    "final": "在 Star Chords 中获得至少 [1] 分。",
+    "reason": "明确游戏名称的状语关系，保留 at least 的下限。",
+    "source": "Score at least [1] points in Star Chords",
+    "before": "至少得分 [1] 分（Star Chords）"
+  },
+  "27699": {
+    "accept": "DS",
+    "final": "在 Temple of Bends 中获得 [1] 分。",
+    "reason": "修复“得分……于……”的英语语序。",
+    "source": "Score [1] points in Temple of Bends",
+    "before": "得分 [1] 分于 Temple of Bends"
+  },
+  "27722": {
+    "accept": "重译",
+    "final": "Ernie Ball 长连击特别版",
+    "reason": "本游戏中的 streak 是连续命中形成的连击，不是连续赢得多局的连胜。",
+    "source": "Ernie Ball’s Long Streak Special",
+    "before": "Ernie Ball 连胜特别版"
+  },
+  "28265": {
+    "accept": "DS",
+    "final": "准备好。",
+    "reason": "原文是准备指令，不是报告已经就绪。",
+    "source": "Get ready.",
+    "before": "准备就绪。"
+  },
+  "28269": {
+    "accept": "重译",
+    "final": "准备试一试{C}我们会提示你何时开始。",
+    "reason": "bring you in 在合奏教学中是提示进入演奏，不是带领入门。",
+    "source": "Get ready to try{C} we'll bring you in.",
+    "before": "准备好尝试{C}，我们将带你入门。"
+  },
+  "28928": {
+    "accept": "重译",
+    "final": "即兴鼓组",
+    "reason": "补译，并与 26662 的同名乐器保持一致；不另建“合奏鼓组”。",
+    "source": "SESSION DRUMS",
+    "before": "SESSION DRUMS"
+  },
+  "28977": {
+    "accept": "重译",
+    "final": "颤音铺底音色",
+    "reason": "按乐器音色语境，pad 指铺底音色，不是 pedal，也不是字面的“垫”；本条不沿用拨弦教学中的 tremolo 译法。",
+    "source": "TREMOLO PAD",
+    "before": "颤音踏板"
+  },
+  "29154": {
+    "accept": "重译",
+    "final": "紧追不舍",
+    "reason": "标题漏译。",
+    "source": "HOT PURSUIT",
+    "before": "HOT PURSUIT"
+  },
+  "29183": {
+    "accept": "重译",
+    "final": "忍者之星",
+    "reason": "采用可保留 star 双关的中文标题；如果实际指手里剑道具，应依据画面另定。",
+    "source": "NINJA STAR",
+    "before": "NINJA STAR"
+  },
+  "30145": {
+    "accept": "DS",
+    "final": "爵士酒吧",
+    "reason": "补齐未翻译的预设名称。",
+    "source": "JAZZ BAR",
+    "before": "JAZZ BAR"
+  },
+  "30225": {
+    "accept": "重译",
+    "final": "篝火蓝调",
+    "reason": "预设名称漏译。",
+    "source": "CAMPFIRE BLUES",
+    "before": "CAMPFIRE BLUES"
+  },
+  "30406": {
+    "accept": "重译",
+    "final": "一款 1962 年的经典 15 瓦一体式音箱。",
+    "reason": "combo 指音箱放大电路与扬声器装在一起的结构，“组合音箱”不够准确。",
+    "source": "A 1962 classic 15-watt combo.",
+    "before": "一款 1962 年经典的 15 瓦组合音箱。"
+  },
+  "30550": {
+    "accept": "重译",
+    "final": "锗过载",
+    "reason": "结合 30551 的 overdrive 描述，Drive 指过载效果，不是泛指驱动。",
+    "source": "Germanium Drive",
+    "before": "锗驱动"
+  },
+  "30555": {
+    "accept": "重译",
+    "final": "一款 20 世纪 80 年代风格的过载效果器。",
+    "reason": "补齐年代信息并统一数字空格。",
+    "source": "An '80s-style overdrive pedal.",
+    "before": "一款80年代风格的过载效果器。"
+  },
+  "31309": {
+    "accept": "重译",
+    "final": "一款配有 FAC 和高频驱动控制的经典 Orange 音箱头。",
+    "reason": "DS 正确补出音箱头，但仍未处理 FAC、Orange 两侧空格。",
+    "source": "A classic Orange head with FAC and HF drive control.",
+    "before": "一款带有FAC和高频驱动控制的经典Orange头。"
+  },
+  "31313": {
+    "accept": "重译",
+    "final": "堪称典范的经典摇滚失真音色。",
+    "reason": "加引号的 THE 表示强调其代表性，不应原样留下。",
+    "source": "\"THE\" classic rock distortion sound.",
+    "before": "“THE”经典摇滚失真音色。"
+  },
+  "31325": {
+    "accept": "重译",
+    "final": "一款设计简洁、具有现代增益风格的 Marshall 音箱头。",
+    "reason": "统一 head 为“音箱头”，避免“箱头／音箱头”混用。",
+    "source": "A straightforward Marshall head with modern gain.",
+    "before": "一款具有现代增益的简洁 Marshall 箱头。"
+  },
+  "31402": {
+    "accept": "重译",
+    "final": "8 段图形均衡器",
+    "reason": "与 30509 的“5 段图形均衡器”格式统一。",
+    "source": "8-BAND GRAPHIC EQ",
+    "before": "8段图形均衡器"
+  },
+  "31440": {
+    "accept": "重译",
+    "final": "定制过载",
+    "reason": "按效果器名称语境补译；不要机械直译为“定制驱动”。",
+    "source": "CUSTOM DRIVE",
+    "before": "CUSTOM DRIVE"
+  },
+  "31517": {
+    "accept": "DS",
+    "final": "添加专为贝斯调校的低八度移调效果。",
+    "reason": "voiced for 是音色针对性调校，不是给乐器调音。",
+    "source": "Adds a sub-octave pitch-shift voiced for bass.",
+    "before": "添加专为贝斯调音的低八度移调效果。"
+  },
+  "31657": {
+    "accept": "重译",
+    "final": "一款精品背部开放式 1x12 箱体。",
+    "reason": "除既有箱体规则外，open-back 描述背部开放的结构，“开放式背板”表意不清。",
+    "source": "A boutique open-back 1x12 cab.",
+    "before": "一款精品开放式背板 1x12 音箱。"
+  },
+  "32059": {
+    "accept": "重译",
+    "final": "在一局游戏中，只在跨越栏杆时跳跃。",
+    "reason": "修复“仅在……跳跃……时跳跃”的循环表达，并保留整局限制。",
+    "source": "Jump only when leaping a hurdle in a single game.",
+    "before": "仅在单次游戏中跳跃跨越障碍时跳跃。"
+  },
+  "32101": {
+    "accept": "重译",
+    "final": "连续收集 [1] 串香蕉。",
+    "reason": "统一数量占位符两侧空格。",
+    "source": "Collect [1] banana chains in a row.",
+    "before": "连续收集[1]串香蕉。"
+  },
+  "32131": {
+    "accept": "重译",
+    "final": "直接跳到某个平台上方的平台，跳过中间的平台。",
+    "reason": "明确需要跳过一层，避免两个不清楚的“其／某个”指代。",
+    "source": "Skip a platform by jumping to one above it.",
+    "before": "通过跳到其上方的平台来跳过某个平台。"
+  },
+  "32154": {
+    "accept": "DS",
+    "final": "用粉碎风扇摧毁 [1] 个电击平台，且不要跳到这些平台上。",
+    "reason": "明确手段和禁止条件，修复倒装语序。",
+    "source": "Destroy [1] zap platforms with the shredder fan without jumping on them.",
+    "before": "摧毁 [1] 个电击平台，使用粉碎风扇且不要跳上去。"
+  },
+  "32189": {
+    "accept": "DS",
+    "final": "在一局游戏中，从巨型宝藏面具中偷取 [1] 颗宝石。",
+    "reason": "时间、来源与动作顺序自然，任务条件完整。",
+    "source": "Steal [1] jewels from giant treasure masks in a single game.",
+    "before": "偷取 [1] 颗宝石，从巨型宝藏面具中，在一局游戏内。"
+  },
+  "32260": {
+    "accept": "重译",
+    "final": "斩切 [1] 只黄色幽灵。",
+    "reason": "现译漏译 Slice；DS 仍缺量词。",
+    "source": "Slice [1] yellow ghosts.",
+    "before": "Slice [1]黄色幽灵。"
+  },
+  "32282": {
+    "accept": "重译",
+    "final": "快速连续弹奏 2 个正确的音符。",
+    "reason": "统一数字空格。",
+    "source": "Play 2 correct notes in quick succession.",
+    "before": "快速连续弹奏2个正确的音符。"
+  },
+  "32367": {
+    "accept": "重译",
+    "final": "在敌舰即将发动攻击时，摧毁 [1] 艘敌舰。",
+    "reason": "将关键时间条件放回自然位置，避免读完主句后才补限制。",
+    "source": "Destroy [1] enemy ships just before they attack.",
+    "before": "摧毁 [1] 艘敌舰，就在它们发动攻击之前。"
+  },
+  "32536": {
+    "accept": "重译",
+    "final": "弹奏音符，为特殊能量槽蓄能。",
+    "reason": "游戏中的 meter 是可积累的量槽，不宜译“特殊计量表”。",
+    "source": "Play notes to fill your special meter.",
+    "before": "弹奏音符以填充特殊计量表。"
+  },
+  "32563": {
+    "accept": "重译",
+    "final": "忍者没有跃出？检查一下按弦手指的位置。",
+    "reason": "launching 不是程序启动，“按品手指”也不自然。",
+    "source": "Not launching your ninja? Check your fret fingers.",
+    "before": "忍者没启动？检查一下你的按品手指。"
+  },
+  "32684": {
+    "accept": "DS",
+    "final": "推弦过度！",
+    "reason": "Overbend 是推弦超过目标，不是音频过载。",
+    "source": "Overbend!",
+    "before": "过载！"
+  },
+  "32919": {
+    "accept": "DS",
+    "final": "终于！你看{C} 这种感觉太棒了。我真棒。",
+    "reason": "Go me 是自我喝彩，“我真棒”比单纯“我做到了”更贴切。",
+    "source": "Finally! You see{C} this feels awesome. Go me.",
+    "before": "终于！你看{C} 这种感觉太棒了。我做到了。"
+  },
+  "33668": {
+    "accept": "DS",
+    "final": "学习如何将击弦和勾弦彼此结合，再与滑音和双音等其他技巧结合，以获得更有趣的效果。",
+    "reason": "补回 with each other，保留两层组合关系。",
+    "source": "Learn how to combine hammer-ons and pull-offs with each other and with other techniques like slides and double stops to get more interesting effects.",
+    "before": "学习如何将击弦和勾弦与其他技巧如滑音和双音结合，以获得更丰富的效果。"
+  },
+  "33731": {
+    "accept": "重译",
+    "final": "通过一首以经典摇滚贝斯音型为重点的练习曲，丰富你的贝斯演奏语汇。",
+    "reason": "pattern 应为音型；“贝斯词汇量”是过度直译。",
+    "source": "Expand your bass vocabulary with a practice track focused on a classic Rock and Roll bass pattern.",
+    "before": "通过专注于经典摇滚贝斯模式的练习曲目，扩展你的贝斯词汇量。"
+  },
+  "33874": {
+    "accept": "重译",
+    "final": "你已经能相当熟练地演奏这首歌了。何不挑战一下，提高演奏难度？这样{C}演奏时就会显示完整编曲中的更多音符。",
+    "reason": "升级影响演奏内容的完整程度，不是增加歌曲长度；DS 的“完整歌曲内容”仍含糊。",
+    "source": "You're getting pretty solid at playing this song. Why not challenge yourself to level it up? When you do{C} the amount of the full song you'll see when you play will increase.",
+    "before": "你演奏这首歌已经相当扎实了。为什么不挑战自己提升等级呢？当你这样做时{C}你演奏时看到的完整歌曲部分会增加。"
+  },
+  "34107": {
+    "accept": "重译",
+    "final": "成功演奏一个八度音程。",
+    "reason": "现译“完成音程”搭配不当；DS 的“八度音”又削弱了两个音之间的音程关系。",
+    "source": "Successfully hit an octave.",
+    "before": "成功完成八度音程。"
+  },
+  "34210": {
+    "accept": "重译",
+    "final": "手掌制音双音",
+    "reason": "统一 palm mute，与 21983、25083 一致。",
+    "source": "palm mute double stops",
+    "before": "手掌闷音双音"
+  },
+  "34229": {
+    "accept": "重译",
+    "final": "拍弦左手制音",
+    "reason": "除既有左手制音规则外，Slap 仍漏译；须与勾拍 Pop 区分。",
+    "source": "Slap Fret Hand Mutes",
+    "before": "Slap 左手闷音"
+  },
+  "34526": {
+    "accept": "重译",
+    "final": "无固定目标音高的滑音",
+    "reason": "Unpitched Slide 不是没有音高，而是不要求滑至指定目标音高。",
+    "source": "Unpitched Slide",
+    "before": "无音高滑音"
+  },
+  "34760": {
+    "accept": "重译",
+    "final": "3. “音已调准”标记",
+    "reason": "In Tune 是音准达标的状态，不是泛指音准这一属性。",
+    "source": "3. \"In Tune\" Marker",
+    "before": "3. “音准”标记"
+  },
+  "34804": {
+    "accept": "重译",
+    "final": "上／下／左／右光标 = 十字键",
+    "reason": "D-pad 与 6869 统一。",
+    "source": "Up/Down/Left/Right Cursor = D-pad",
+    "before": "上/下/左/右光标 = 方向键"
+  },
+  "35188": {
+    "accept": "重译",
+    "final": "斩切幽灵以获得大量分数。",
+    "reason": "与 32260 的动作译名统一，“切幽灵”不自然。",
+    "source": "Slice ghosts for massive points.",
+    "before": "切幽灵获得大量分数。"
+  },
+  "35298": {
+    "accept": "重译",
+    "final": "协和性／协和的",
+    "reason": "原文分别是名词和形容词，Consonant 本身不是“协和音”。",
+    "source": "Consonance / Consonant",
+    "before": "协和 / 协和音"
+  },
+  "35319": {
+    "accept": "重译",
+    "final": "这指的是随着和弦变化进行即兴演奏时，需要借用其他音阶中的音来保持协和。在即兴演奏模式中{C}较高的复杂度设置会让音阶中的音随和弦变化而调整。",
+    "reason": "“在和弦变化上即兴演奏”是直译；区分 Complexity 与 Difficulty，明确借用的是音。",
+    "source": "This is when you improvise over Chord Changes that require you to borrow from other scales to remain Consonant. In Session Mode{C} the harder Complexities change Scale Notes to follow the Chord Changes.",
+    "before": "这是在和弦变化上即兴演奏，要求你借用其他音阶以保持协和。在即兴演奏模式中{C} 更复杂的难度会改变音阶音符以跟随和弦变化。"
+  },
+  "35403": {
+    "accept": "重译",
+    "final": "比博普爵士",
+    "reason": "音乐风格通名漏译。",
+    "source": "Bebop",
+    "before": "Bebop"
+  },
+  "35460": {
+    "accept": "重译",
+    "final": "小调五声音阶金属",
+    "reason": "音阶与风格名称整项漏译。",
+    "source": "Pentatonic Minor Metal",
+    "before": "Pentatonic Minor Metal"
+  },
+  "35488": {
+    "accept": "重译",
+    "final": "弗里吉亚属音阶即兴",
+    "reason": "与 26869 统一；“属调”会引入不同的乐理含义。",
+    "source": "Phrygian Dominant Jam",
+    "before": "弗里吉亚属调即兴"
+  },
+  "35586": {
+    "accept": "重译",
+    "final": "录音室金属",
+    "reason": "风格／预设名称漏译。",
+    "source": "Studio Metal",
+    "before": "Studio Metal"
+  },
+  "36112": {
+    "accept": "重译",
+    "final": "请先退出或完成当前演奏，再返回菜单更改演奏路径。",
+    "reason": "补译 Path，并说明这是演奏路线；“菜单区域”不自然。",
+    "source": "Please exit or complete your active gameplay and then change your Path in a menu area.",
+    "before": "请退出或完成当前游戏，然后在菜单区域更改你的 Path。"
+  },
+  "36121": {
+    "accept": "DS",
+    "final": "屏幕按键",
+    "reason": "补译界面标签；若实际指按键图例，可结合界面进一步细化。",
+    "source": "SCREEN KEYS",
+    "before": "SCREEN KEYS"
+  }
+}
