@@ -6,8 +6,8 @@
 
 把 Rocksmith 2014 (Remastered / learnplay) 的英文 UI 文本补全为中文。
 沿用之前 agent 的方案：把中文写入 `maingame.csv` 的 **English 列**
-(第 2 列)，游戏以英文语言运行时即显示中文；`cache8` 里的字体
-(`fontsgc.gfx`) 已替换为含中文 glyph 的版本。
+(第 2 列)，游戏以英文语言运行时即显示中文；`cache4` 的主界面字体
+(`fonts.gfx`) 和 `cache8` 的字体 (`fontsgc.gfx`) 均使用老汉化的中文版本。
 
 ## 背景
 
@@ -21,7 +21,30 @@
   并对 AI 译文用更强模型(服务器 ollama)校对(汉化组人工译文自动跳过)，
   最后重建 cache.psarc。
 
-> 注意：汉化组译文是繁体，AI 新译文是简体。如需统一可后续加 OpenCC 转换。
+当前使用汉化组旧版的简体译文，优先保留人工翻译；明确的误译通过人工覆盖表修正。
+
+## 当前状态
+
+- 合并译文 18,643 条；构建审计无漏译、无占位符错误。
+- 修复重建时遗漏主界面中文字体的问题，打包后回读并校验两份字体。
+- 复核并修订 78 条设置文本，包括“舞台模式”、音频独占、全屏模式和难度调整说明。
+- [设置翻译修改对照](docs/settings_translation_review.md)。游戏内字形和菜单排版仍需实际游玩验证。
+
+## 本地构建需要
+
+仓库不提供可直接安装的游戏资源包。构建前需要自行准备：
+
+1. Windows、Python 3.12 或更新版本，以及 PowerShell。
+2. 当前 Remastered 版本解包的 `learnplay_cache4/`，包含 `localization/maingame.csv`。
+3. 老汉化解包的 `legacy_cache4/`，包含根目录简体 `maingame.csv` 和 `gfxassets/localization/fonts.gfx`。
+4. `hybrid_cache8/`，使用当前版本缓存结构并包含老汉化的 `gfxassets/localization/fontsgc.gfx`。
+5. 当前原版 PSARC 解包目录；默认路径见 `scripts/build_package.ps1` 中的 `$origUnpack`，可按实际目录调整。
+6. RocksmithToolkit 的 `packer.exe` 和 `tools/7za.exe`，放在 `rstoolkit/RocksmithToolkit/` 下。
+
+已有完整译文，重建补丁无需运行 AI 翻译或配置 API 密钥。执行 `uv sync` 后运行
+`.\scripts\build_package.ps1`，产物为 `work/hybrid_built/cache.psarc`。
+退出游戏并备份游戏目录原有 `cache.psarc` 后，再复制产物替换；恢复备份即可撤销安装。
+游戏应以英文语言运行，因为中文文本写入 English 列。
 
 ## 环境 (uv)
 
@@ -124,9 +147,9 @@ uv run python scripts\proofread_translations_api.py --current learnplay_cache4\l
 ```
 
 4) 合并+审计(生成 `data\audit_final.json`，应看到 missing_count=0)。
-   优先级：人工 overrides > 汉化组 legacy > 人工锁定 proofread_manual > API 校对 > 新翻译：
+   默认构建优先级：人工 overrides > 汉化组 legacy > 人工锁定 proofread_manual > 新翻译：
 ```powershell
-uv run python scripts\merge_and_audit_translations.py --current learnplay_cache4\localization\maingame.csv --legacy-json data\translations_legacy.json --ai data\proofread_manual.json data\translations_proofread.json data\translations_remaining.json --overrides config\overrides.json --out data\translations_final.json --report data\audit_final.json
+uv run python scripts\merge_and_audit_translations.py --current learnplay_cache4\localization\maingame.csv --legacy-json data\translations_legacy.json --ai data\proofread_manual.json data\translations_remaining.json --overrides config\overrides.json --out data\translations_final.json --report data\audit_final.json
 ```
 
 5) 生成汉化 CSV + 重建缓存与 psarc(自动使用 .venv 里的 python)：
@@ -140,6 +163,8 @@ uv run python scripts\merge_and_audit_translations.py --current learnplay_cache4
 `scripts/build_package.ps1` 执行 0-5 全部步骤并生成
 `work/hybrid_built/cache.psarc`。packer -p 的输入目录只放
 `cache0.7z ... cache8.7z`(不需要 NamesBlock.bin，packer 会重建)。
+构建会显式复制 `legacy_cache4/gfxassets/localization/fonts.gfx`，并回读
+cache4/cache8 压缩包核对两份中文字体的 SHA-256，避免英文原版字体被误打包。
 
 ## 已知问题 / 备注
 

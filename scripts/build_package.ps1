@@ -5,7 +5,7 @@
 .DESCRIPTION
   步骤:
     1. 用 data/translations_final.json 生成汉化版 maingame.csv 到 work/hybrid_cache4
-    2. 复用 hybrid_cache8(含中文字体 fonts.gfx) 作为 cache8 内容
+    2. 恢复 legacy_cache4/fonts.gfx，并复用 hybrid_cache8(含中文字体 fontsgc.gfx)
     3. 用 7za 重新压成 cache4.7z / cache8.7z
     4. 与原版其余 cacheX.7z 组装到 work/package (不需要 NamesBlock.bin)
     5. 用 RocksmithToolkit packer.exe 打包出 cache.psarc
@@ -46,6 +46,17 @@ $pkgDir          = Join-Path $Root "work\package"
 $outDir          = Join-Path $Root "work\hybrid_built"
 $sevenZip        = Join-Path $Root "rstoolkit\RocksmithToolkit\tools\7za.exe"
 $packer          = Join-Path $Root "rstoolkit\RocksmithToolkit\packer.exe"
+$mainFont        = Join-Path $Root "legacy_cache4\gfxassets\localization\fonts.gfx"
+$gcFont          = Join-Path $hybridCache8 "gfxassets\localization\fontsgc.gfx"
+
+# 清理构建目录前确认绝对路径没有越出项目 work 目录。
+$Root = [IO.Path]::GetFullPath($Root)
+$workPrefix = [IO.Path]::GetFullPath((Join-Path $Root "work")) + [IO.Path]::DirectorySeparatorChar
+foreach ($buildDir in @($hybridCache4, $hybridCache8Out)) {
+    if (-not [IO.Path]::GetFullPath($buildDir).StartsWith($workPrefix, [StringComparison]::OrdinalIgnoreCase)) {
+        throw "构建目录越界: $buildDir"
+    }
+}
 
 function Assert-Exists([string]$p, [string]$msg) {
     if (-not (Test-Path -LiteralPath $p)) { throw "$msg : $p" }
@@ -56,6 +67,11 @@ Assert-Exists $hybridCache8 "缺少 hybrid_cache8 (中文字体)"
 Assert-Exists $origUnpack  "缺少原版解包目录"
 Assert-Exists $sevenZip "缺少 7za"
 Assert-Exists $packer   "缺少 packer"
+Assert-Exists $mainFont "缺少老版主界面中文字体 fonts.gfx"
+Assert-Exists $gcFont   "缺少中文字体 fontsgc.gfx"
+if ((Get-FileHash -LiteralPath $mainFont).Hash -eq (Get-FileHash -LiteralPath (Join-Path $learnplayCache4 "gfxassets\localization\fonts.gfx")).Hash) {
+    throw "主界面中文字体与英文原版相同，请检查 legacy_cache4"
+}
 
 # ---------- 0. 前置数据 ----------
 # translations_legacy.json 是已修复/校对过的数据层；仅首次缺失时才从老版 CSV 生成
@@ -81,9 +97,10 @@ foreach ($a in $aiArgs) { $auditArgs += @("--ai", $a) }
 & $Python -X utf8 @auditArgs
 if ($LASTEXITCODE -ne 0) { throw "merge_and_audit_translations failed" }
 
-# ---------- 1. hybrid cache4 (仅替换 maingame.csv) ----------
+# ---------- 1. hybrid cache4 (替换中文字体和 maingame.csv) ----------
 if (Test-Path -LiteralPath $hybridCache4) { Remove-Item -LiteralPath $hybridCache4 -Recurse -Force }
 Copy-Item -LiteralPath $learnplayCache4 -Destination $hybridCache4 -Recurse
+Copy-Item -LiteralPath $mainFont -Destination (Join-Path $hybridCache4 "gfxassets\localization\fonts.gfx") -Force
 & $Python -X utf8 (Join-Path $Root "scripts\build_hybrid_localization.py") `
     --current $currentCsv `
     --translations $finalJson `
@@ -106,6 +123,22 @@ if ($LASTEXITCODE -ne 0) { throw "7za cache4 failed" }
 Push-Location $hybridCache8Out
 try { & $sevenZip a -t7z -mx=5 -ms=off $cache8New * | Out-Null } finally { Pop-Location }
 if ($LASTEXITCODE -ne 0) { throw "7za cache8 failed" }
+
+# 从压缩包回读字体，避免仅检查暂存目录而漏掉打包回归。
+$verifyDir = Join-Path $Root ("work\font_verify_" + [Guid]::NewGuid().ToString("N"))
+foreach ($font in @(
+    @{ Archive = $cache4New; Entry = "gfxassets/localization/fonts.gfx"; Source = $mainFont },
+    @{ Archive = $cache8New; Entry = "gfxassets/localization/fontsgc.gfx"; Source = $gcFont }
+)) {
+    & $sevenZip x $font.Archive $font.Entry "-o$verifyDir" -y | Out-Null
+    if ($LASTEXITCODE -ne 0) { throw "字体回读失败: $($font.Archive)" }
+    $extracted = Join-Path $verifyDir $font.Entry
+    Assert-Exists $extracted "压缩包缺少字体"
+    if ((Get-FileHash -LiteralPath $extracted).Hash -ne (Get-FileHash -LiteralPath $font.Source).Hash) {
+        throw "压缩包字体与中文源文件不一致: $($font.Entry)"
+    }
+    Write-Output "中文字体校验通过: $($font.Entry)"
+}
 
 # ---------- 4. 同步到稳定的打包输入目录 cache_RS2014_Pc ----------
 $cacheRoot = Join-Path $Root "cache_RS2014_Pc"
