@@ -41,3 +41,5 @@ data/translations_remaining.part*.json
 scripts/proofreader/selftest/**/*.part.*.json
 scripts/proofreader/selftest/development/
 
+data/proofread_routed.json.part*.json
+
