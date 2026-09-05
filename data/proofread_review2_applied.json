@@ -1,0 +1,4874 @@
+{
+  "5879": {
+    "decision": "采纳",
+    "source": "Cannot join a ranked match in progress.",
+    "original": "无法加入正在进行的排位赛。",
+    "final": "无法加入正在进行的排位对局。",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "5911": {
+    "decision": "采纳",
+    "source": "Your NAT type is STRICT. You may not be able to join certain games or communicate with other players. Average matchmaking wait times will be adversely affected.",
+    "original": "你的 NAT 类型为 STRICT。你可能无法加入某些游戏或与其他玩家通信。平均匹配等待时间会受到不利影响。",
+    "final": "你的 NAT 类型为严格。你可能无法加入某些游戏或与其他玩家通信。平均匹配等待时间会受到不利影响。",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "6017": {
+    "decision": "采纳",
+    "source": "Your game experience will be satisfactory but you might encounter minor issues{C} especially if you use the voice chat. Limit the network traffic to enhance your performances.",
+    "original": "您的游戏体验将令人满意，但可能会遇到一些小问题{C}尤其是使用语音聊天时。请限制网络流量以提升表现。",
+    "final": "你的游戏体验将令人满意，但可能会遇到一些小问题{C}尤其是使用语音聊天时。请限制网络流量以提升表现。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "6023": {
+    "decision": "采纳",
+    "source": "Your game experience will be satisfactory but you might encounter minor issues{C} especially if you use the voice chat. Limit the network traffic to enhance your performances.",
+    "original": "您的游戏体验将令人满意，但可能会遇到一些小问题{C}尤其是使用语音聊天时。请限制网络流量以提升表现。",
+    "final": "你的游戏体验将令人满意，但可能会遇到一些小问题{C}尤其是使用语音聊天时。请限制网络流量以提升表现。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "6077": {
+    "decision": "采纳",
+    "source": "Activate your Uplay Passport to access online multiplayer. If your Uplay Passport code is missing{C} or it has already been redeemed{C} you can buy a new one in the %s or start a free %d day trial.",
+    "original": "激活你的 Uplay 护照以访问在线多人游戏。如果你的 Uplay 护照代码缺失{C}或已被兑换{C}你可以在 %s 中购买新的护照，或开始 %d 天免费试用。",
+    "final": "激活你的 Uplay Passport 以访问在线多人游戏。如果你的 Uplay Passport 代码缺失{C}或已被兑换{C}你可以在 %s 中购买新的护照，或开始 %d 天免费试用。",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "6104": {
+    "decision": "采纳",
+    "source": "The save game you tried to load is either missing or corrupt.  A backup save game is available{C} do you want to load it instead?",
+    "original": "您尝试加载的存档缺失或已损坏。有一个备份存档可用{C}您想改为加载它吗？",
+    "final": "你尝试加载的存档缺失或已损坏。有一个备份存档可用{C}你想改为加载它吗？",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "6141": {
+    "decision": "采纳",
+    "source": "Your device does not have enough space to create a save game",
+    "original": "您的设备空间不足，无法创建存档",
+    "final": "你的设备空间不足，无法创建存档",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "6234": {
+    "decision": "重译",
+    "source": "A sign-in change occurred.  You are now being returned to the title screen.",
+    "original": "登录状态已更改。您现在将返回标题界面。",
+    "final": "登录状态已更改。正在返回标题界面。",
+    "reason": "避免新增被返回病句。"
+  },
+  "6331": {
+    "decision": "采纳",
+    "source": "No storage device has been selected. Your progress and settings will not be saved.",
+    "original": "未选择存储设备。您的进度和设置将不会被保存。",
+    "final": "未选择存储设备。你的进度和设置将不会被保存。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "6332": {
+    "decision": "采纳",
+    "source": "No storage device has been selected. Your progress and settings will not be saved.",
+    "original": "未选择存储设备。您的进度和设置将不会被保存。",
+    "final": "未选择存储设备。你的进度和设置将不会被保存。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "6476": {
+    "decision": "采纳",
+    "source": "Activate your Uplay Passport to access online Multiplayer content without restrictions (without a Uplay Passport{C} you will not be able to purchase abilities{C} perks{C} streaks and items past level 10). If your Uplay Passport code is missing{C} or it has already been redeemed{C} you can buy a new one in the Xbox LIVE Marketplace.",
+    "original": "激活你的 Uplay Passport 以无限制地访问在线多人内容（没有 Uplay Passport{C}你将无法购买能力{C}奖励{C}连击和 10 级以上的物品）。如果你的 Uplay Passport 代码缺失{C}或已被兑换{C}你可以在 Xbox LIVE 市场购买新的代码。",
+    "final": "激活你的 Uplay Passport 以无限制地访问在线多人内容（没有 Uplay Passport{C}你将无法购买 10 级以上的能力{C}奖励{C}连击和物品）。如果你的 Uplay Passport 代码缺失{C}或已被兑换{C}你可以在 Xbox LIVE 市场购买新的代码。",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "6519": {
+    "decision": "采纳",
+    "source": "The Xbox LIVE Marketplace cannot be reached at the moment. Please try again later or check your internet settings.",
+    "original": "目前无法连接 Xbox LIVE 市场。请稍后重试或检查您的互联网设置。",
+    "final": "目前无法连接 Xbox LIVE 市场。请稍后重试或检查你的互联网设置。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "6520": {
+    "decision": "采纳",
+    "source": "The GAME SESSION ended prematurely because of an insufficient number of PLAYERS.",
+    "original": "由于玩家人数不足，GAME SESSION 已提前结束。",
+    "final": "由于玩家人数不足，游戏会话已提前结束。",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "6541": {
+    "decision": "采纳",
+    "source": "Your Ethernet cable has been disconnected. Returning to Main Menu...",
+    "original": "你的以太网电缆已断开。正在返回主菜单...",
+    "final": "你的以太网电缆已断开。正在返回主菜单……",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "6648": {
+    "decision": "采纳",
+    "source": "You cannot join this session because it is full.",
+    "original": "该场次已满，无法加入。",
+    "final": "该会话已满，无法加入。",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "6673": {
+    "decision": "重译",
+    "source": "OPEN NAT is the optimal setting. You will join sessions and communicate with other players without experiencing any problems.",
+    "original": "OPEN NAT 是最佳设置。你将加入即兴演奏并与其他玩家交流，且不会遇到任何问题。",
+    "final": "开放型 NAT 是最佳设置。你可以顺利加入游戏会话并与其他玩家通信，不会遇到任何问题。",
+    "reason": "区分多人会话与即兴演奏，补译 OPEN。"
+  },
+  "6676": {
+    "decision": "重译",
+    "source": "OPEN NAT is the optimal setting. You will join sessions and communicate with other players without experiencing any problems.",
+    "original": "OPEN NAT 是最佳设置。你将加入即兴演奏并与其他玩家交流，且不会遇到任何问题。",
+    "final": "开放型 NAT 是最佳设置。你可以顺利加入游戏会话并与其他玩家通信，不会遇到任何问题。",
+    "reason": "区分多人会话与即兴演奏，补译 OPEN。"
+  },
+  "6679": {
+    "decision": "重译",
+    "source": "OPEN NAT is the optimal setting. You will join sessions and communicate with other players without experiencing any problems.",
+    "original": "OPEN NAT 是最佳设置。你将加入即兴演奏并与其他玩家交流，且不会遇到任何问题。",
+    "final": "开放型 NAT 是最佳设置。你可以顺利加入游戏会话并与其他玩家通信，不会遇到任何问题。",
+    "reason": "区分多人会话与即兴演奏，补译 OPEN。"
+  },
+  "6681": {
+    "decision": "采纳",
+    "source": "Your NAT type is MODERATE (NAT Type 2). You will not be able to play or communicate with players who have CLOSED NAT (NAT Type 3).",
+    "original": "您的 NAT 类型为中等（NAT 类型 2）。您将无法与 NAT 类型为封闭（NAT 类型 3）的玩家进行游戏或通信。",
+    "final": "你的 NAT 类型为中等（NAT 类型 2）。你将无法与 NAT 类型为封闭（NAT 类型 3）的玩家进行游戏或通信。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "6682": {
+    "decision": "采纳",
+    "source": "Your NAT type is MODERATE (NAT Type 2). You will not be able to play or communicate with players who have CLOSED NAT (NAT Type 3).",
+    "original": "您的 NAT 类型为中等（NAT 类型 2）。您将无法与 NAT 类型为封闭（NAT 类型 3）的玩家进行游戏或通信。",
+    "final": "你的 NAT 类型为中等（NAT 类型 2）。你将无法与 NAT 类型为封闭（NAT 类型 3）的玩家进行游戏或通信。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "6689": {
+    "decision": "重译",
+    "source": "Your NAT type is OPEN. OPEN NAT is the optimal setting. You will join games and communicate with other players without experiencing any problems.",
+    "original": "您的 NAT 类型为 OPEN。OPEN NAT 是最佳设置。您可以顺利加入游戏并与其他玩家通信，不会遇到任何问题。",
+    "final": "你的 NAT 类型为开放型。开放型 NAT 是最佳设置。你可以顺利加入游戏并与其他玩家通信，不会遇到任何问题。",
+    "reason": "候选仍未翻译 OPEN。"
+  },
+  "6690": {
+    "decision": "重译",
+    "source": "Your NAT type is OPEN. OPEN NAT is the optimal setting. You will join games and communicate with other players without experiencing any problems.",
+    "original": "您的 NAT 类型为 OPEN。OPEN NAT 是最佳设置。您可以顺利加入游戏并与其他玩家通信，不会遇到任何问题。",
+    "final": "你的 NAT 类型为开放型。开放型 NAT 是最佳设置。你可以顺利加入游戏并与其他玩家通信，不会遇到任何问题。",
+    "reason": "候选仍未翻译 OPEN。"
+  },
+  "6691": {
+    "decision": "重译",
+    "source": "Your NAT type is OPEN. OPEN NAT is the optimal setting. You will join games and communicate with other players without experiencing any problems.",
+    "original": "您的 NAT 类型为 OPEN。OPEN NAT 是最佳设置。您可以顺利加入游戏并与其他玩家通信，不会遇到任何问题。",
+    "final": "你的 NAT 类型为开放型。开放型 NAT 是最佳设置。你可以顺利加入游戏并与其他玩家通信，不会遇到任何问题。",
+    "reason": "候选仍未翻译 OPEN。"
+  },
+  "6773": {
+    "decision": "采纳",
+    "source": "DON'T ASK ME AGAIN",
+    "original": "DON'T ASK ME AGAIN",
+    "final": "不再询问",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "6774": {
+    "decision": "采纳",
+    "source": "DON'T ASK ME AGAIN",
+    "original": "DON'T ASK ME AGAIN",
+    "final": "不再询问",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "6779": {
+    "decision": "采纳",
+    "source": "DON'T ASK ME AGAIN",
+    "original": "DON'T ASK ME AGAIN",
+    "final": "不再询问",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "6782": {
+    "decision": "采纳",
+    "source": "The group leader has changed.",
+    "original": "群组领导者已变更。",
+    "final": "队长已变更。",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "6784": {
+    "decision": "采纳",
+    "source": "You have been removed from the session by the group leader.",
+    "original": "你已被房主移出场次。",
+    "final": "你已被队长移出会话。",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "6785": {
+    "decision": "采纳",
+    "source": "You have been removed from the session by the group leader.",
+    "original": "你已被房主移出场次。",
+    "final": "你已被队长移出会话。",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "6822": {
+    "decision": "采纳",
+    "source": "The group leader has changed.",
+    "original": "群组领导者已变更。",
+    "final": "队长已变更。",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "6823": {
+    "decision": "采纳",
+    "source": "We are unable to determine your NAT Type. This may have an impact on the quality of the online experience.",
+    "original": "我们无法确定您的 NAT 类型。这可能会影响在线体验的质量。",
+    "final": "我们无法确定你的 NAT 类型。这可能会影响在线体验的质量。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "6836": {
+    "decision": "采纳",
+    "source": "The match you’re attempting to join is using game content you haven’t purchased or unlocked yet. Please visit the PlayStation®Store  or Uplay store to acquire this content.",
+    "original": "你尝试加入的比赛使用了你尚未购买或解锁的游戏内容。请访问 PlayStation®Store 或 Uplay 商店获取该内容。",
+    "final": "你尝试加入的对局使用了你尚未购买或解锁的游戏内容。请访问 PlayStation®Store 或 Uplay 商店获取该内容。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "6837": {
+    "decision": "采纳",
+    "source": "Game session no longer available because you've signed out of the PlayStation®Network. You'll return to the single player mode.",
+    "original": "由于您已退出 PlayStation®Network，该游戏会话不再可用。您将返回单人模式。",
+    "final": "由于你已退出 PlayStation®Network，该游戏会话不再可用。你将返回单人模式。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "6838": {
+    "decision": "采纳",
+    "source": "The match you’re attempting to join is using game content you haven’t purchased or unlocked yet. Please visit the PlayStation®Store  or Uplay store to acquire this content.",
+    "original": "你尝试加入的比赛使用了你尚未购买或解锁的游戏内容。请访问 PlayStation®Store 或 Uplay 商店获取该内容。",
+    "final": "你尝试加入的对局使用了你尚未购买或解锁的游戏内容。请访问 PlayStation®Store 或 Uplay 商店获取该内容。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "6839": {
+    "decision": "采纳",
+    "source": "The match you’re attempting to join is using game content you haven’t purchased or unlocked yet. Please visit the PlayStation®Store  or Uplay store to acquire this content.",
+    "original": "你尝试加入的比赛使用了你尚未购买或解锁的游戏内容。请访问 PlayStation®Store 或 Uplay 商店获取该内容。",
+    "final": "你尝试加入的对局使用了你尚未购买或解锁的游戏内容。请访问 PlayStation®Store 或 Uplay 商店获取该内容。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "6853": {
+    "decision": "采纳",
+    "source": "Connection to host timed out. You will be returned to the title screen.",
+    "original": "连接主机超时。你将返回标题屏幕。",
+    "final": "连接房主超时。你将返回标题屏幕。",
+    "reason": "修正多人 host，其余语义与条件保留。"
+  },
+  "6892": {
+    "decision": "采纳",
+    "source": "directional pad",
+    "original": "方向键",
+    "final": "十字键",
+    "reason": "修正D-pad 既定用词，其余语义与条件保留。"
+  },
+  "6899": {
+    "decision": "重译",
+    "source": "Awaiting response from the host… %d",
+    "original": "等待主机响应… %d",
+    "final": "等待房主响应…… %d",
+    "reason": "修复 host 与省略号，保留 printf 参数。"
+  },
+  "6903": {
+    "decision": "采纳",
+    "source": "Connection to host timed out. You will be returned to the title screen.",
+    "original": "连接主机超时。你将返回标题屏幕。",
+    "final": "连接房主超时。你将返回标题屏幕。",
+    "reason": "修正多人 host，其余语义与条件保留。"
+  },
+  "6923": {
+    "decision": "重译",
+    "source": "You have been returned to the main menu because you signed out from the PlayStation®Network.",
+    "original": "由于你已从 PlayStation®Network 登出，你已被返回主菜单。",
+    "final": "由于你已退出 PlayStation®Network，现已返回主菜单。",
+    "reason": "消除被动病句，同源提示统一。"
+  },
+  "6925": {
+    "decision": "重译",
+    "source": "Awaiting response from the host… %d",
+    "original": "等待主机响应… %d",
+    "final": "等待房主响应…… %d",
+    "reason": "修复 host 与省略号，保留 printf 参数。"
+  },
+  "6927": {
+    "decision": "采纳",
+    "source": "Cannot join this match. The host is using content that you have not yet downloaded. Please visit the PlayStation®Store to download additional game content.",
+    "original": "无法加入此比赛。房主正在使用您尚未下载的内容。请访问 PlayStation®Store 下载额外的游戏内容。",
+    "final": "无法加入此对局。房主正在使用你尚未下载的内容。请访问 PlayStation®Store 下载额外的游戏内容。",
+    "reason": "修正玩家代词、多人 match，其余语义与条件保留。"
+  },
+  "6929": {
+    "decision": "采纳",
+    "source": "The connection to the host has been lost.",
+    "original": "与主机的连接已断开。",
+    "final": "与房主的连接已断开。",
+    "reason": "修正多人 host，其余语义与条件保留。"
+  },
+  "7079": {
+    "decision": "采纳",
+    "source": "Game data is corrupt. Exit the game and then restart after deleting [Name of the Game] game data.",
+    "original": "游戏数据已损坏。请退出游戏，删除[游戏名称]的游戏数据后重新启动。",
+    "final": "游戏数据已损坏。请退出游戏，删除 [Name of the Game] 的游戏数据后重新启动。",
+    "reason": "修复本条标签或叙述，原文含义保留。 **待核：见 C 节。**"
+  },
+  "7085": {
+    "decision": "采纳",
+    "source": "Failing to free the required space will prevent the game from saving your settings and your progress.",
+    "original": "如果无法释放所需空间，游戏将无法保存您的设置和进度。",
+    "final": "如果无法释放所需空间，游戏将无法保存你的设置和进度。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "7092": {
+    "decision": "采纳",
+    "source": "Game session no longer available because you've signed out of the PlayStation®Network. You'll return to the single player mode.",
+    "original": "由于您已退出 PlayStation®Network，该游戏会话不再可用。您将返回单人模式。",
+    "final": "由于你已退出 PlayStation®Network，该游戏会话不再可用。你将返回单人模式。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "7134": {
+    "decision": "重译",
+    "source": "Please point at the screen with the PlayStation®Move motion controller. If you are already doing it{C} hold the Move and T buttons for a few seconds to calibrate the PlayStation®Move motion controller.",
+    "original": "请使用 PlayStation®Move 体感控制器指向屏幕。如果您已经在这样做{C} 请按住 Move 和 T 按钮几秒钟以校准 PlayStation®Move 体感控制器。",
+    "final": "请使用 PlayStation®Move 体感控制器指向屏幕。如果你已经这样做{C}请按住 Move 和 T 按钮几秒钟，以校准 PlayStation®Move 体感控制器。",
+    "reason": "执行代词规则，体感控制器无需替换。"
+  },
+  "7138": {
+    "decision": "采纳",
+    "source": "Saving… Please don't turn off your system.",
+    "original": "正在保存… 请勿关闭系统。",
+    "final": "正在保存……请勿关闭系统。",
+    "reason": "规范中文省略号，含义不变。"
+  },
+  "7142": {
+    "decision": "采纳",
+    "source": "There is insufficient free space on the HDD. This game requires at least [proper Size to put here] MB to save data. Please exit the game and then restart after creating more space on the HDD.",
+    "original": "HDD上的可用空间不足。此游戏至少需要[此处应填入正确大小] MB来保存数据。请退出游戏，在HDD上腾出更多空间后重新启动。",
+    "final": "HDD 上的可用空间不足。此游戏至少需要 [proper Size to put here] MB 来保存数据。请退出游戏，在 HDD 上腾出更多空间后重新启动。",
+    "reason": "修复本条标签或叙述，原文含义保留。 **待核：见 C 节。**"
+  },
+  "7161": {
+    "decision": "采纳",
+    "source": "Failing to free the required space will prevent the game from saving your settings and your progress.",
+    "original": "如果无法释放所需空间，游戏将无法保存您的设置和进度。",
+    "final": "如果无法释放所需空间，游戏将无法保存你的设置和进度。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "7181": {
+    "decision": "采纳",
+    "source": "Online service is disabled on your Sony Entertainment Network account due to parental control restrictions.",
+    "original": "由于家长控制限制，您的 Sony Entertainment Network 账户已禁用在线服务。",
+    "final": "由于家长控制限制，你的 Sony Entertainment Network 账户已禁用在线服务。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "7190": {
+    "decision": "重译",
+    "source": "You have been returned to the main menu because you signed out from the PlayStation®Network.",
+    "original": "由于你已从 PlayStation®Network 登出，你已被返回主菜单。",
+    "final": "由于你已退出 PlayStation®Network，现已返回主菜单。",
+    "reason": "消除被动病句，同源提示统一。"
+  },
+  "7196": {
+    "decision": "重译",
+    "source": "Awaiting response from the host… %d",
+    "original": "等待主机响应… %d",
+    "final": "等待房主响应…… %d",
+    "reason": "修复 host 与省略号，保留 printf 参数。"
+  },
+  "7198": {
+    "decision": "重译",
+    "source": "Cannot join this match. The host is using content that you have not yet downloaded. Please visit the PlayStation®Store to download additional game content.",
+    "original": "无法加入此比赛。房主正在使用您尚未下载的内容。请访问 PlayStation®Store 下载额外的游戏内容。",
+    "final": "无法加入此对局。房主正在使用你尚未下载的内容。请访问 PlayStation®Store 下载额外的游戏内容。",
+    "reason": "候选遗留您。"
+  },
+  "7266": {
+    "decision": "采纳",
+    "source": "Please point at the screen with the PlayStation®Move motion controller. If you are already doing it{C} hold the Move and T buttons for a few seconds to calibrate the PlayStation®Move motion controller.",
+    "original": "请使用 PlayStation®Move 体感控制器指向屏幕。如果您已经在这样做{C} 请按住 Move 和 T 按钮几秒钟以校准 PlayStation®Move 体感控制器。",
+    "final": "请使用 PlayStation®Move 体感控制器指向屏幕。如果你已经在这样做{C} 请按住 Move 和 T 按钮几秒钟以校准 PlayStation®Move 体感控制器。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "7281": {
+    "decision": "采纳",
+    "source": "Failing to free the required space will prevent the game from saving your settings and your progress.",
+    "original": "如果无法释放所需空间，游戏将无法保存您的设置和进度。",
+    "final": "如果无法释放所需空间，游戏将无法保存你的设置和进度。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "7321": {
+    "decision": "采纳",
+    "source": "The connection to the host has been lost.  This game will not count towards your ranking.",
+    "original": "与主机的连接已断开。本局游戏将不计入你的排名。",
+    "final": "与房主的连接已断开。本局游戏将不计入你的排名。",
+    "reason": "修正多人 host，其余语义与条件保留。"
+  },
+  "7322": {
+    "decision": "采纳",
+    "source": "The host has left the match.",
+    "original": "房主已离开比赛。",
+    "final": "房主已离开对局。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7323": {
+    "decision": "采纳",
+    "source": "The host has left the match.",
+    "original": "房主已离开比赛。",
+    "final": "房主已离开对局。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7337": {
+    "decision": "采纳",
+    "source": "The connection to the host has been lost.",
+    "original": "与主机的连接已断开。",
+    "final": "与房主的连接已断开。",
+    "reason": "修正多人 host，其余语义与条件保留。"
+  },
+  "7348": {
+    "decision": "采纳",
+    "source": "The connection to the host has been lost.  This game will not count towards your ranking.",
+    "original": "与主机的连接已断开。本局游戏将不计入你的排名。",
+    "final": "与房主的连接已断开。本局游戏将不计入你的排名。",
+    "reason": "修正多人 host，其余语义与条件保留。"
+  },
+  "7359": {
+    "decision": "采纳",
+    "source": "You cannot join this session because it is full.",
+    "original": "该场次已满，无法加入。",
+    "final": "该会话已满，无法加入。",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "7365": {
+    "decision": "采纳",
+    "source": "Could not join match{C} the game is full.",
+    "original": "无法加入比赛{C}游戏已满。",
+    "final": "无法加入对局{C}游戏已满。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7373": {
+    "decision": "采纳",
+    "source": "Cancelling quick match…",
+    "original": "正在取消快速匹配…",
+    "final": "正在取消快速匹配……",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "7420": {
+    "decision": "采纳",
+    "source": "Wave your RIGHT hand when you are ready to play!",
+    "original": "准备好演奏时，请挥动您的右手！",
+    "final": "准备好演奏时，请挥动你的右手！",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "7430": {
+    "decision": "重译",
+    "source": "TILTING IN PROGRESS",
+    "original": "TILTING IN PROGRESS",
+    "final": "正在调整倾斜角度",
+    "reason": "传感器提示，相邻要求站到感应器前；设备动作主语待画面核对。 **待核：见 C 节。**"
+  },
+  "7435": {
+    "decision": "重译",
+    "source": "TILTING IN PROGRESS",
+    "original": "TILTING IN PROGRESS",
+    "final": "正在调整倾斜角度",
+    "reason": "传感器提示，相邻要求站到感应器前；设备动作主语待画面核对。 **待核：见 C 节。**"
+  },
+  "7444": {
+    "decision": "采纳",
+    "source": "No games match your criteria.",
+    "original": "没有符合您条件的游戏。",
+    "final": "没有符合你条件的游戏。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "7458": {
+    "decision": "采纳",
+    "source": "The match you've selected is currently in progress. You'll be in observer mode until the next round. Do you want to join this match?",
+    "original": "你选择的比赛正在进行中。在下一轮开始前，你将处于观察者模式。要加入这场比赛吗？",
+    "final": "你选择的对局正在进行中。在下一轮开始前，你将处于观察者模式。要加入这个对局吗？",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7461": {
+    "decision": "采纳",
+    "source": "Unable to join the match. The connection is not responding.",
+    "original": "无法加入比赛。连接无响应。",
+    "final": "无法加入对局。连接无响应。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7464": {
+    "decision": "采纳",
+    "source": "Unable to join the match. The connection is not responding.",
+    "original": "无法加入比赛。连接无响应。",
+    "final": "无法加入对局。连接无响应。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7470": {
+    "decision": "采纳",
+    "source": "Match no longer available.",
+    "original": "比赛已不可用。",
+    "final": "对局已不可用。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7471": {
+    "decision": "采纳",
+    "source": "Match no longer available.",
+    "original": "比赛已不可用。",
+    "final": "对局已不可用。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7526": {
+    "decision": "采纳",
+    "source": "Your connection to Xbox LIVE has been lost. You will be returned to the main menu.",
+    "original": "与 Xbox LIVE 的连接已断开。您将返回主菜单。",
+    "final": "与 Xbox LIVE 的连接已断开。你将返回主菜单。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "7532": {
+    "decision": "采纳",
+    "source": "You have been disconnected from the host. Returning to the Multiplayer menu.",
+    "original": "你已与主机断开连接。正在返回多人模式菜单。",
+    "final": "你已与房主断开连接。正在返回多人模式菜单。",
+    "reason": "修正多人 host，其余语义与条件保留。"
+  },
+  "7533": {
+    "decision": "采纳",
+    "source": "You have been disconnected from the host. Returning to the Multiplayer menu.",
+    "original": "你已与主机断开连接。正在返回多人模式菜单。",
+    "final": "你已与房主断开连接。正在返回多人模式菜单。",
+    "reason": "修正多人 host，其余语义与条件保留。"
+  },
+  "7538": {
+    "decision": "重译",
+    "source": "Creating match...",
+    "original": "正在创建匹配...",
+    "final": "正在创建对局……",
+    "reason": "同时修复 match 和省略号。"
+  },
+  "7539": {
+    "decision": "采纳",
+    "source": "Cannot join this match at this time. Please try again later.",
+    "original": "当前无法加入此比赛。请稍后再试。",
+    "final": "当前无法加入此对局。请稍后再试。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7540": {
+    "decision": "采纳",
+    "source": "Cannot join this match at this time. Please try again later.",
+    "original": "当前无法加入此比赛。请稍后再试。",
+    "final": "当前无法加入此对局。请稍后再试。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7541": {
+    "decision": "采纳",
+    "source": "Creating match...",
+    "original": "正在创建匹配...",
+    "final": "正在创建对局……",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "7543": {
+    "decision": "重译",
+    "source": "Joining match...",
+    "original": "正在加入比赛...",
+    "final": "正在加入对局……",
+    "reason": "同时修复 match 和省略号。"
+  },
+  "7544": {
+    "decision": "采纳",
+    "source": "Leaving the match…",
+    "original": "正在退出比赛……",
+    "final": "正在退出对局……",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7545": {
+    "decision": "采纳",
+    "source": "Leaving the match…",
+    "original": "正在退出比赛……",
+    "final": "正在退出对局……",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7546": {
+    "decision": "重译",
+    "source": "Joining match...",
+    "original": "正在加入比赛...",
+    "final": "正在加入对局……",
+    "reason": "同时修复 match 和省略号。"
+  },
+  "7547": {
+    "decision": "采纳",
+    "source": "Could not join match{C} the game is full.",
+    "original": "无法加入比赛{C}游戏已满。",
+    "final": "无法加入对局{C}游戏已满。",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7591": {
+    "decision": "采纳",
+    "source": "ranked match",
+    "original": "排位赛",
+    "final": "排位对局",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "7624": {
+    "decision": "采纳",
+    "source": "Saving…",
+    "original": "正在保存…",
+    "final": "正在保存……",
+    "reason": "规范中文省略号，含义不变。"
+  },
+  "7641": {
+    "decision": "采纳",
+    "source": "custom match",
+    "original": "自定义比赛",
+    "final": "自定义对局",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7642": {
+    "decision": "采纳",
+    "source": "custom match",
+    "original": "自定义比赛",
+    "final": "自定义对局",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7643": {
+    "decision": "采纳",
+    "source": "custom match",
+    "original": "自定义比赛",
+    "final": "自定义对局",
+    "reason": "修正多人 match，其余语义与条件保留。"
+  },
+  "7667": {
+    "decision": "采纳",
+    "source": "player match",
+    "original": "玩家匹配",
+    "final": "玩家对局",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "7779": {
+    "decision": "采纳",
+    "source": "Xbox LIVE Player Match",
+    "original": "Xbox LIVE 玩家匹配",
+    "final": "Xbox LIVE 玩家对局",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "7781": {
+    "decision": "采纳",
+    "source": "Private Match",
+    "original": "私人对战",
+    "final": "私人对局",
+    "reason": "修正多人／系统用语，保留连接条件与结果。"
+  },
+  "8397": {
+    "decision": "采纳",
+    "source": "Here's a quick little riff with that quarter step bend.",
+    "original": "这是一个带有四分之一音阶推弦的短乐句。",
+    "final": "这是一个带有四分之一音推弦的短乐句。",
+    "reason": "幅度术语可用；不接受候选理由所谓半音的四分之一。"
+  },
+  "8433": {
+    "decision": "重译",
+    "source": "If you bend this note up a whole step with your third finger{C} it's actually the same note as the first finger playing here on the B string.",
+    "original": "如果你用第三根手指将这个音符向上推半音{C}它实际上与第一根手指在 B 弦上演奏的音符相同。",
+    "final": "如果你用无名指将这个音向上推高一个全音{C}它的音高就与食指在 B 弦这里弹奏的音相同。",
+    "reason": "whole step 为全音，third 为无名指，明确音高相同。"
+  },
+  "8468": {
+    "decision": "采纳",
+    "source": "Your fourth finger holds down this note while your third finger bends the other one up.",
+    "original": "你的无名指按住这个音符，同时中指将另一个音符推弦。",
+    "final": "你的小指按住这个音符，同时无名指将另一个音符向上推弦。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "8543": {
+    "decision": "采纳",
+    "source": "Now let's get going on palm mutes.",
+    "original": "现在让我们开始练习手掌护弦。",
+    "final": "现在让我们开始练习手掌制音。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "8558": {
+    "decision": "采纳",
+    "source": "Now here's a riff built out of palm mutes.",
+    "original": "现在来看一个由闷音构成的乐句。",
+    "final": "现在来看一个由手掌制音构成的乐句。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "8561": {
+    "decision": "采纳",
+    "source": "Here's a riff that shifts back and forth between palm mutes and regular notes. Just lift up your hand when the regular notes come along.",
+    "original": "这是一个在闷音和普通音符之间切换的乐句。当普通音符出现时，只需抬起手即可。",
+    "final": "这是一个在手掌制音和普通音符之间切换的乐句。当普通音符出现时，只需抬起手即可。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "9221": {
+    "decision": "采纳",
+    "source": "Good{C} now we'll try switching between chords and frethand mutes. Push down the strings to make the chord when you want it to sound and then release to mute. Just don't lift your fingers all the way off the strings.",
+    "original": "很好{C} 现在我们来试试在和弦与左手闷音之间切换。按住琴弦形成和弦以发出声音，然后松开以闷音。只是不要完全抬起手指离开琴弦。",
+    "final": "很好{C} 现在我们来试试在和弦与左手制音之间切换。按住琴弦形成和弦以发出声音，然后松开以制音。只是不要完全抬起手指离开琴弦。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "9360": {
+    "decision": "采纳",
+    "source": "To slap{C} you kind of whack the string with the side of your thumb knuckle.",
+    "original": "要击弦{C} 你用拇指指关节侧面敲击琴弦。",
+    "final": "要拍弦{C} 你用拇指指关节侧面敲击琴弦。",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "9366": {
+    "decision": "采纳",
+    "source": "The thumb actually knocks the bass string into the fretboard{C} and that's what gives you that cool slapping sound.",
+    "original": "实际上是大拇指敲击贝斯琴弦使其撞击指板{C}这就是那种酷炫的击弦声的来源。",
+    "final": "实际上是大拇指敲击贝斯琴弦使其撞击指板{C}这就是那种酷炫的拍弦声的来源。",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "9382": {
+    "decision": "采纳",
+    "source": "Popping isn't quite as tricky as slapping{C} but it still takes some practice.",
+    "original": "Pop 技巧不像 Slap 那么难{C} 但仍需一些练习。",
+    "final": "勾拍不像拍弦那么难{C} 但仍需一些练习。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "9386": {
+    "decision": "重译",
+    "source": "Palm mutes work great whether you're playing single notes{C} double stops{C} or power chords.",
+    "original": "手掌护弦在演奏单音时{C}双音{C}或强力和弦时都很有效。",
+    "final": "无论演奏单音{C}双音{C}还是强力和弦，手掌制音都很有效。",
+    "reason": "修复候选遗留的并列语病。"
+  },
+  "9395": {
+    "decision": "采纳",
+    "source": "You'll find these palm mute power chords are all over the place in hard rock and metal. Check out this riff.",
+    "original": "你会发现这些手掌闷音强力和弦在硬摇滚和金属乐中随处可见。看看这个乐句。",
+    "final": "你会发现这些手掌制音强力和弦在硬摇滚和金属乐中随处可见。看看这个乐句。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "9399": {
+    "decision": "采纳",
+    "source": "Palm mutes aren't just for single notes... they work great with double stops too. Check this out.",
+    "original": "手掌护弦不仅适用于单音，配合双音效果也很棒。试试看。",
+    "final": "手掌制音不仅适用于单音，配合双音效果也很棒。试试看。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "9404": {
+    "decision": "采纳",
+    "source": "And here's a riff using that palm mute double stop... this one's a little more melodic.",
+    "original": "这里有一个使用那种手掌闷音双音的乐句……这个稍微更有旋律感。",
+    "final": "这里有一个使用那种手掌制音双音的乐句……这个稍微更有旋律感。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "9478": {
+    "decision": "重译",
+    "source": "Your second finger will go right in the middle of the fret{C} but your third finger will need to get wedged in there between your second finger and the fret wire. Trick is to make sure it isn't touching any other strings.",
+    "original": "你的食指将放在品的正中间{C}但你的中指需要挤在食指和品丝之间。诀窍是确保它不碰到其他琴弦。",
+    "final": "将中指放在品格正中{C}无名指则要挤在中指与品丝之间。诀窍是确保无名指不碰到其他琴弦。",
+    "reason": "second 中指、third 无名指，明确末句指代。"
+  },
+  "9573": {
+    "decision": "采纳",
+    "source": "Then put your third finger on the 5th fret of the D string - there's that classic power chord shape again.",
+    "original": "然后将你的第三根手指放在D弦的第5品——又是那个经典强力和弦指型。",
+    "final": "然后将你的无名指放在D弦的第5品——又是那个经典强力和弦指型。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "9799": {
+    "decision": "采纳",
+    "source": "With those two shapes you can play any major chord you want{C} all up and down the fretboard. Let's try mixing up both shapes this time.",
+    "original": "使用这两种指型，你可以演奏任何大调三和弦{C}在指板上上下移动。这次让我们尝试混合使用这两种指型。",
+    "final": "使用这两种指型，你可以演奏任何大三和弦{C}在指板上上下移动。这次让我们尝试混合使用这两种指型。",
+    "reason": "修正和弦性质，其余语义与条件保留。"
+  },
+  "9924": {
+    "decision": "重译",
+    "source": "Your second finger... your third finger... and your pinky",
+    "original": "你的第 2 指……你的第 3 指……还有你的小指",
+    "final": "你的中指……你的无名指……还有你的小指",
+    "reason": "候选把第二、第三指误改食指、中指。"
+  },
+  "10103": {
+    "decision": "采纳",
+    "source": "The key is that you always go down on downbeats and up on upbeats.  Even if you leave a note out{C} your hand still keeps going down and up just as if you had played a note there anyway.",
+    "original": "关键在于，重拍时手向下，轻拍时手向上。即使你省略了某个音符{C}你的手依然要保持上下运动，就像在那里弹了音符一样。",
+    "final": "关键在于，正拍时手向下，反拍时手向上。即使你省略了某个音符{C}你的手依然要保持上下运动，就像在那里弹了音符一样。",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "10207": {
+    "decision": "采纳",
+    "source": "That way you can strum across all the strings and only hear the two that make up the octave.",
+    "original": "这样你就可以扫过所有琴弦，只听到构成八度的两根弦的声音。",
+    "final": "这样你就可以扫过所有琴弦，只听到构成八度音程的两根弦的声音。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "10480": {
+    "decision": "采纳",
+    "source": "Another popular option is amp modeling{C} where the characteristic sound of an amplifier is emulated digitally. You can find amp modeling in stand-alone combo amps or as computer software. It's really a great way to get a whole lot of very different sounds out of a single amp.",
+    "original": "另一个流行选项是音箱建模{C}即通过数字方式模拟音箱的特征音色。你可以在独立组合音箱或计算机软件中找到音箱建模功能。这是一种从单个音箱中获取多种截然不同音色的绝佳方式。",
+    "final": "另一个流行选项是音箱建模{C}即通过数字方式模拟音箱的特征音色。你可以在独立一体式音箱或计算机软件中找到音箱建模功能。这是一种从单个音箱中获取多种截然不同音色的绝佳方式。",
+    "reason": "修正combo 设备结构，其余语义与条件保留。"
+  },
+  "10671": {
+    "decision": "采纳",
+    "source": "Let's work on giving the notes themselves some character... we can add vibrato{C} palm mutes{C} and other stuff to the notes while we're sliding and bending between them to get something that really sings.",
+    "original": "让我们努力赋予音符本身一些个性……我们可以添加颤音{C} 闷音{C} 以及其他技巧，在滑音和推弦之间运用，以创造出真正动人的声音。",
+    "final": "让我们努力赋予音符本身一些个性……我们可以添加颤音{C} 手掌制音{C} 以及其他技巧，在滑音和推弦之间运用，以创造出真正动人的声音。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "11326": {
+    "decision": "采纳",
+    "source": "It's your frethand doing the muting here. Your other hand doesn't do anything different than it normally does.",
+    "original": "这里是用左手进行闷音。你的右手操作与平时无异。",
+    "final": "这里是用左手进行制音。你的右手操作与平时无异。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "11335": {
+    "decision": "重译",
+    "source": "Let's do that again{C} but this time you'll only mute every other note. Just play the rest normally.",
+    "original": "让我们再试一次{C} 但这次你只需闷音每隔一个音符。其余音符正常演奏。",
+    "final": "让我们再试一次{C}这次每隔一个音符做一次制音。其余音符正常演奏。",
+    "reason": "every other 为交替处理，理顺语序。"
+  },
+  "11448": {
+    "decision": "重译",
+    "source": "Alright{C} so you fret the first note with your first finger{C} then hammer-on to this note{C} 2 frets up{C} with your ring finger.",
+    "original": "好的{C}所以你用食指按第一个音符{C}然后上滑音到这个音符{C}高两品{C}用无名指。",
+    "final": "好的{C}先用食指按住第一个音{C}接着击弦弹出这个音{C}它高两品{C}用无名指来完成。",
+    "reason": "hammer-on 为击弦，保留所有分隔 token。"
+  },
+  "11464": {
+    "decision": "采纳",
+    "source": "Then hammer-on that next note with your third finger{C} and slide on up two more frets to the third note.",
+    "original": "然后用你的第三根手指做击弦音到下一个音符{C}再向上滑两个品到第三个音符。",
+    "final": "然后用你的无名指做击弦音到下一个音符{C}再向上滑两个品到第三个音符。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "11564": {
+    "decision": "采纳",
+    "source": "Now let's get going on palm mutes.",
+    "original": "现在让我们开始练习手掌护弦。",
+    "final": "现在让我们开始练习手掌制音。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "11577": {
+    "decision": "采纳",
+    "source": "Usually you'll get several palm mutes in a row{C} so let's try repeating it a few times.",
+    "original": "通常你会连续进行几次手掌护弦{C}所以让我们试着重复几次。",
+    "final": "通常你会连续进行几次手掌制音{C}所以让我们试着重复几次。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "11581": {
+    "decision": "采纳",
+    "source": "Now here's a riff built out of palm mutes.",
+    "original": "现在来看一个由闷音构成的乐句。",
+    "final": "现在来看一个由手掌制音构成的乐句。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "11585": {
+    "decision": "采纳",
+    "source": "Let's check out another palm mute riff.",
+    "original": "我们来看看另一个手掌闷音乐句。",
+    "final": "我们来看看另一个手掌制音乐句。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "11589": {
+    "decision": "采纳",
+    "source": "Here's a riff that shifts back and forth between palm mutes and regular notes. Just lift up your hand when the regular notes come along.",
+    "original": "这是一个在闷音和普通音符之间切换的乐句。当普通音符出现时，只需抬起手即可。",
+    "final": "这是一个在手掌制音和普通音符之间切换的乐句。当普通音符出现时，只需抬起手即可。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "12204": {
+    "decision": "重译",
+    "source": "...but if you're playing without a pick{C} you can still palm mute by playing the notes with your thumb.",
+    "original": "... 但如果你不用拨片弹奏{C} 你仍然可以用拇指拨弦来实现手掌护弦。",
+    "final": "……但如果你不用拨片弹奏{C}你仍然可以用拇指拨弦，同时用手掌制音。",
+    "reason": "规范省略号，避免把拇指拨弦当成制音的全部动作。"
+  },
+  "12437": {
+    "decision": "重译",
+    "source": "You can get amps where that part that amplifies the signal - that's called the head - is separate from the speaker cabinet{C} or you can get an all-in-one amplifier{C} called a combo amp. Combos are generally more portable and probably a better starting point for a beginner.",
+    "original": "你可以购买将放大信号的部件（称为头）与音箱箱体分离的音箱{C}或者购买一体式音箱{C}即组合音箱。组合音箱通常更便携，对初学者来说可能是更好的起点。",
+    "final": "你可以选择把放大信号的音箱头与扬声器箱体分开的音箱{C}也可以选择将两者合在一起的音箱{C}称为一体式音箱。一体式音箱通常更便携，也更适合初学者入门。",
+    "reason": "明确 head、cabinet、combo 结构。"
+  },
+  "13163": {
+    "decision": "采纳",
+    "source": "You want to be on the E string...",
+    "original": "你需要在 E 弦上...",
+    "final": "你需要在 E 弦上……",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "13239": {
+    "decision": "采纳",
+    "source": "Then you just attach the other end to the other button.",
+    "original": "然后把另一端连接到另一个按钮上。",
+    "final": "然后把另一端连接到另一个背带扣上。",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "13356": {
+    "decision": "重译",
+    "source": "Most basses have four strings. They match the four thickest strings of the guitar{C} but are an octave lower.",
+    "original": "大多数贝斯有四根琴弦。它们对应吉他最粗的四根琴弦{C}，但低一个八度。",
+    "final": "大多数贝斯有四根琴弦。它们对应吉他最粗的四根琴弦{C}但音高低一个八度。",
+    "reason": "去掉重复分隔，音高比较不必加音程。"
+  },
+  "13550": {
+    "decision": "采纳",
+    "source": "Speeding up again...",
+    "original": "正在加速...",
+    "final": "正在加速……",
+    "reason": "规范中文省略号，含义不变。"
+  },
+  "13626": {
+    "decision": "采纳",
+    "source": "You can also combine slap and pop with frethand mutes.",
+    "original": "你还可以将击弦和弹弦与左手制音结合使用。",
+    "final": "你还可以将拍弦和勾拍与左手制音结合使用。",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "13630": {
+    "decision": "重译",
+    "source": "Now here's a riff that uses slap and popped frethand mutes.",
+    "original": "接下来是一个使用击弦和闷音技巧的乐句。",
+    "final": "接下来是一个将拍弦和勾拍与左手制音结合使用的乐句。",
+    "reason": "候选仍漏 popped，须保留两种技法。"
+  },
+  "17304": {
+    "decision": "重译",
+    "source": "That's plenty of volume. Now get quiet by muting the strings with your hand.",
+    "original": "音量足够了。现在用手闷住琴弦，把声音变小。",
+    "final": "音量足够了。现在用手按住琴弦，让它们停止发声。",
+    "reason": "试音要求停止发声，不能擅自改成手掌制音技法。"
+  },
+  "17414": {
+    "decision": "重译",
+    "source": "To equip a guitar with a different headstock{C} go to the Amp and choose to customize your guitar.",
+    "original": "要为吉他更换不同的琴头{C} 请前往 Amp 并选择自定义您的吉他。",
+    "final": "要为吉他更换琴头{C}请前往音箱界面，并选择自定义你的吉他。",
+    "reason": "补译入口通名，具体版本界面名待核。 **待核：见 C 节。**"
+  },
+  "17529": {
+    "decision": "重译",
+    "source": "You've  earned your first Rocksmith Points{C} a measure of your skill as a guitar player. Every time you increase your song score in rehearsals{C} or complete an Event{C} you'll earn more Rocksmith Points and increase your rank. More points also gives you access to perform at bigger Venues before larger crowds.",
+    "original": "你获得了你的第一个Rocksmith Points{C}这是衡量你吉他演奏水平的指标。每次你在排练中提高歌曲得分{C}或完成一个Event{C}你都会获得更多Rocksmith Points并提升你的等级。更多的点数还能让你有机会在更大的Venue面对更多观众进行表演。",
+    "final": "你获得了第一笔 Rocksmith 点数{C}这是衡量你吉他演奏水平的指标。每次你在排练中提高歌曲得分{C}或完成一场活动{C}都会获得更多 Rocksmith 点数并提升等级。更多点数还能让你在更大的场馆面对更多观众演出。",
+    "reason": "补译 Points、Venue，修复第一个点数。"
+  },
+  "17562": {
+    "decision": "采纳",
+    "source": "The Tracker charts your rise in skill as a guitar player.",
+    "original": "追踪器记录您作为吉他手技能的提升。",
+    "final": "追踪器记录你作为吉他手技能的提升。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "17569": {
+    "decision": "重译",
+    "source": "Rocksmith offers a collection of minigames to build your guitar skills. Your first game is available in the Guitarcade{C} now accessible from the Start Menu.",
+    "original": "Rocksmith 提供一系列小游戏来锻炼您的吉他技巧。您的第一个游戏可在吉他街机中获取{C}，现在可从主菜单访问。",
+    "final": "Rocksmith 提供一系列小游戏来锻炼你的吉他技巧。你的第一个小游戏已在吉他街机中开放{C}现在可以从开始菜单进入。",
+    "reason": "去掉重复逗号，Start Menu 界面译名待核。 **待核：见 C 节。**"
+  },
+  "17609": {
+    "decision": "采纳",
+    "source": "Unlocked Effects Pedal",
+    "original": "已解锁效果器",
+    "final": "已解锁效果器踏板",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "17672": {
+    "decision": "重译",
+    "source": "[1]-SONG EVENT AT [2]",
+    "original": "[1]- 在 举办歌曲活动 [2]",
+    "final": "[1] 首歌曲的活动，地点：[2]",
+    "reason": "补回歌曲数量，保持参数顺序。"
+  },
+  "17687": {
+    "decision": "采纳",
+    "source": "Mixed Event",
+    "original": "混合事件",
+    "final": "混合活动",
+    "reason": "修正活动术语，其余语义与条件保留。"
+  },
+  "17690": {
+    "decision": "重译",
+    "source": "Combo Event",
+    "original": "连击事件",
+    "final": "综合编曲活动",
+    "reason": "相邻为单音与和弦活动，Combo 是编曲类型。"
+  },
+  "17715": {
+    "decision": "采纳",
+    "source": "You have 1 open event.",
+    "original": "你有 1 个未结束的事件。",
+    "final": "你有 1 个未结束的活动。",
+    "reason": "修正活动术语，其余语义与条件保留。"
+  },
+  "17720": {
+    "decision": "采纳",
+    "source": "Rocksmith will continue to track your progress as you play. You can continue to advance your skills by downloading new music in the Best Buy Store.",
+    "original": "Rocksmith 将在您游玩时持续追踪您的进度。您可以在 Best Buy 商店下载新音乐以继续提升技巧。",
+    "final": "Rocksmith 将在你游玩时持续追踪你的进度。你可以在 Best Buy 商店下载新音乐以继续提升技巧。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "17733": {
+    "decision": "采纳",
+    "source": "Event Complete!",
+    "original": "事件完成！",
+    "final": "活动完成！",
+    "reason": "修正活动术语，其余语义与条件保留。"
+  },
+  "17735": {
+    "decision": "采纳",
+    "source": "Completed Event",
+    "original": "已完成事件",
+    "final": "已完成活动",
+    "reason": "修正活动术语，其余语义与条件保留。"
+  },
+  "17736": {
+    "decision": "重译",
+    "source": "Completed Master Event",
+    "original": "完成大师事件",
+    "final": "已完成大师活动",
+    "reason": "Completed 为状态非命令。"
+  },
+  "17742": {
+    "decision": "采纳",
+    "source": "You can retry the Event as many times as you need.",
+    "original": "你可以重试该事件任意次。",
+    "final": "你可以重试该活动任意次。",
+    "reason": "修正活动术语，其余语义与条件保留。"
+  },
+  "17743": {
+    "decision": "采纳",
+    "source": "Event Failed",
+    "original": "事件失败",
+    "final": "活动失败",
+    "reason": "修正活动术语，其余语义与条件保留。"
+  },
+  "17749": {
+    "decision": "重译",
+    "source": "Rocksmith will continue to track your progress as you play. You can continue to advance your skills by downloading new music in the Rocksmith Shop by Best Buy.",
+    "original": "Rocksmith 将在您游玩时持续追踪您的进度。您可以在 Best Buy 旗下的 Rocksmith 商店下载新音乐以继续提升技巧。",
+    "final": "Rocksmith 会在你游玩时持续追踪进度。你可以在由 Best Buy 提供的 Rocksmith 商店下载新音乐，继续提升技巧。",
+    "reason": "by 不足以推出旗下产权，保留历史信息。"
+  },
+  "17778": {
+    "decision": "采纳",
+    "source": "You didn't score enough points to complete the Event.",
+    "original": "你的得分不足以完成该事件。",
+    "final": "你的得分不足以完成该活动。",
+    "reason": "修正活动术语，其余语义与条件保留。"
+  },
+  "17781": {
+    "decision": "采纳",
+    "source": "Authentic Tone Reward",
+    "original": "真实音色奖励",
+    "final": "原曲音色奖励",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "17798": {
+    "decision": "采纳",
+    "source": "Rehearsing for Events will push your skills to the next level. Once you play a song in an Event{C} you'll need to score higher in rehearsals to perform it at the next Event.",
+    "original": "为活动进行排练将把您的技能提升到下一个水平。一旦您在活动中演奏了一首歌曲{C}您需要在排练中获得更高的分数才能在下一场活动中演奏它。",
+    "final": "为活动进行排练将把你的技能提升到下一个水平。一旦你在活动中演奏了一首歌曲{C} 你需要在排练中获得更高的分数才能在下一场活动中演奏它。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "17808": {
+    "decision": "采纳",
+    "source": "Unlock the Tone Slots by unlocking an Authentic Tone for any arrangement.",
+    "original": "通过为任意编曲解锁真实音色来解锁音色槽位。",
+    "final": "通过为任意编曲解锁原曲音色来解锁音色槽位。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "17821": {
+    "decision": "采纳",
+    "source": "You've earned the ability to play with Authentic Song Tones.",
+    "original": "你已解锁使用真实歌曲音色的能力。",
+    "final": "你已解锁使用原曲音色的能力。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "17822": {
+    "decision": "采纳",
+    "source": "You've earned the ability to play with Authentic Song Tones{C} taking your guitar sound to the next level.",
+    "original": "你已解锁使用真实歌曲音色的能力{C}将你的吉他音色提升至新的高度。",
+    "final": "你已解锁使用原曲音色的能力{C}将你的吉他音色提升至新的高度。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "17823": {
+    "decision": "重译",
+    "source": "You've reached a new milestone{C} the ability to play with Authentic Song Tones.",
+    "original": "你达到了一个新的里程碑{C}使用真实歌曲音色的能力。",
+    "final": "你达成了一个新的里程碑{C}现在可以使用原曲音色了。",
+    "reason": "修复残缺句，明确解锁结果。"
+  },
+  "17824": {
+    "decision": "采纳",
+    "source": "Now you're ready to graduate from the basic tone and play like a true guitarist{C} with the songs' authentic tones.",
+    "original": "现在你准备好从基础音色毕业，像真正的吉他手一样{C}使用歌曲的原声音色进行演奏。",
+    "final": "现在你准备好从基础音色毕业，像真正的吉他手一样{C}使用歌曲的原曲音色进行演奏。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "17826": {
+    "decision": "采纳",
+    "source": "To learn more about authentic and custom tones{C} watch the tone creation walkthrough video.",
+    "original": "要了解关于真实音色和自定义音色的更多信息{C}请观看音色创建教程视频。",
+    "final": "要了解关于原曲音色和自定义音色的更多信息{C}请观看音色创建教程视频。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "17828": {
+    "decision": "采纳",
+    "source": "Each song has a unique scoring target you'll need to reach in order to unlock the gear that makes up the authentic tone. This score is listed on the scoring bar before and after you play a song.",
+    "original": "每首歌曲都有一个独特的得分目标，你需要达到该目标才能解锁构成真实音色的装备。这个分数会在你演奏歌曲前后显示在得分条上。",
+    "final": "每首歌曲都有一个独特的得分目标，你需要达到该目标才能解锁构成原曲音色的装备。这个分数会在你演奏歌曲前后显示在得分条上。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "17839": {
+    "decision": "采纳",
+    "source": "Press the A button to use the song's authentic tone.",
+    "original": "按下 A 按钮以使用歌曲的原生音色。",
+    "final": "按下 A 按钮以使用歌曲的原曲音色。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "17840": {
+    "decision": "采纳",
+    "source": "Press the cross button to use the song's authentic tone.",
+    "original": "按十字键使用歌曲的原版音色。",
+    "final": "按叉键使用歌曲的原曲音色。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "17841": {
+    "decision": "采纳",
+    "source": "Press the X button to use the song's authentic tone.",
+    "original": "按 X 键使用歌曲的原版音色。",
+    "final": "按 X 键使用歌曲的原曲音色。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "17850": {
+    "decision": "采纳",
+    "source": "To scroll fast through songs{C} hold down the d-pad in the direction you'd like to scroll.",
+    "original": "若要快速滚动歌曲列表{C}按住方向键朝你想滚动的方向即可。",
+    "final": "若要快速滚动歌曲列表{C}按住十字键朝你想滚动的方向即可。",
+    "reason": "修正D-pad 既定用词，其余语义与条件保留。"
+  },
+  "17884": {
+    "decision": "采纳",
+    "source": "Slides",
+    "original": "滑弦",
+    "final": "滑音",
+    "reason": "修正滑音术语，其余语义与条件保留。"
+  },
+  "17903": {
+    "decision": "采纳",
+    "source": "Score 100{C}000 points in Rehearse Mode to play this song in Master Mode and earn double points!",
+    "original": "得分 100{C}在排练模式中得分 000 分，即可在大师模式中演奏此曲并获得双倍分数！",
+    "final": "在排练模式中得分 100{C}000 分，即可在大师模式中演奏此曲并获得双倍分数！",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "17991": {
+    "decision": "采纳",
+    "source": "Event Qualify",
+    "original": "事件资格",
+    "final": "活动资格",
+    "reason": "修正活动术语，其余语义与条件保留。"
+  },
+  "17995": {
+    "decision": "重译",
+    "source": "Play Options",
+    "original": "玩 Options 模式。",
+    "final": "演奏选项",
+    "reason": "相邻是编曲选择、歌曲结果；不是播放选项。"
+  },
+  "18172": {
+    "decision": "采纳",
+    "source": "Palm{L}Mute{L}Missed!",
+    "original": "手掌{L}护弦{L}失误！",
+    "final": "手掌{L}制音{L}失误！",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "18250": {
+    "decision": "采纳",
+    "source": "Riff Repeater is a comprehensive practice mode for mastering individual sections of a song. You'll be able to choose which section of the song you'd like to practice{C} then choose how you'd like to practice it.",
+    "original": "乐句重复器是一种全面的练习模式，用于掌握歌曲的特定段落。您可以选择想要练习的歌曲段落{C}然后选择练习方式。",
+    "final": "乐句重复器是一种全面的练习模式，用于掌握歌曲的特定段落。你可以选择想要练习的歌曲段落{C}然后选择练习方式。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "18335": {
+    "decision": "重译",
+    "source": "Head [1]",
+    "original": "琴头 [1]",
+    "final": "主题 [1]",
+    "reason": "相邻为歌曲段落，非琴头或音箱头；标签用词待核。 **待核：见 C 节。**"
+  },
+  "18418": {
+    "decision": "采纳",
+    "source": "You are now ready to play an E-major chord.",
+    "original": "你现在可以弹奏 E 大调和弦了。",
+    "final": "你现在可以弹奏 E 大三和弦了。",
+    "reason": "修正和弦性质，其余语义与条件保留。"
+  },
+  "18434": {
+    "decision": "重译",
+    "source": "Now add your third finger to the third fret of the green highlighted string.",
+    "original": "现在将第三根手指按在绿色高亮琴弦的第三品上。",
+    "final": "现在将无名指按在绿色高亮琴弦的第 3 品上。",
+    "reason": "third 为无名指，候选中指错误。"
+  },
+  "18439": {
+    "decision": "采纳",
+    "source": "You are ready to play the D-major chord.",
+    "original": "你可以演奏 D 大调和弦了。",
+    "final": "你可以演奏 D 大三和弦了。",
+    "reason": "修正和弦性质，其余语义与条件保留。"
+  },
+  "18502": {
+    "decision": "采纳",
+    "source": "These are palm mutes.",
+    "original": "这些是闷音。",
+    "final": "这些是手掌制音。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "18503": {
+    "decision": "采纳",
+    "source": "Palm muting is a technique used to create a more percussive sound.",
+    "original": "手掌闷音是一种用于营造更具打击感音色的技巧。",
+    "final": "手掌制音是一种用于营造更具打击感音色的技巧。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "18505": {
+    "decision": "采纳",
+    "source": "Palm muting is a technique performed with your picking hand.",
+    "original": "手掌护弦是一种用拨弦手演奏的技巧。",
+    "final": "手掌制音是一种用拨弦手演奏的技巧。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "18511": {
+    "decision": "采纳",
+    "source": "Be sure to have your hand against the bridge when you play palm mutes.",
+    "original": "演奏手掌闷音时，确保手掌抵住琴桥。",
+    "final": "演奏手掌制音时，确保手掌抵住琴桥。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "18578": {
+    "decision": "采纳",
+    "source": "Once you learn a scale pattern you can move and use it anywhere on the fretboard.",
+    "original": "一旦你学会一个音阶模式，你就可以在指板的任何位置移动并使用它。",
+    "final": "一旦你学会一个音阶指型，你就可以在指板的任何位置移动并使用它。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "18694": {
+    "decision": "采纳",
+    "source": "As you play the game{C} experiment with combinations of down strums{C} up strums -- and muting - to create different strumming patterns.",
+    "original": "随着你游玩游戏{C}尝试组合下扫{C}上扫——以及闷音——来创造不同的扫弦模式。",
+    "final": "随着你游玩游戏{C}尝试组合下扫{C}上扫——以及制音——来创造不同的扫弦模式。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "18821": {
+    "decision": "重译",
+    "source": "Notes landing in the first fret of the highlighted zone are played with the first finger{C} and so on for the second{C} third and fourth fingers.",
+    "original": "落在高亮区域第一品的音符用第一指演奏{C}第二品{C}第三品和第四品依次类推。",
+    "final": "落在高亮区域第一个品格的音符用食指弹奏{C}第二个品格用中指{C}第三个和第四个品格分别用无名指和小指。",
+    "reason": "明确区域内相对品格与四根手指对应。"
+  },
+  "18870": {
+    "decision": "采纳",
+    "source": "Learn{C} practice{C} and master palm mutes.",
+    "original": "学习{C}练习{C}并掌握手掌闷音。",
+    "final": "学习{C}练习{C}并掌握手掌制音。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "18907": {
+    "decision": "采纳",
+    "source": "These are palm mutes.",
+    "original": "这些是闷音。",
+    "final": "这些是手掌制音。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "18923": {
+    "decision": "采纳",
+    "source": "Place your third finger on the second fret of the blue highlighted  string.",
+    "original": "将中指放在蓝色高亮琴弦的第二品上。",
+    "final": "将无名指放在蓝色高亮琴弦的第二品上。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "18932": {
+    "decision": "采纳",
+    "source": "This is the D-major chord shape.",
+    "original": "这是 D 大调和弦指型。",
+    "final": "这是 D 大三和弦指型。",
+    "reason": "修正和弦性质，其余语义与条件保留。"
+  },
+  "18989": {
+    "decision": "采纳",
+    "source": "Extra Techniques:{L}Fret Hand Muting",
+    "original": "额外技巧：{L}按弦手闷音",
+    "final": "额外技巧：{L}左手制音",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "18995": {
+    "decision": "采纳",
+    "source": "Learn muting techniques for advanced chords and double stops.",
+    "original": "学习护弦技巧以演奏高级和弦和双音。",
+    "final": "学习制音技巧以演奏高级和弦和双音。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "18996": {
+    "decision": "采纳",
+    "source": "Learn how to mute strings for advanced chords and double stops.",
+    "original": "学习如何护弦以演奏高级和弦和双音。",
+    "final": "学习如何制音以演奏高级和弦和双音。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "18999": {
+    "decision": "采纳",
+    "source": "Learn how to play fret hand mutes.",
+    "original": "学习如何演奏按弦护弦。",
+    "final": "学习如何演奏左手制音。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "19008": {
+    "decision": "采纳",
+    "source": "Learn{C} practice{C} and master fret hand muting.",
+    "original": "学习{C}练习{C}并掌握左手闷音技巧。",
+    "final": "学习{C}练习{C}并掌握左手制音技巧。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "19019": {
+    "decision": "采纳",
+    "source": "Palm Mute Challenge",
+    "original": "手掌闷音挑战",
+    "final": "手掌制音挑战",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "19026": {
+    "decision": "采纳",
+    "source": "Fret Hand Muting Challenge",
+    "original": "按弦手制音挑战",
+    "final": "左手制音挑战",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "19028": {
+    "decision": "采纳",
+    "source": "Palm Mute Challenge",
+    "original": "手掌闷音挑战",
+    "final": "手掌制音挑战",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "19078": {
+    "decision": "采纳",
+    "source": "Bridge",
+    "original": "桥段",
+    "final": "琴桥",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "19154": {
+    "decision": "采纳",
+    "source": "Palm Mutes Unlocked",
+    "original": "已解锁手掌护弦",
+    "final": "已解锁手掌制音",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "19183": {
+    "decision": "采纳",
+    "source": "Guitar Basics:{L}6-in-line Tuning Overview",
+    "original": "吉他基础：{L}六弦同调调弦概览",
+    "final": "吉他基础：{L}六联排调弦概览",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "19305": {
+    "decision": "重译",
+    "source": "This product includes the song [SongName] by [ArtistName]{C} [X] playable arrangements (Arrangement Names){C} and an unlockable Authentic Tone.",
+    "original": "本产品包含 [ArtistName] 的歌曲 [SongName]{C} [X] 个可玩编曲（编曲名称）{C} 以及一个可解锁的真实音色。",
+    "final": "本产品包含歌曲 [SongName]（演唱者：[ArtistName]）{C}[X] 个可玩编曲（编曲名称）{C}以及一个可解锁的原曲音色。",
+    "reason": "恢复 source 命名参数顺序。 **待核：见 C 节。**"
+  },
+  "19306": {
+    "decision": "采纳",
+    "source": "Authentic Tone includes the customization items: [Item Names]",
+    "original": "真实音色包含以下自定义项目：[Item Names]",
+    "final": "原曲音色包含以下自定义项目：[Item Names]",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "19307": {
+    "decision": "重译",
+    "source": "This product includes the song “[1]” by [2]{C} [3] playable arrangements{S} and an unlockable Authentic Tone.",
+    "original": "此产品包含歌曲“[1]”由 [2]{C} [3] 可玩编曲{S} 以及可解锁的真实音色。",
+    "final": "本产品包含歌曲“[1]”（演唱者：[2]）{C}[3] 个可玩编曲{S}以及一个可解锁的原曲音色。",
+    "reason": "修复语序、量词，保留参数顺序。"
+  },
+  "19326": {
+    "decision": "重译",
+    "source": "Arrangements Included: Chord{C} Combo{L}{L}NOTE: Available arrangements will vary by song. Rocksmith™ game disc is required for play. Music credits available at www.rocksmith.com.",
+    "original": "包含编曲：和弦{C}连击{L}{L}注意：可用编曲因歌曲而异。游玩需Rocksmith™游戏光盘。音乐版权信息请访问www.rocksmith.com。",
+    "final": "包含编曲：和弦{C}综合{L}{L}注意：可用编曲因歌曲而异。游玩需要 Rocksmith™ 游戏光盘。音乐版权信息请访问 www.rocksmith.com。",
+    "reason": "Arrangements 限定 Combo 为编曲类型，综合为本次建议译名。"
+  },
+  "19351": {
+    "decision": "采纳",
+    "source": "DUCKS",
+    "original": "DUCKS",
+    "final": "鸭子",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "20044": {
+    "decision": "采纳",
+    "source": "Tremolo the other strings{L}to switch lanes!",
+    "original": "颤音拨动其他琴弦{L}以切换赛道！",
+    "final": "快速反复拨动其他琴弦{L}以切换赛道！",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "20310": {
+    "decision": "采纳",
+    "source": "Tip: Add or remove songs from your Event setlist in the Customize option in the Event Manager menu …",
+    "original": "提示：在事件管理器菜单的自定义选项中添加或移除活动歌单中的歌曲……",
+    "final": "提示：在活动管理菜单的自定义选项中添加或移除活动歌单中的歌曲……",
+    "reason": "修正活动术语，其余语义与条件保留。"
+  },
+  "20330": {
+    "decision": "重译",
+    "source": "Tip: To check your progress towards qualifying your songs for an Event{C} choose the Event Manager option on the Rocksmith Recommends screen …",
+    "original": "提示：要查看歌曲在事件中的资格进度{C}请在 Rocksmith 推荐界面选择事件管理器选项……",
+    "final": "提示：要查看歌曲达到活动演出资格的进度{C}请在 Rocksmith 推荐界面选择活动管理器选项……",
+    "reason": "明确歌曲资格与菜单路径。"
+  },
+  "20427": {
+    "decision": "采纳",
+    "source": "Default to Authentic Tone",
+    "original": "默认使用真实音色",
+    "final": "默认使用原曲音色",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "20465": {
+    "decision": "采纳",
+    "source": "Turn the noise canceling tone off and enable Authentic Song Tones.",
+    "original": "关闭降噪音色并启用真实歌曲音色。",
+    "final": "关闭降噪音色并启用原曲音色。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "20982": {
+    "decision": "重译",
+    "source": "Play with the percieved size of your sound with this sample delay pedal.",
+    "original": "使用这个采样延迟效果器来改变你声音的感知大小。",
+    "final": "使用这款采样延迟效果器，调整声音听起来的空间大小。",
+    "reason": "修复声音的感知大小的直译。"
+  },
+  "20986": {
+    "decision": "采纳",
+    "source": "The I-505 is a vintage drive pedal with mods especially for the modern musician.",
+    "original": "I-505 是一款经过改装的复古失真效果器，专为现代音乐家设计。",
+    "final": "I-505 是一款经过改装的复古过载效果器，专为现代音乐家设计。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "21073": {
+    "decision": "采纳",
+    "source": "Load Authentic Tone",
+    "original": "加载真实音色",
+    "final": "加载原曲音色",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "21084": {
+    "decision": "采纳",
+    "source": "Change Cabinet",
+    "original": "更换机柜",
+    "final": "更换箱体",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "21092": {
+    "decision": "采纳",
+    "source": "[1] Cabinet",
+    "original": "[1] 机柜",
+    "final": "[1] 箱体",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "21094": {
+    "decision": "采纳",
+    "source": "Mode",
+    "original": "调式",
+    "final": "模式",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "21112": {
+    "decision": "采纳",
+    "source": "Change Cabinet",
+    "original": "更换机柜",
+    "final": "更换箱体",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "21128": {
+    "decision": "采纳",
+    "source": "This item is a component of a locked Authentic Tone. To unlock Authentic Tones and their components{C} reach the Tone Unlock score target listed on a song's score bar.",
+    "original": "此项目是锁定真实音色的组件。要解锁真实音色及其组件{C} 请达到歌曲计分条上列出的音色解锁分数目标。",
+    "final": "此项目是锁定原曲音色的组件。要解锁原曲音色及其组件{C} 请达到歌曲计分条上列出的音色解锁分数目标。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "21132": {
+    "decision": "重译",
+    "source": "Load an Authentic Tone you've unlocked{C} or a Custom Tone you've created.{L}{L}To unlock Authentic Tones{C} score above the Tone Unlock threshold listed on the score bar for every arrangement.",
+    "original": "加载已解锁的真实音色{C}或已创建的自定义音色。{L}{L}要解锁真实音色{C}需在得分条上列出的每个编曲的音色解锁阈值以上得分。",
+    "final": "加载你已解锁的原曲音色{C}或你创建的自定义音色。{L}{L}要解锁原曲音色{C}需让得分超过相应编曲得分条上标出的音色解锁门槛。",
+    "reason": "门槛属于相应编曲，不要求先完成所有编曲。"
+  },
+  "21133": {
+    "decision": "采纳",
+    "source": "Delete the currently loaded Custom Tone.{L}NOTE: Authentic Tones cannot be deleted.",
+    "original": "删除当前加载的自定义音色。{L}注意：真实音色无法删除。",
+    "final": "删除当前加载的自定义音色。{L}注意：原曲音色无法删除。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "21134": {
+    "decision": "采纳",
+    "source": "This tone name belongs to an Authentic Tone and cannot be overwritten. Please choose a new name.",
+    "original": "此音色名称属于真实音色，无法覆盖。请选择新名称。",
+    "final": "此音色名称属于原曲音色，无法覆盖。请选择新名称。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "21137": {
+    "decision": "采纳",
+    "source": "Unlock this Authentic Tone by scoring 70{C}000 the following song:",
+    "original": "在以下歌曲中得分达到 70{C}000 即可解锁此真实音色：",
+    "final": "在以下歌曲中得分达到 70{C}000 即可解锁此原曲音色：",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "21149": {
+    "decision": "重译",
+    "source": "To scroll fast through the Tracker{C} hold down the d-pad in the direction you'd like to scroll.",
+    "original": "要快速滚动 Tracker{C}请按住方向键朝你想滚动的方向。",
+    "final": "要在追踪器中快速滚动{C}请按住十字键的相应方向。",
+    "reason": "补译 Tracker，明确操作。"
+  },
+  "21164": {
+    "decision": "采纳",
+    "source": "press the cross button",
+    "original": "按十字键",
+    "final": "按叉键",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "21176": {
+    "decision": "采纳",
+    "source": "PRESS START",
+    "original": "PRESS START",
+    "final": "按开始键",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "21218": {
+    "decision": "采纳",
+    "source": "Authentic Tones: [1] of [2]",
+    "original": "真实音色：[1] 的 [2]",
+    "final": "原曲音色：[1] / [2]",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "21243": {
+    "decision": "采纳",
+    "source": "You are currently not signed in. If you continue{C} you will not be able to save your game or use any feature that requires a gamer profile.",
+    "original": "你当前未登录。如果你继续{C} 将无法保存游戏或使用任何需要玩家资料的功能。",
+    "final": "你当前未登录。如果你继续{C} 将无法保存游戏或使用任何需要玩家档案的功能。",
+    "reason": "修正玩家档案，其余语义与条件保留。"
+  },
+  "21316": {
+    "decision": "采纳",
+    "source": "Palm Mute Accuracy:",
+    "original": "手掌护弦准确率：",
+    "final": "手掌制音准确率：",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "21318": {
+    "decision": "采纳",
+    "source": "Harmonic Accuracy:",
+    "original": "和声准确度：",
+    "final": "泛音准确度：",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "21643": {
+    "decision": "采纳",
+    "source": "New Cabinet Unlocked",
+    "original": "已解锁新音箱箱体",
+    "final": "已解锁新箱体",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "21756": {
+    "decision": "采纳",
+    "source": "You can access all your open events in the Event Manager menu.",
+    "original": "您可以在活动管理菜单中查看所有未结束的活动。",
+    "final": "你可以在活动管理菜单中查看所有未结束的活动。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "21766": {
+    "decision": "重译",
+    "source": "You've been invited to play at The Hangar.{L}{L}To access your suggested setlist for this venue{C} go to the Event Manager.",
+    "original": "你被邀请去The Hangar演出。{L}{L}要访问这个Venue的建议歌单{C}请前往Event Manager。",
+    "final": "你受邀前往 The Hangar 演出。{L}{L}要查看此场馆的推荐歌单{C}请前往活动管理器。",
+    "reason": "候选漏译 Event Manager。"
+  },
+  "21776": {
+    "decision": "重译",
+    "source": "Beat 10{C}000{C}000 points in the Guitarcade game: Ducks",
+    "original": "Beat 10{C}000{C}000 分在 Guitarcade 游戏：Ducks 中",
+    "final": "在吉他街机游戏《鸭子》中获得超过 10{C}000{C}000 分",
+    "reason": "补译模式名，Ducks 与 19351 一致。"
+  },
+  "21780": {
+    "decision": "重译",
+    "source": "Beat 150{C}000{C}000 points in the Guitarcade game: Super Ducks",
+    "original": "在{C}150{C}000 分在吉他街机游戏：超级鸭子中",
+    "final": "在吉他街机游戏《超级鸭子》中获得超过 150{C}000{C}000 分",
+    "reason": "Beat 是超过，候选达到改变门槛。"
+  },
+  "21788": {
+    "decision": "重译",
+    "source": "Beat 1{C}00{C}000 points in the Guitarcade game: Harmonically Challenged",
+    "original": "Beat 1{C}00{C}000 分在 Guitarcade 游戏：Harmonically Challenged 中",
+    "final": "在吉他街机游戏《Harmonically Challenged》中获得超过 1{C}00{C}000 分",
+    "reason": "源文数字分组异常，原样保留并重点复核。 **待核：见 C 节。**"
+  },
+  "21800": {
+    "decision": "重译",
+    "source": "Beat 5{C}000{C}000 points in the Guitarcade game: Quick Pick Dash",
+    "original": "Beat 5{C}000{C}000 分在 Guitarcade 游戏：Quick Pick Dash 中",
+    "final": "在吉他街机游戏《Quick Pick Dash》中获得超过 5{C}000{C}000 分",
+    "reason": "补译 Guitarcade，保留超过门槛。"
+  },
+  "21804": {
+    "decision": "重译",
+    "source": "Beat 1{C}000{C}000 points in the Guitarcade game: Dawn of the Chordead",
+    "original": "在吉他街机游戏《Dawn of the Chordead》中{C}获得 100000{C}分",
+    "final": "在吉他街机游戏《Dawn of the Chordead》中获得超过 1{C}000{C}000 分",
+    "reason": "恢复数字，已中文化的模式名不回英文。"
+  },
+  "21846": {
+    "decision": "采纳",
+    "source": "Create and save a custom tone",
+    "original": "的自定义音色方案",
+    "final": "创建并保存自定义音色",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "21856": {
+    "decision": "重译",
+    "source": "Beat a 5-chord streak",
+    "original": "Beat a 5-chord streak",
+    "final": "超过连续命中 5 个和弦的纪录",
+    "reason": "Beat streak 为超过纪录，实际边界待核。 **待核：见 C 节。**"
+  },
+  "21866": {
+    "decision": "重译",
+    "source": "Beat 200{C}000 points in Master Mode",
+    "original": "在{C}大师模式中获得 200000 分",
+    "final": "在大师模式中获得超过 200{C}000 分",
+    "reason": "补回 Beat 严格超过条件。"
+  },
+  "21934": {
+    "decision": "采纳",
+    "source": "The Rocksmith Custom Drive",
+    "original": "Rocksmith 定制驱动",
+    "final": "Rocksmith 定制过载",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "21995": {
+    "decision": "重译",
+    "source": "New Technique Unlocked: Palm Mutes",
+    "original": "解锁新技术：手掌护弦",
+    "final": "已解锁新技巧：手掌制音",
+    "reason": "同时统一 Technique 为技巧。"
+  },
+  "22009": {
+    "decision": "采纳",
+    "source": "Authentic Song Tone",
+    "original": "真实歌曲音色",
+    "final": "原曲音色",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "22017": {
+    "decision": "采纳",
+    "source": "Congratulations! You just earned a new rank.",
+    "original": "恭喜！您刚刚获得了一个新等级。",
+    "final": "恭喜！你刚刚获得了一个新等级。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "22044": {
+    "decision": "采纳",
+    "source": "Authentic Tone",
+    "original": "真实音色",
+    "final": "原曲音色",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "22055": {
+    "decision": "采纳",
+    "source": "Event Reward: [1]",
+    "original": "事件奖励：[1]",
+    "final": "活动奖励：[1]",
+    "reason": "修正活动术语，其余语义与条件保留。"
+  },
+  "22210": {
+    "decision": "采纳",
+    "source": "Ideal for letting a new player play a song without changing profiles{C} this setting allows you to easily reset all songs to their lowest setting.  Afterwards{C} you can set all songs back to your highest achieved level.",
+    "original": "适合让新玩家在不切换配置文件的情况下演奏歌曲{C} 此设置允许你将所有歌曲轻松重置为最低难度。之后{C} 你可以将所有歌曲恢复到你达到的最高难度。",
+    "final": "适合让新玩家在不切换玩家档案的情况下演奏歌曲{C} 此设置允许你将所有歌曲轻松重置为最低难度。之后{C} 你可以将所有歌曲恢复到你达到的最高难度。",
+    "reason": "修正玩家档案，其余语义与条件保留。"
+  },
+  "22245": {
+    "decision": "采纳",
+    "source": "Let’s start off by playing on the 3rd fret on the yellow string.  Place your first finger here.  To play a fifth higher{C} place your 3rd or 4th finger on the 5th fret of the blue string.",
+    "original": "让我们从黄色琴弦的第3品开始演奏。将第一根手指放在这里。要演奏高五度音{C} 将第3或第4根手指放在蓝色琴弦的第5品。",
+    "final": "让我们从黄色琴弦的第3品开始演奏。将食指放在这里。要演奏高五度音{C} 将无名指或小指放在蓝色琴弦的第5品。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "22247": {
+    "decision": "采纳",
+    "source": "To play an octave{C} place your 3rd or 4th finger on the 5th fret of the orange string.  This shape can also be played at any position on the fretboard.",
+    "original": "要演奏八度音{C}请将第3或第4指按在橙色琴弦的第5品。此指型也可在指板的任意位置演奏。",
+    "final": "要演奏八度音程{C}请将第3或第4指按在橙色琴弦的第5品。此指型也可在指板的任意位置演奏。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "22249": {
+    "decision": "采纳",
+    "source": "These are slap and pop notes.",
+    "original": "这些是拍击和勾弦音符。",
+    "final": "这些是拍弦和勾拍音符。",
+    "reason": "修正Pop 技法，其余语义与条件保留。"
+  },
+  "22250": {
+    "decision": "采纳",
+    "source": "Slap and pop is a technique that adds a percussive flair to bass playing.",
+    "original": "击打和勾弦是一种为贝斯演奏增添打击乐色彩的技法。",
+    "final": "拍弦和勾拍是一种为贝斯演奏增添打击乐色彩的技法。",
+    "reason": "修正Pop 技法，其余语义与条件保留。"
+  },
+  "22251": {
+    "decision": "采纳",
+    "source": "Slaps are performed with your thumb.",
+    "original": "击打是用拇指完成的。",
+    "final": "拍弦是用拇指完成的。",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "22258": {
+    "decision": "重译",
+    "source": "After you practice both slapping and popping{C} you can then combine them in succession.  Be sure to use your wrist for most of your motion.    It may take a while to build callouses and the muscle memory necessary for slap bass...  keep practicing and be sure to take breaks often.",
+    "original": "练习完击弦和勾弦后{C}你可以将它们连续组合使用。大部分动作请确保使用手腕。建立老茧和击弦贝斯所需的肌肉记忆可能需要一段时间……请坚持练习并经常休息。",
+    "final": "练习过拍弦和勾拍后{C}你可以将它们连续组合使用。动作应主要由手腕带动。磨出老茧并形成拍弦贝斯所需的肌肉记忆可能需要一些时间……坚持练习，也别忘了经常休息。",
+    "reason": "修复建立老茧等生硬表达，保留休息提示。"
+  },
+  "22259": {
+    "decision": "采纳",
+    "source": "Try playing slaps and pops in the upcoming phrase.",
+    "original": "尝试在接下来的乐句中使用击弦和勾弦技巧。",
+    "final": "尝试在接下来的乐句中使用拍弦和勾拍技巧。",
+    "reason": "修正Slap 技法、Pop 技法，其余语义与条件保留。"
+  },
+  "22260": {
+    "decision": "采纳",
+    "source": "If you are having trouble producing enough sound with a slap{C} make sure to emphasize your thumb bounce.",
+    "original": "如果你发现用击弦技巧发出的声音不够大{C} 请确保强调拇指的回弹动作。",
+    "final": "如果你发现用拍弦技巧发出的声音不够大{C} 请确保强调拇指的回弹动作。",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "22345": {
+    "decision": "采纳",
+    "source": "You've earned your first Rocksmith Points{C} a measure of your skill as a bassist. Every time you increase your song score in rehearsals{C} or complete an Event{C} you'll earn more Rocksmith Points and increase your rank. More points also gives you access to perform at bigger Venues before larger crowds.",
+    "original": "你获得了你的第一笔 Rocksmith 点数{C}这是衡量你贝斯手技巧的标准。每次你在排练中提高歌曲得分{C}或完成一个事件{C}你都会获得更多 Rocksmith 点数并提升你的等级。更多的点数还能让你有机会在更大的场地面对更多观众进行演出。",
+    "final": "你获得了你的第一笔 Rocksmith 点数{C}这是衡量你贝斯手技巧的标准。每次你在排练中提高歌曲得分{C}或完成一个活动{C}你都会获得更多 Rocksmith 点数并提升你的等级。更多的点数还能让你有机会在更大的场地面对更多观众进行演出。",
+    "reason": "修正活动术语，其余语义与条件保留。"
+  },
+  "22381": {
+    "decision": "采纳",
+    "source": "Slides",
+    "original": "滑弦",
+    "final": "滑音",
+    "reason": "修正滑音术语，其余语义与条件保留。"
+  },
+  "22425": {
+    "decision": "采纳",
+    "source": "Syncopation may also result from accenting offbeat notes{C} even when there are also notes on the beats",
+    "original": "切分音也可能由重音落在弱拍音符上产生{C}即使强拍上也有音符",
+    "final": "切分音也可能由重音落在反拍音符上产生{C}即使正拍上也有音符",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "22428": {
+    "decision": "采纳",
+    "source": "For slaps{C} use the side of your thumb’s knuckle",
+    "original": "对于拍击{C}请使用拇指指关节的侧面",
+    "final": "对于拍弦{C}请使用拇指指关节的侧面",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "22429": {
+    "decision": "采纳",
+    "source": "For slaps{C} bounce your thumb off the string immediately after striking it",
+    "original": "对于击弦{C}在拇指敲击琴弦后立即弹起",
+    "final": "对于拍弦{C}在拇指敲击琴弦后立即弹起",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "22430": {
+    "decision": "采纳",
+    "source": "For pops{C} rotate your wrist after you pluck to mute the string with the side of your hand",
+    "original": "对于拨弦{C}拨弦后转动手腕，用手侧压住琴弦以制音",
+    "final": "对于勾拍{C}拨弦后转动手腕，用手侧压住琴弦以制音",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "22442": {
+    "decision": "采纳",
+    "source": "An advanced technique used in multiple bass styles{C} slap and pop adds a percussive flair to your bass playing.",
+    "original": "一种用于多种贝斯风格的进阶技巧{C} 拍击与拨片弹出为你的贝斯演奏增添打击乐般的色彩。",
+    "final": "一种用于多种贝斯风格的进阶技巧{C} 拍弦与勾拍为你的贝斯演奏增添打击乐般的色彩。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "22444": {
+    "decision": "采纳",
+    "source": "Octaves and Fifths are musical terms describing intervals{C} or the distance between two notes.  Both Octaves and Fifths intervals are important and occur frequently in bass lines.",
+    "original": "八度和五度是描述音程的音乐术语{C}或两个音符之间的距离。八度和五度音程都很重要，且在贝斯线条中频繁出现。",
+    "final": "八度和五度是描述音程的音乐术语{C}即两个音符之间的距离。八度和五度音程都很重要，且在贝斯线条中频繁出现。",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "22449": {
+    "decision": "重译",
+    "source": "New Technique Unlocked: Octaves & Fifths",
+    "original": "解锁新技术：八度与五度",
+    "final": "已解锁新技巧：八度与五度音程",
+    "reason": "保留两种音程，统一技巧标签。"
+  },
+  "22450": {
+    "decision": "重译",
+    "source": "New Technique Unlocked: Slap & Pop",
+    "original": "解锁新技术：击勾弦",
+    "final": "已解锁新技巧：拍弦与勾拍",
+    "reason": "统一技巧与贝斯技法。"
+  },
+  "22461": {
+    "decision": "采纳",
+    "source": "Modern Ultra- HiFi Bass Cab",
+    "original": "现代超高保真贝斯音箱",
+    "final": "现代超高保真贝斯箱体",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "22467": {
+    "decision": "采纳",
+    "source": "Modular Open/Closed Back Cab",
+    "original": "模块化开背/闭背音箱",
+    "final": "模块化开背/闭背箱体",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "22495": {
+    "decision": "采纳",
+    "source": "Hi-mid",
+    "original": "中高",
+    "final": "中高频",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "22556": {
+    "decision": "采纳",
+    "source": "Beat 100{C}000 points in a Bass arrangement",
+    "original": "Beat 100{C}000 分在贝斯编曲中",
+    "final": "在贝斯编曲中得分超过 100{C}000 分",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "22559": {
+    "decision": "采纳",
+    "source": "Bass Head",
+    "original": "Bass Head",
+    "final": "贝斯音箱头",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "22571": {
+    "decision": "采纳",
+    "source": "SLAP{L}MISSED!",
+    "original": "击弦{L}失误！",
+    "final": "拍弦{L}失误！",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "22572": {
+    "decision": "采纳",
+    "source": "POP{L}MISSED!",
+    "original": "弹出{L}失误！",
+    "final": "勾拍{L}失误！",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "22584": {
+    "decision": "重译",
+    "source": "Congratulations! You've unlocked Master Mode for this arrangement by scoring 100{C}000 and maxing out all phrases. Play in Master Mode to prove your bass skills and earn maximum points. {L}{L}NOTE: You can turn any Event into a Master Event when you unlock Master Mode for every arrangement in the setlist.",
+    "original": "恭喜！你通过获得100分解锁了此编曲的大师模式{C}000并完美演奏所有乐句。在大师模式中演奏以证明你的贝斯技巧并获得最高分数。{L}{L}注意：当你解锁歌单中所有编曲的大师模式时，可以将任何活动变为大师活动。",
+    "final": "恭喜！你获得了 100{C}000 分，并将所有乐句提升至最高等级，解锁了此编曲的大师模式。在大师模式中演奏，展示你的贝斯技巧并争取最高分。{L}{L}注意：当歌单中所有编曲都已解锁大师模式时，你就可以将相应活动变为大师活动。",
+    "reason": "maxing out 是乐句等级升满，非每个乐句完美命中。"
+  },
+  "22647": {
+    "decision": "采纳",
+    "source": "To play Emulated Bass{C} please first properly calibrate and setup your guitar by selecting Guitar instead of Bass.  {L}{L}After you have completed Soundcheck{C} you can play emulated bass by selecting 'Start Bass Journey' in the Main Menu.",
+    "original": "要演奏模拟贝斯{C} 请先选择吉他而非贝斯，正确校准并设置您的吉他。  {L}{L}完成声音检查后{C} 您可以在主菜单中选择“开始贝斯之旅”来演奏模拟贝斯。",
+    "final": "要演奏模拟贝斯{C} 请先选择吉他而非贝斯，正确校准并设置你的吉他。  {L}{L}完成声音检查后{C} 你可以在主菜单中选择“开始贝斯之旅”来演奏模拟贝斯。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "22648": {
+    "decision": "采纳",
+    "source": "Would you like to start your guitar journey?",
+    "original": "您想开始您的吉他之旅吗？",
+    "final": "你想开始你的吉他之旅吗？",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "22658": {
+    "decision": "采纳",
+    "source": "To slap{C} use the side of your thumb's knuckle and bounce your string immediately after striking it.",
+    "original": "要演奏击弦{C} 用拇指指关节侧面敲击琴弦，并在敲击后立即弹起。",
+    "final": "要演奏拍弦{C} 用拇指指关节侧面敲击琴弦，并在敲击后立即弹起。",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "22674": {
+    "decision": "采纳",
+    "source": "Learn{C} practice{C} and master octaves & fifths.",
+    "original": "学习{C}练习{C}并掌握八度音与五度音。",
+    "final": "学习{C}练习{C}并掌握八度音程与五度音程。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "22675": {
+    "decision": "采纳",
+    "source": "Learn{C} practice{C} and master slap & pop.",
+    "original": "学习{C}练习{C}并掌握击勾弦技巧。",
+    "final": "学习{C}练习{C}并掌握拍弦与勾拍技巧。",
+    "reason": "修正Pop 技法，其余语义与条件保留。"
+  },
+  "22683": {
+    "decision": "采纳",
+    "source": "Please make sure you are on an electric guitar and not a bass guitar.",
+    "original": "请确保您使用的是电吉他，而不是贝斯。",
+    "final": "请确保你使用的是电吉他，而不是贝斯。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "22762": {
+    "decision": "采纳",
+    "source": "Also part of{L}[1]",
+    "original": "也是{L}[1]",
+    "final": "也是{L}[1]的一部分",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "22838": {
+    "decision": "采纳",
+    "source": "Tip: Press F1 to return your tone back to the song's authentic tone …",
+    "original": "提示：按 F1 可将音色恢复为歌曲的原声音色……",
+    "final": "提示：按 F1 可将音色恢复为歌曲的原曲音色……",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "22840": {
+    "decision": "采纳",
+    "source": "Press F4 to return your tone back to the song's authentic tone.",
+    "original": "按 F4 将音色恢复为歌曲的原生音色。",
+    "final": "按 F4 将音色恢复为歌曲的原曲音色。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "22845": {
+    "decision": "采纳",
+    "source": "Your save data will now be updated. Uninstalling the latest patch will cause your save data to be incompatible with previous versions of Rocksmith. If the patch is lost{C} please sign in to PlayStation®Network and download the latest patch.",
+    "original": "您的存档数据现在将更新。卸载最新补丁会导致存档数据与 Rocksmith 的旧版本不兼容。如果补丁丢失{C}请登录 PlayStation®Network 并下载最新补丁。",
+    "final": "你的存档数据现在将更新。卸载最新补丁会导致存档数据与 Rocksmith 的旧版本不兼容。如果补丁丢失{C}请登录 PlayStation®Network 并下载最新补丁。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "22873": {
+    "decision": "采纳",
+    "source": "This demo includes one of Rocksmith’s eight minigames designed to enhance your guitar skills.",
+    "original": "此演示包含 Rocksmith 八款迷你游戏之一，旨在提升您的吉他技巧。",
+    "final": "此演示包含 Rocksmith 八款迷你游戏之一，旨在提升你的吉他技巧。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "22885": {
+    "decision": "采纳",
+    "source": "Every song in Rocksmith features an authentic tone capturing the distinctive sounds of your favorite bands.",
+    "original": "Rocksmith 中的每首歌都具备真实音色，捕捉你喜爱乐队的独特声音。",
+    "final": "Rocksmith 中的每首歌都具备原曲音色，捕捉你喜爱乐队的独特声音。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "23131": {
+    "decision": "采纳",
+    "source": "6-inline",
+    "original": "6 串联",
+    "final": "6 联排",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "23426": {
+    "decision": "采纳",
+    "source": "Change profiles?",
+    "original": "更改配置文件？",
+    "final": "更改玩家档案？",
+    "reason": "修正玩家档案，其余语义与条件保留。"
+  },
+  "23427": {
+    "decision": "采纳",
+    "source": "Do you want to switch profiles?",
+    "original": "要切换配置文件吗？",
+    "final": "要切换玩家档案吗？",
+    "reason": "修正玩家档案，其余语义与条件保留。"
+  },
+  "23473": {
+    "decision": "采纳",
+    "source": "Phrygian Dominant",
+    "original": "弗里吉亚属调式",
+    "final": "弗里吉亚属音阶",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "23475": {
+    "decision": "采纳",
+    "source": "Pentatonic Minor",
+    "original": "Pentatonic Minor",
+    "final": "小调五声音阶",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "23483": {
+    "decision": "采纳",
+    "source": "These arpeggios are a great opportunity to put down your pick and play the guitar strings with your fingers.",
+    "original": "这些分解和弦是放下拨片、用手指弹奏琴弦的好机会。",
+    "final": "这些琶音是放下拨片、用手指弹奏琴弦的好机会。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "23490": {
+    "decision": "采纳",
+    "source": "Let's try playing that arpeggio pattern again{C} but this time{C} try playing it with your fingers.",
+    "original": "让我们再弹一次那个分解和弦模式{C} 但这次{C} 试着用手指弹奏。",
+    "final": "让我们再弹一次那个琶音模式{C} 但这次{C} 试着用手指弹奏。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "23759": {
+    "decision": "采纳",
+    "source": "Don't forget to put that first finger down on the first fret of the G string.",
+    "original": "别忘了把第一根手指按在 G 弦的第一品上。",
+    "final": "别忘了把食指按在 G 弦的第一品上。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "23788": {
+    "decision": "采纳",
+    "source": "Start with your 1st finger on the 3rd fret of the A string and your 3rd finger on the 5th fret of the D string.",
+    "original": "用第一指按A弦的第3品，第三指按D弦的第5品开始。",
+    "final": "用食指按A弦的第3品，无名指按D弦的第5品开始。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "23820": {
+    "decision": "采纳",
+    "source": "Your 2nd finger is on the wrong fret.",
+    "original": "你的食指按错了品。",
+    "final": "你的中指按错了品。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "23825": {
+    "decision": "采纳",
+    "source": "Double check that your first finger is still on the 1st fret of the B string and your 2nd finger is on the 2nd fret of the D string. Those notes aren't ringing out.",
+    "original": "请再次确认你的食指仍在B弦第1品，无名指在D弦第2品。这些音符没有响。",
+    "final": "请再次确认你的食指仍在B弦第1品，中指在D弦第2品。这些音符没有响。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "23833": {
+    "decision": "采纳",
+    "source": "There's something going on with the A string. Make sure your 3rd finger is on the 6th fret.",
+    "original": "A弦有些问题。请确保你的第3指按在第6品。",
+    "final": "A弦有些问题。请确保你的无名指按在第6品。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "23910": {
+    "decision": "采纳",
+    "source": "Start with your 1st finger playing the 7th fret of both the B and high E strings.",
+    "original": "用第一指弹奏B弦和高音E弦的第7品开始。",
+    "final": "用食指弹奏B弦和高音E弦的第7品开始。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "23928": {
+    "decision": "重译",
+    "source": "Your D string is ringing out. Mute it with the underside of your 1st finger so it doesn't sound.",
+    "original": "你的 D 弦在响。请用食指侧面将其闷住，以免发出声音。",
+    "final": "你的 D 弦在响。用食指下侧轻触它进行制音，让它停止发声。",
+    "reason": "underside 为下侧，修复将其制音搭配。"
+  },
+  "23930": {
+    "decision": "采纳",
+    "source": "Start with your 1st finger on the 2nd fret of the A string and your 3rd finger on the 4th fret of the G string. Be sure to mute the other strings so only those two sound when you strum.",
+    "original": "食指按在 A 弦第 2 品，中指按在 G 弦第 4 品。扫弦时务必制音其他琴弦，只让这两根弦发声。",
+    "final": "食指按在 A 弦第 2 品，无名指按在 G 弦第 4 品。扫弦时务必制音其他琴弦，只让这两根弦发声。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "24140": {
+    "decision": "重译",
+    "source": "Then{C} look down at your guitar and count the same number of strings down from your own top string.",
+    "original": "然后{C}低头看你的吉他，从你自己的最细弦开始数相同数量的弦。",
+    "final": "然后{C}低头看你的吉他，从最上方的琴弦开始向下数出相同数量的弦。",
+    "reason": "top 是空间方位，不能擅自指定最细弦。"
+  },
+  "24165": {
+    "decision": "采纳",
+    "source": "You can also explore over 300 existing Authentic Tones.",
+    "original": "你还可以探索超过 300 种现有的真实音色。",
+    "final": "你还可以探索超过 300 种现有的原曲音色。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "24181": {
+    "decision": "重译",
+    "source": "Play the double stop on the 7th fret{C} and then pull-off to the 5th fret.",
+    "original": "在第7品弹奏双音{C}然后拨弦至第5品。",
+    "final": "在第 7 品弹奏双音{C}然后勾弦至第 5 品。",
+    "reason": "pull-off 为勾弦，不是普通拨弦。"
+  },
+  "24259": {
+    "decision": "采纳",
+    "source": "Something's a little off here... Your picking hand might be too far from bridge. Slide it back a little more and try the palm mute again.",
+    "original": "这里有点不对劲……你的拨弦手可能离琴桥太远了。稍微往回移一点，再试试手掌护弦。",
+    "final": "这里有点不对劲……你的拨弦手可能离琴桥太远了。稍微往回移一点，再试试手掌制音。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "24338": {
+    "decision": "采纳",
+    "source": "You're not sliding quite far enough. This goes all the way up to the 5th fret.",
+    "original": "你的滑弦距离还不够。这个滑弦要一直滑到第5品。",
+    "final": "你的滑音距离还不够。这个滑音要一直滑到第5品。",
+    "reason": "修正滑音术语，其余语义与条件保留。"
+  },
+  "24549": {
+    "decision": "采纳",
+    "source": "Start with your 1st finger on the 5th fret of the E string and your 3rd or 4th finger on the 7th fret of the A string.",
+    "original": "食指按在 E 弦第 5 品，中指或无名指按在 A 弦第 7 品。",
+    "final": "食指按在 E 弦第 5 品，无名指或小指按在 A 弦第 7 品。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "24652": {
+    "decision": "采纳",
+    "source": "The note got muted after you played it. Make sure your thumb bounces off the string after you slap it{C} so the note can ring out.",
+    "original": "音符在弹奏后被制音了。确保拇指在拍击琴弦后弹开{C} 以便音符能够延音。",
+    "final": "音符在弹奏后被制音了。确保拇指在拍弦后弹开{C} 以便音符能够延音。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "24656": {
+    "decision": "采纳",
+    "source": "Sounds like you're on the wrong string. This pop happens on the D string.",
+    "original": "听起来弦不对。这个拨弦在D弦上。",
+    "final": "听起来弦不对。这个勾拍在D弦上。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "24657": {
+    "decision": "采纳",
+    "source": "Sounds like you're on the A string. This pop happens on the D string.",
+    "original": "听起来你在 A 弦上。这个拨弦在 D 弦上。",
+    "final": "听起来你在 A 弦上。这个勾拍在 D 弦上。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "24661": {
+    "decision": "采纳",
+    "source": "Mute the E string with your fretting hand and then slap it with your thumb.",
+    "original": "用按弦手闷住E弦，然后用拇指拨弦。",
+    "final": "用按弦手闷住E弦，然后用拇指拍弦。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "24666": {
+    "decision": "采纳",
+    "source": "Sounds like you're starting on the wrong note. This slide starts at the 5th fret.",
+    "original": "听起来起始音符不对。这个滑弦从第 5 品开始。",
+    "final": "听起来起始音符不对。这个滑音从第 5 品开始。",
+    "reason": "修正滑音术语，其余语义与条件保留。"
+  },
+  "24843": {
+    "decision": "采纳",
+    "source": "Let's try that slap first.",
+    "original": "让我们先试试击弦。",
+    "final": "让我们先试试拍弦。",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "24850": {
+    "decision": "采纳",
+    "source": "Mute the D string with your fretting hand and then pop it.",
+    "original": "用按弦手闷住 D 弦，然后拨弦。",
+    "final": "用按弦手闷住 D 弦，然后勾拍。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "24855": {
+    "decision": "采纳",
+    "source": "Mute the strings with your fretting hand{C} then play a muted slap and pop.",
+    "original": "用按弦手闷音{C} 然后演奏闷音的 slap 和 pop。",
+    "final": "用按弦手制音{C} 然后演奏闷音的拍弦和勾拍。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "24857": {
+    "decision": "采纳",
+    "source": "You're getting some extra notes in there. This time{C} try to make your slap and pop clean{C} so you don't get any extra notes sounding out.",
+    "original": "你加入了一些额外的音符。这次{C}试着让你的击弦和勾弦干净利落{C}这样就不会发出额外的音符。",
+    "final": "你加入了一些额外的音符。这次{C}试着让你的拍弦和勾拍干净利落{C}这样就不会发出额外的音符。",
+    "reason": "修正Slap 技法、Pop 技法，其余语义与条件保留。"
+  },
+  "24858": {
+    "decision": "采纳",
+    "source": "Sounds like you're getting an open string in there. Make sure you're muting the strings so they can't vibrate when you slap and pop them.",
+    "original": "听起来混进了空弦音。确保闷住琴弦，这样在击弦和勾弦时它们才不会振动。",
+    "final": "听起来混进了空弦音。确保闷住琴弦，这样在拍弦和勾拍时它们才不会振动。",
+    "reason": "修正Slap 技法、Pop 技法，其余语义与条件保留。"
+  },
+  "24932": {
+    "decision": "采纳",
+    "source": "Experiment with combining hammer-ons{C} pull-offs{C} slides{C} and mutes with your slap and pop playing.",
+    "original": "尝试将击弦{C} 勾弦{C} 滑音{C} 和闷音与你的拍弦和弹拨演奏结合起来。",
+    "final": "尝试将击弦{C} 勾弦{C} 滑音{C} 和闷音与你的拍弦和勾拍演奏结合起来。",
+    "reason": "修正Pop 技法，其余语义与条件保留。"
+  },
+  "24982": {
+    "decision": "采纳",
+    "source": "Frethand mutes go great with barre chords... you just release the pressure on the strings slightly to get the muted clicks{C} then press down again to get the chord.",
+    "original": "左手闷音非常适合横按和弦……你只需稍微放松对琴弦的压力以发出闷音咔哒声{C}然后再次按下以发出和弦声。",
+    "final": "左手制音非常适合横按和弦……你只需稍微放松对琴弦的压力以发出闷音咔哒声{C}然后再次按下以发出和弦声。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "24991": {
+    "decision": "采纳",
+    "source": "Combining multiple techniques together{C} like palm mutes with pull-offs{C} is a good way to expand the kinds of sounds you use.",
+    "original": "组合多种技巧{C}例如将手掌护弦与勾弦结合{C}是扩展你使用的音色种类的好方法。",
+    "final": "组合多种技巧{C}例如将手掌制音与勾弦结合{C}是扩展你使用的音色种类的好方法。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "25014": {
+    "decision": "重译",
+    "source": "Now let's try playing with a really popular scale{C} the Pentatonic Minor. This scale is a breeding ground for tons of Rock and Blues riffs{C} and its box shape is really distinct. Plenty of bands have made careers out of riffing on this scale alone.",
+    "original": "现在让我们尝试演奏一个非常流行的音阶{C}五声音阶小调。这个音阶是大量摇滚和布鲁斯乐句的源泉{C}而且它的箱型指法非常独特。许多乐队仅靠在这个音阶上即兴演奏就建立了职业生涯。",
+    "final": "现在我们来试试一种很常用的音阶{C}小调五声音阶。许多摇滚和蓝调乐句都源自这种音阶{C}它的箱型指型也十分鲜明。不少乐队仅凭围绕这种音阶创作乐句就闯出了事业。",
+    "reason": "保留 box shape 箱型特征，统一音阶、蓝调。"
+  },
+  "25026": {
+    "decision": "采纳",
+    "source": "Take some time to play around with different Roots and get comfortable with the idea of moving the Scale Shape around the fretboard.",
+    "original": "花点时间尝试不同的根音，并熟悉在指板上移动音阶形状的概念。",
+    "final": "花点时间尝试不同的根音，并熟悉在指板上移动音阶指型的概念。",
+    "reason": "修正指型术语，其余语义与条件保留。"
+  },
+  "25027": {
+    "decision": "重译",
+    "source": "Great. Now that you're comfortable with the idea of moving around the Scale Shape{C} let's take a look at a new scale.",
+    "original": "很好。既然你已经习惯了在音阶形状中移动{C}让我们来看看一个新的音阶。",
+    "final": "很好。既然你已经熟悉了移动音阶指型的方法{C}我们来看看一个新的音阶。",
+    "reason": "移动整个指型，不是在指型内部移动。"
+  },
+  "25121": {
+    "decision": "重译",
+    "source": "It's always dramatic when someone slides all the way up the neck to play a screaming solo on the higher frets. There is a cool trick that can get you there sooner than you might think.  {L}{L}Every Scale Shape has an exact copy of itself 12 frets higher on the neck. That position is an Octave higher. An easy way to jump 12 frets quickly is to pretend that the first dot after the double dots is actually 3{C} the second is a 5{C} and so on. {L}{L}In the next Session{C} try sliding up 12 frets to that higher Octave.",
+    "original": "当有人滑到琴颈高处演奏高把位尖叫独奏时，场面总是很震撼。有一个酷炫的技巧能让你比想象中更快到达那里。{L}{L}每个音阶形状在琴颈高12品处都有一个完全相同的复制品。那个位置高一个八度。快速跳转12品的简单方法是假装双点后的第一个点是3{C}第二个点是5{C}以此类推。{L}{L}在下一次即兴演奏中{C}试着向上滑12品到那个高八度位置。",
+    "final": "当有人沿琴颈滑到高把位，奏出高亢的独奏时，总是很有表现力。有个巧妙的方法能让你更快找到那个位置。{L}{L}每个音阶指型在高 12 品的位置都有一个完全相同的指型，音高高一个八度。要快速上移 12 品，可以把双点标记后的第一个圆点当作第 3 品{C}第二个当作第 5 品{C}以此类推。{L}{L}在下一次即兴演奏中{C}试着向上滑 12 品，到达高一个八度的位置。",
+    "reason": "修复指型，避免高八度音程位置的生硬表达。"
+  },
+  "25150": {
+    "decision": "采纳",
+    "source": "Phrygian Dominant is only one note different from Phrygian. Phrygian Dominant has that iconic Spanish guitar sound. Even though it's got classical roots{C} it’s a known favorite of both surf and metal musicians.",
+    "original": "弗里吉亚属调与弗里吉亚调仅有一个音符不同。弗里吉亚属调具有标志性的西班牙吉他音色。尽管它源于古典音乐{C} 但它却是冲浪摇滚和金属乐手公认的最爱。",
+    "final": "弗里吉亚属音阶与弗里吉亚音阶仅有一个音符不同。弗里吉亚属音阶具有标志性的西班牙吉他音色。尽管它源于古典音乐{C} 但它却是冲浪摇滚和金属乐手公认的最爱。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "25165": {
+    "decision": "重译",
+    "source": "Remember{C} calibration is super important in Session Mode. If you switch guitars{C} or if you feel like the band isn't following your cues{C} take a second to recalibrate your guitar.",
+    "original": "记住{C}在 Session Mode 中校准非常重要。如果您更换吉他{C}或者感觉乐队没有跟随您的提示{C}请花一点时间重新校准您的吉他。",
+    "final": "记住{C}在即兴演奏模式中，校准非常重要。如果你更换吉他{C}或者感觉乐队没有跟随你的提示{C}请花一点时间重新校准吉他。",
+    "reason": "补译 Session Mode，执行玩家代词规则。"
+  },
+  "25168": {
+    "decision": "采纳",
+    "source": "Did you notice that some of the riffs in Learn-A-Song use the same Scale Shapes you came across in Session Mode? It can be fun playing those riffs in your Sessions.",
+    "original": "你注意到“学习歌曲”中的一些乐句使用了你在“即兴演奏”中遇到的相同音阶形状吗？在“即兴演奏”中演奏这些乐句会很有趣。",
+    "final": "你注意到“学习歌曲”中的一些乐句使用了你在“即兴演奏”中遇到的相同音阶指型吗？在“即兴演奏”中演奏这些乐句会很有趣。",
+    "reason": "修正指型术语，其余语义与条件保留。"
+  },
+  "25373": {
+    "decision": "采纳",
+    "source": "Frethand mutes are a great way to add a percussive element to your playing. You just touch the string with your fingers to stop it from vibrating when you play it.",
+    "original": "按弦手制音是向演奏中添加打击乐元素的好方法。你只需在弹奏时用手指触碰琴弦以阻止其振动。",
+    "final": "左手制音是向演奏中添加打击乐元素的好方法。你只需在弹奏时用手指触碰琴弦以阻止其振动。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "25435": {
+    "decision": "采纳",
+    "source": "You just can't get that classic funky bass sound going without learning how to slap. So stick out your thumb{C} and give those strings a whack.",
+    "original": "如果不学会击弦，你就无法获得那种经典的放克贝斯音色。所以伸出你的拇指{C} 用力敲击琴弦。",
+    "final": "如果不学会拍弦，你就无法获得那种经典的放克贝斯音色。所以伸出你的拇指{C} 用力敲击琴弦。",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "25443": {
+    "decision": "采纳",
+    "source": "Slapping and popping go hand in hand. To pop the string{C} you curl your finger under it{C} pull up{C} and then release.",
+    "original": "击打和勾弦相辅相成。要勾弦{C} 将手指卷到琴弦下方{C} 向上拉{C} 然后松开。",
+    "final": "拍弦和勾拍相辅相成。要勾拍{C} 将手指卷到琴弦下方{C} 向上拉{C} 然后松开。",
+    "reason": "修正Pop 技法，其余语义与条件保留。"
+  },
+  "25455": {
+    "decision": "重译",
+    "source": "Notes with a big X on them are palm mutes. When you see one of those{C} mute the strings with the heel of your playing hand before you play the note.",
+    "original": "带有大 X 标记的音符是手掌护弦。当您看到这种音符时{C} 在演奏音符前，用演奏手的掌根护住琴弦。",
+    "final": "带有大 X 标记的音符是手掌制音。当你看到这种音符时{C}先用拨弦手的掌根轻压琴弦，再弹奏音符。",
+    "reason": "候选遗留您，动作搭配不自然。"
+  },
+  "25469": {
+    "decision": "采纳",
+    "source": "Combining multiple techniques together{C} like palm mutes with hammer-ons{C} is a great way to expand the variety of sounds you can make.",
+    "original": "将多种技巧组合在一起{C}例如将手掌护弦与击弦结合{C}是扩展可演奏音色多样性的绝佳方式。",
+    "final": "将多种技巧组合在一起{C}例如将手掌制音与击弦结合{C}是扩展可演奏音色多样性的绝佳方式。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "25473": {
+    "decision": "采纳",
+    "source": "Mix some muted notes into your slapping to give it that classic percussive sound.",
+    "original": "在击弦中加入一些闷音，以营造经典的打击乐效果。",
+    "final": "在拍弦中加入一些闷音，以营造经典的打击乐效果。",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "25474": {
+    "decision": "采纳",
+    "source": "Practice your slap bass slowly at first{C} then work on building up your speed.",
+    "original": "起初请慢速练习你的Slap Bass{C}然后努力提升速度。",
+    "final": "起初请慢速练习拍弦{C}然后努力提升速度。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "25486": {
+    "decision": "采纳",
+    "source": "You can combine all kinds of techniques... Let's try a pop with a harmonic.",
+    "original": "你可以组合各种技巧……让我们试试带泛音的击弦。",
+    "final": "你可以组合各种技巧……让我们试试带泛音的勾拍。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "25513": {
+    "decision": "采纳",
+    "source": "It might take some practice to play the accents while your hand is in a palm mute position{C} but keep at it and you'll have it down in no time.",
+    "original": "在手部处于手掌闷音位置时演奏重音可能需要一些练习{C}但坚持下来，你很快就能掌握。",
+    "final": "在手部处于手掌制音位置时演奏重音可能需要一些练习{C}但坚持下来，你很快就能掌握。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "25650": {
+    "decision": "重译",
+    "source": "Master scales by fighting crime!  Play the highlighted notes to attack{C} and run through the scales to rack up combos.",
+    "original": "大师通过打击犯罪来练习音阶！ 弹奏高亮音符进行攻击{C}并快速通过音阶以累积连击。",
+    "final": "通过打击犯罪来掌握音阶！弹奏高亮音符进行攻击{C}并依次弹奏音阶来累积连击。",
+    "reason": "Master 为掌握非大师；run through 不强加快速。"
+  },
+  "25711": {
+    "decision": "重译",
+    "source": "Scale Warriors is a great way to master multiple Scale Shapes{C} which you can turn right around and apply in Session Mode.",
+    "original": "音阶战士是掌握多种音阶型式的绝佳方式{C} 您可以立即在即兴演奏模式中应用。",
+    "final": "音阶战士是掌握多种音阶指型的绝佳方式{C}你可以立即将这些指型应用到即兴演奏模式中。",
+    "reason": "候选遗留您。"
+  },
+  "26046": {
+    "decision": "采纳",
+    "source": "All the songs in Rocksmith have Authentic Tones. Let's load up a tone from a song you like.",
+    "original": "Rocksmith 中的所有歌曲都拥有真实音色。让我们加载一首你喜欢的歌曲的音色。",
+    "final": "Rocksmith 中的所有歌曲都拥有原曲音色。让我们加载一首你喜欢的歌曲的音色。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "26048": {
+    "decision": "重译",
+    "source": "While in AutoPilot{C} Rocksmith will always choose the Authentic Tone for what you are playing{C} BUT you can switch to any Tone at any time using the Tone Stick. Let's assign a Tone to the Tone Stick now.",
+    "original": "在自动演奏模式下{C}Rocksmith 总是为你演奏的内容选择真实音色{C}但你随时可以使用音色条切换到任何音色。现在让我们给音色条分配一个音色。",
+    "final": "在自动模式下{C}Rocksmith 会根据你正在演奏的内容选择原曲音色{C}但你随时可以通过音色摇杆切换到其他音色。现在，让我们为音色摇杆分配一个音色。",
+    "reason": "AutoPilot 控制音色选择，非自动演奏；Tone Stick 沿用 review.md。"
+  },
+  "26054": {
+    "decision": "采纳",
+    "source": "When you're done creating a tone{C} Rocksmith auto-balances the volume of that tone{C} so all your custom and authentic tones are at around the same volume. We highly recommend the auto-balance{C} but go ahead and try your luck at manually balancing your guitar tone.",
+    "original": "当你完成音色创建后{C}Rocksmith 会自动平衡该音色的音量{C}使所有自定义和真实音色的音量大致相同。我们强烈建议使用自动平衡{C}但你可以尝试手动平衡你的吉他音色。",
+    "final": "当你完成音色创建后{C}Rocksmith 会自动平衡该音色的音量{C}使所有自定义和原曲音色的音量大致相同。我们强烈建议使用自动平衡{C}但你可以尝试手动平衡你的吉他音色。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "26068": {
+    "decision": "重译",
+    "source": "Picking hand techniques include things like tremolo{C} palm mutes{C} and accents.",
+    "original": "拨弦手技巧包括颤音{C} 手掌闷音{C} 和重音。",
+    "final": "拨弦手技巧包括快速交替拨弦{C}手掌制音{C}以及重音。",
+    "reason": "tremolo 在此为拨弦动作，非揉弦颤音。"
+  },
+  "26486": {
+    "decision": "重译",
+    "source": "While in Auto{C} Rocksmith will always choose the Authentic Tone for what you are playing{C} BUT you can switch to any Tone at any time using the Tone Stick. Let's assign a Tone to the Tone Stick now.",
+    "original": "在自动模式下{C}Rocksmith 总是为你演奏的内容选择真实音色{C}但你随时可以使用音色条切换到任何音色。让我们现在为音色条分配一个音色。",
+    "final": "在自动模式下{C}Rocksmith 会根据你正在演奏的内容选择原曲音色{C}但你随时可以通过音色摇杆切换到其他音色。现在，让我们为音色摇杆分配一个音色。",
+    "reason": "AutoPilot 控制音色选择，非自动演奏；Tone Stick 沿用 review.md。"
+  },
+  "26588": {
+    "decision": "重译",
+    "source": "Fingerstyle guitar is just what it sounds like – you play the strings with your fingers instead of a pick. You can play one note at a time{C} or play arpeggio patterns with your thumb and fingers.",
+    "original": "指弹吉他顾名思义——用指尖拨弦而非拨片。你可以一次弹奏一个音符{C}或用拇指和手指演奏分解和弦音型。",
+    "final": "指弹吉他顾名思义——用手指代替拨片拨弦。你可以一次弹奏一个音符{C}也可以用拇指和其他手指弹奏琶音音型。",
+    "reason": "保留 patterns，明确拇指与其他手指。"
+  },
+  "26672": {
+    "decision": "采纳",
+    "source": "Load a Scale Shape: Pentatonic Minor.",
+    "original": "加载音阶形状：小调五声音阶。",
+    "final": "加载音阶指型：小调五声音阶。",
+    "reason": "修正指型术语，其余语义与条件保留。"
+  },
+  "26699": {
+    "decision": "重译",
+    "source": "Learn a Scale Shape: Pentatonic Major.",
+    "original": "学习音阶形态：五声音阶大调。",
+    "final": "学习音阶指型：大调五声音阶。",
+    "reason": "统一 Pentatonic Major 语序。"
+  },
+  "26754": {
+    "decision": "重译",
+    "source": "Play Chord Tones on the Downbeat",
+    "original": "在重拍上弹奏和弦音",
+    "final": "在小节首拍弹奏和弦音",
+    "reason": "依据 35303 定义，不套用扫弦正拍规则。"
+  },
+  "26759": {
+    "decision": "重译",
+    "source": "Play Chord Tones on Downbeats to use timing in your Phrasing.",
+    "original": "在强拍上演奏和弦音，利用节奏感进行乐句处理。",
+    "final": "在小节首拍弹奏和弦音，运用节拍位置来组织乐句。",
+    "reason": "依据 35303 定义。"
+  },
+  "26764": {
+    "decision": "重译",
+    "source": "Use Chord Tones on the Downbeat to ground your Phrasing.",
+    "original": "在重拍上使用和弦音来稳固你的乐句演奏。",
+    "final": "在小节首拍弹奏和弦音，让乐句更加稳固。",
+    "reason": "依据 35303 定义。"
+  },
+  "26824": {
+    "decision": "采纳",
+    "source": "DARK DAYS",
+    "original": "DARK DAYS",
+    "final": "黑暗岁月",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "26828": {
+    "decision": "采纳",
+    "source": "Slide the Scale Shape up an Octave.",
+    "original": "将音阶形状上移一个八度。",
+    "final": "将音阶指型上移一个八度。",
+    "reason": "修正指型术语，其余语义与条件保留。"
+  },
+  "26843": {
+    "decision": "重译",
+    "source": "Learn a Scale Shape: Lydian.",
+    "original": "学习音阶形态：Lydian。",
+    "final": "学习音阶指型：利底亚音阶。",
+    "reason": "候选漏译 Lydian。"
+  },
+  "26854": {
+    "decision": "采纳",
+    "source": "THINGS CHANGE",
+    "original": "THINGS CHANGE",
+    "final": "世事变迁",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "26856": {
+    "decision": "采纳",
+    "source": "Change the Complexity to Progressive.",
+    "original": "将难度更改为渐进式。",
+    "final": "将复杂度更改为渐进式。",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "26864": {
+    "decision": "重译",
+    "source": "Learn a Scale Shape: Blues.",
+    "original": "学习音阶形态：布鲁斯。",
+    "final": "学习音阶指型：蓝调音阶。",
+    "reason": "统一 Blues。"
+  },
+  "26865": {
+    "decision": "采纳",
+    "source": "DEAL WITH THE DEVIL",
+    "original": "DEAL WITH THE DEVIL",
+    "final": "与魔鬼交易",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "26872": {
+    "decision": "采纳",
+    "source": "Play the Phrygian Dominant Scale Notes.",
+    "original": "演奏弗里吉亚属调音阶音符。",
+    "final": "演奏弗里吉亚属音阶音符。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "26890": {
+    "decision": "重译",
+    "source": "Play Scale Shapes in a variety of positions along the neck.",
+    "original": "在琴颈的不同位置弹奏多种音阶形态。",
+    "final": "在琴颈的不同位置弹奏音阶指型。",
+    "reason": "variety 修饰位置，不额外要求多种指型。"
+  },
+  "26903": {
+    "decision": "采纳",
+    "source": "Explore Session Mode!",
+    "original": "探索即兴演奏！",
+    "final": "探索即兴演奏模式！",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "26962": {
+    "decision": "采纳",
+    "source": "SHORT AND SWEET",
+    "original": "SHORT AND SWEET",
+    "final": "短小精悍",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "26965": {
+    "decision": "采纳",
+    "source": "Successfully hit a palm mute.",
+    "original": "成功演奏了一个闷音。",
+    "final": "成功演奏了一个手掌制音。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "26977": {
+    "decision": "采纳",
+    "source": "DIVERSITY TRAINING",
+    "original": "DIVERSITY TRAINING",
+    "final": "多元化培训",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "27001": {
+    "decision": "采纳",
+    "source": "HARMONIC? AHHH...",
+    "original": "和声？啊……",
+    "final": "泛音？啊……",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "27021": {
+    "decision": "采纳",
+    "source": "WHAT'S THE PLAN?",
+    "original": "WHAT'S THE PLAN?",
+    "final": "计划是什么？",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "27077": {
+    "decision": "采纳",
+    "source": "RETURN TO SESSION MODE",
+    "original": "返回即兴演奏",
+    "final": "返回即兴演奏模式",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "27085": {
+    "decision": "采纳",
+    "source": "COMPLEXITY",
+    "original": "COMPLEXITY",
+    "final": "复杂度",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "27106": {
+    "decision": "采纳",
+    "source": "Phrygian Dominant",
+    "original": "弗里吉亚属调式",
+    "final": "弗里吉亚属音阶",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "27109": {
+    "decision": "采纳",
+    "source": "Pentatonic Major",
+    "original": "Pentatonic Major",
+    "final": "大调五声音阶",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "27151": {
+    "decision": "采纳",
+    "source": "Slap Bass",
+    "original": "击打贝斯",
+    "final": "拍弦贝斯",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "27187": {
+    "decision": "重译",
+    "source": "Overdriven Sine Pad",
+    "original": "过载正弦垫音",
+    "final": "过载正弦波铺底音色",
+    "reason": "与同名大写项统一。"
+  },
+  "27189": {
+    "decision": "采纳",
+    "source": "Hexagon Pad",
+    "original": "六边形垫",
+    "final": "六边形铺底音色",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "27190": {
+    "decision": "采纳",
+    "source": "Tremolo Pad",
+    "original": "颤音垫",
+    "final": "颤音铺底音色",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "27211": {
+    "decision": "采纳",
+    "source": "Record Crackle",
+    "original": "Record Crackle",
+    "final": "唱片噼啪声",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "27407": {
+    "decision": "采纳",
+    "source": "BLAST FROM THE PAST",
+    "original": "BLAST FROM THE PAST",
+    "final": "昔日经典",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "27463": {
+    "decision": "采纳",
+    "source": "SESSION DRUMS",
+    "original": "SESSION DRUMS",
+    "final": "即兴鼓组",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "27497": {
+    "decision": "采纳",
+    "source": "RED CARTRIDGE",
+    "original": "RED CARTRIDGE",
+    "final": "红色卡带",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "27510": {
+    "decision": "采纳",
+    "source": "OVERDRIVEN SINE PAD",
+    "original": "过载正弦波垫音",
+    "final": "过载正弦波铺底音色",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "27657": {
+    "decision": "采纳",
+    "source": "Create a custom tone plan with all unique{C} custom-created tones",
+    "original": "创建包含所有独特{C}自定义音色",
+    "final": "创建包含所有独特{C}自定义音色的自定义音色方案",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "27691": {
+    "decision": "采纳",
+    "source": "Score at least [1] points in Hurtlin' Hurdles",
+    "original": "至少得分 [1] 分在 Hurtlin' Hurdles",
+    "final": "在 Hurtlin' Hurdles 中至少得分 [1] 分",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "27693": {
+    "decision": "采纳",
+    "source": "Score [1] points in Harmonic Heist",
+    "original": "得分 [1] 分（Harmonic Heist）",
+    "final": "在 Harmonic Heist 中得分 [1] 分",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "27695": {
+    "decision": "采纳",
+    "source": "Score [1] points in Scale Racer",
+    "original": "得分 [1] 分于音阶竞速",
+    "final": "在音阶竞速中得分 [1] 分",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "27701": {
+    "decision": "采纳",
+    "source": "Score [1] points in Go Go Arpeggio!",
+    "original": "得分 [1] 分于 Go Go Arpeggio！",
+    "final": "在 Go Go Arpeggio! 中得分 [1] 分。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "27703": {
+    "decision": "采纳",
+    "source": "Score [1] points in String Skip Saloon",
+    "original": "得分 [1] 分在 String Skip Saloon",
+    "final": "在 String Skip Saloon 中得分 [1] 分",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "27707": {
+    "decision": "采纳",
+    "source": "Clear 30 songs on Score Attack Medium{C} Hard or Master",
+    "original": "在得分挑战中等难度下通关 30 首歌曲{C}或困难/大师难度",
+    "final": "在得分挑战中等难度{C}困难或大师难度下通关 30 首歌曲",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "27712": {
+    "decision": "采纳",
+    "source": "…and It Wasn't a Fluke",
+    "original": "…and It Wasn't a Fluke",
+    "final": "……而且这不是侥幸",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "27717": {
+    "decision": "采纳",
+    "source": "Get Platinum on Score Attack Medium{C} Hard or Master",
+    "original": "在得分挑战中等难度获得白金{C}，或在困难或大师难度获得",
+    "final": "在得分挑战中等难度{C}困难或大师难度获得白金",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "27773": {
+    "decision": "采纳",
+    "source": "Palm mutes look like this:",
+    "original": "手掌闷音看起来像这样：",
+    "final": "手掌制音看起来像这样：",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "27777": {
+    "decision": "采纳",
+    "source": "Slaps look like this:",
+    "original": "击打看起来像这样：",
+    "final": "拍弦看起来像这样：",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "27781": {
+    "decision": "采纳",
+    "source": "Pops look like this:",
+    "original": "勾弦看起来像这样：",
+    "final": "勾拍看起来像这样：",
+    "reason": "修正Pop 技法，其余语义与条件保留。"
+  },
+  "27796": {
+    "decision": "重译",
+    "source": "This is a slap frethand mute.",
+    "original": "这是击弦制音。",
+    "final": "这是拍弦左手制音。",
+    "reason": "候选漏译 frethand。"
+  },
+  "27797": {
+    "decision": "采纳",
+    "source": "Mute with your frethand while slapping.",
+    "original": "弹击时用左手制音。",
+    "final": "拍弦时用左手制音。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "27853": {
+    "decision": "采纳",
+    "source": "You want to be on the E string...",
+    "original": "你需要在 E 弦上...",
+    "final": "你需要在 E 弦上……",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "27928": {
+    "decision": "采纳",
+    "source": "Time to dive in.",
+    "original": "是时候深入练习了。",
+    "final": "开始练习吧。",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "28379": {
+    "decision": "采纳",
+    "source": "Speeding up again...",
+    "original": "正在加速...",
+    "final": "正在加速……",
+    "reason": "规范中文省略号，含义不变。"
+  },
+  "28489": {
+    "decision": "重译",
+    "source": "This is a pop frethand mute:",
+    "original": "这是一个流行风格的制音技巧：",
+    "final": "这是勾拍左手制音：",
+    "reason": "Pop 为勾拍，不是流行风格。"
+  },
+  "28707": {
+    "decision": "采纳",
+    "source": "Repeat the chord or double stop you just played.",
+    "original": "重复您刚才演奏的和弦或双音。",
+    "final": "重复你刚才演奏的和弦或双音。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "28718": {
+    "decision": "采纳",
+    "source": "Mute unused strings with your finger.",
+    "original": "用手指闷住未使用的琴弦。",
+    "final": "用手指制音未使用的琴弦。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "28748": {
+    "decision": "采纳",
+    "source": "Octave",
+    "original": "八度",
+    "final": "八度音程",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "28852": {
+    "decision": "采纳",
+    "source": "PROGRESSIVE PAD",
+    "original": "渐进式音垫",
+    "final": "渐进式铺底音色",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。 **待核：见 C 节。**"
+  },
+  "28965": {
+    "decision": "采纳",
+    "source": "GOLD CARTRIDGE",
+    "original": "金色唱头",
+    "final": "金色卡带",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "28972": {
+    "decision": "采纳",
+    "source": "SKY PAD",
+    "original": "天空垫",
+    "final": "天空铺底音色",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "28974": {
+    "decision": "采纳",
+    "source": "OVERDRIVEN SINE PAD",
+    "original": "过载正弦波垫音",
+    "final": "过载正弦波铺底音色",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "28976": {
+    "decision": "采纳",
+    "source": "HEXAGON PAD",
+    "original": "六边形垫",
+    "final": "六边形铺底音色",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "29027": {
+    "decision": "采纳",
+    "source": "BLUES",
+    "original": "布鲁斯",
+    "final": "蓝调",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "29072": {
+    "decision": "采纳",
+    "source": "Raise your Chord Shapes rating.",
+    "original": "提升你的和弦指法评级。",
+    "final": "提升你的和弦指型评级。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "29077": {
+    "decision": "采纳",
+    "source": "SLAPPIN' THE BASS",
+    "original": "SLAPPIN' THE BASS",
+    "final": "拍弦贝斯",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "29108": {
+    "decision": "采纳",
+    "source": "CLIMBING THE CHARTS",
+    "original": "CLIMBING THE CHARTS",
+    "final": "登上排行榜",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "29138": {
+    "decision": "重译",
+    "source": "Keep [1] Happy for [2] minutes.",
+    "original": "保留 [1] Happy 为 [2] 分钟。",
+    "final": "让 [1] 保持满意状态，持续 [2] 分钟。",
+    "reason": "Happy 是状态，不应残留英文；状态用词待核。 **待核：见 C 节。**"
+  },
+  "29197": {
+    "decision": "重译",
+    "source": "Beat Chapter [1] in Return to Castle Chordead.",
+    "original": "击败章节 [1] 在《重返和弦城堡》中。",
+    "final": "在《重返和弦城堡》中通关第 [1] 章。",
+    "reason": "章节用通关，不是击败。"
+  },
+  "29199": {
+    "decision": "重译",
+    "source": "Beat Chapter [1] in Scale Warriors.",
+    "original": "在《Scale Warriors》中[1]击败第 章。",
+    "final": "在《音阶战士》中通关第 [1] 章。",
+    "reason": "统一小游戏名，章节用通关。"
+  },
+  "29232": {
+    "decision": "采纳",
+    "source": "PRACTICE MAKES PERFECT",
+    "original": "PRACTICE MAKES PERFECT",
+    "final": "熟能生巧",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "29277": {
+    "decision": "重译",
+    "source": "SELECTIVE STUDIES",
+    "original": "SELECTIVE STUDIES",
+    "final": "专项研习",
+    "reason": "教学标题不宜用科研式的选择性研究，关联任务双关待核。 **待核：见 C 节。**"
+  },
+  "29281": {
+    "decision": "采纳",
+    "source": "PUTTING IT TOGETHER",
+    "original": "PUTTING IT TOGETHER",
+    "final": "综合运用",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "29287": {
+    "decision": "采纳",
+    "source": "HOLD IT RIGHT THERE",
+    "original": "HOLD IT RIGHT THERE",
+    "final": "就停在这里",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "29303": {
+    "decision": "重译",
+    "source": "TIME TO REARRANGE",
+    "original": "TIME TO REARRANGE",
+    "final": "该换个编曲了",
+    "reason": "Time to 是该做某事；编曲语境暂译，任务映射待核。 **待核：见 C 节。**"
+  },
+  "29346": {
+    "decision": "采纳",
+    "source": "GROOVE",
+    "original": "放克",
+    "final": "律动",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "30062": {
+    "decision": "采纳",
+    "source": "LYDIAN JAM",
+    "original": "LYDIAN JAM",
+    "final": "利底亚即兴",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "30068": {
+    "decision": "采纳",
+    "source": "DORIAN FUNK",
+    "original": "DORIAN FUNK",
+    "final": "多利亚放克",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "30100": {
+    "decision": "重译",
+    "source": "SIMPLE BLUES",
+    "original": "SIMPLE BLUES",
+    "final": "简单蓝调",
+    "reason": "与 29027 Blues 译名统一。"
+  },
+  "30120": {
+    "decision": "重译",
+    "source": "COMPLEX BLUES",
+    "original": "COMPLEX BLUES",
+    "final": "复杂蓝调",
+    "reason": "与 29027 Blues 译名统一。"
+  },
+  "30257": {
+    "decision": "采纳",
+    "source": "HEAVY METAL",
+    "original": "HEAVY METAL",
+    "final": "重金属",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "30353": {
+    "decision": "重译",
+    "source": "A Cali custom shop '70s-style amp.",
+    "original": "一款 Cali 定制车间 70 年代风格 amp。",
+    "final": "一款加州定制工坊风格的 70 年代音箱。",
+    "reason": "Cali 暂按地域风格，内部系列名待核。 **待核：见 C 节。**"
+  },
+  "30364": {
+    "decision": "采纳",
+    "source": "A high-watt solid state amp.",
+    "original": "高瓦数电子管音箱。",
+    "final": "高瓦数晶体管音箱。",
+    "reason": "修正solid state 电路区分，其余语义与条件保留。"
+  },
+  "30390": {
+    "decision": "采纳",
+    "source": "A US-style classic combo.",
+    "original": "一款美式经典组合音箱。",
+    "final": "一款美式经典一体式音箱。",
+    "reason": "修正combo 设备结构，其余语义与条件保留。"
+  },
+  "30394": {
+    "decision": "重译",
+    "source": "A 1935 vintage combo model with a10-watt amp.",
+    "original": "一款 1935 年的复古组合型号，配备 10 瓦音箱。",
+    "final": "一款 1935 年的复古一体式音箱，功率为 10 瓦。",
+    "reason": "不凭空增加独立音箱头。"
+  },
+  "30396": {
+    "decision": "重译",
+    "source": "A circa 1936 vintage combo model with a15-watt amp.",
+    "original": "一款约 1936 年的复古一体式型号，配备 15 瓦音箱。",
+    "final": "一款约 1936 年的复古一体式音箱，功率为 15 瓦。",
+    "reason": "保留 circa，去掉增译音箱头。"
+  },
+  "30400": {
+    "decision": "重译",
+    "source": "A 1955 Epiphone® high-power combo with a 30-watt amp.",
+    "original": "一款 1955 年 Epiphone® 高功率组合音箱，配备 30 瓦 amp。",
+    "final": "一款 1955 年的 Epiphone® 高功率一体式音箱，功率为 30 瓦。",
+    "reason": "避免音箱配音箱，保留品牌、参数。"
+  },
+  "30418": {
+    "decision": "采纳",
+    "source": "A very unique solid state amp built by Orange.",
+    "original": "Orange 制造的非常独特的电子管音箱。",
+    "final": "Orange 制造的非常独特的晶体管音箱。",
+    "reason": "修正solid state 电路区分，其余语义与条件保留。"
+  },
+  "30447": {
+    "decision": "采纳",
+    "source": "A boutique transistor bass head.",
+    "original": "一款精品晶体管贝斯头。",
+    "final": "一款精品晶体管贝斯音箱头。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "30451": {
+    "decision": "采纳",
+    "source": "A classic transistor bass head with tone-shaping EQ.",
+    "original": "一款带有音色塑形均衡的经典晶体管贝斯头。",
+    "final": "一款带有音色塑形均衡的经典晶体管贝斯音箱头。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "30455": {
+    "decision": "重译",
+    "source": "A classic tube bass head with deep drive and plenty of bite.",
+    "original": "一款经典电子管贝斯头，驱动深沉，咬劲十足。",
+    "final": "一款经典电子管贝斯音箱头，过载饱满，音色锐利。",
+    "reason": "drive 是音色描述，不是驱动深沉。"
+  },
+  "30457": {
+    "decision": "重译",
+    "source": "A boutique tube bass head with plenty of drive.",
+    "original": "一款驱动感十足的精品电子管贝斯头。",
+    "final": "一款过载感十足的精品电子管贝斯音箱头。",
+    "reason": "修复 head 与 drive。"
+  },
+  "30463": {
+    "decision": "采纳",
+    "source": "A classic Orange bass head with lots of gain and deep tone.",
+    "original": "一款经典 Orange 贝斯头，增益丰富，音色深沉。",
+    "final": "一款经典 Orange 贝斯音箱头，增益丰富，音色深沉。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "30525": {
+    "decision": "重译",
+    "source": "Adds a classic flanger effect for jet-plane swooshes and fast liquid modulation.",
+    "original": "添加经典颤音效果，产生喷气式飞机呼啸声和快速液体调制效果。",
+    "final": "添加经典镶边效果，产生喷气式飞机般的呼啸声和快速流动的调制音色。",
+    "reason": "Flanger 为镶边，liquid 为听感比喻。"
+  },
+  "30526": {
+    "decision": "采纳",
+    "source": "Modern Flanger",
+    "original": "现代颤音",
+    "final": "现代镶边效果",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "30537": {
+    "decision": "采纳",
+    "source": "A special fuzz pedal with extended tone control and tons of fuzz.",
+    "original": "带有扩展音色控制和大量失真音色的特殊法兹效果器。",
+    "final": "带有扩展音色控制和大量法兹音色的特殊法兹效果器。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "30658": {
+    "decision": "采纳",
+    "source": "Orange OBC115 Bass Cab",
+    "original": "Orange OBC115 贝斯音箱",
+    "final": "Orange OBC115 贝斯箱体",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30661": {
+    "decision": "采纳",
+    "source": "A classic Orange 8x10 bass cab.",
+    "original": "一款经典 Orange 8x10 贝斯音箱。",
+    "final": "一款经典 Orange 8x10 贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30663": {
+    "decision": "采纳",
+    "source": "A classic 8x10 bass cab.",
+    "original": "一款经典8x10贝斯音箱。",
+    "final": "一款经典8x10贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30665": {
+    "decision": "采纳",
+    "source": "A classic closed-back 1x15 bass cab.",
+    "original": "一款经典封闭式1x15贝斯音箱。",
+    "final": "一款经典封闭式1x15贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30673": {
+    "decision": "采纳",
+    "source": "A unique multi-speaker bass cab.",
+    "original": "一款独特的多扬声器贝斯音箱。",
+    "final": "一款独特的多扬声器贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30675": {
+    "decision": "采纳",
+    "source": "A classic ported 2x10 cab.",
+    "original": "一款经典倒相式 2x10 音箱。",
+    "final": "一款经典倒相式 2x10 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30679": {
+    "decision": "采纳",
+    "source": "A unique 3x12 folded bass cab.",
+    "original": "独特的 3x12 折叠式贝斯音箱。",
+    "final": "独特的 3x12 折叠式贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。 **待核：见 C 节。**"
+  },
+  "30683": {
+    "decision": "采纳",
+    "source": "A custom 1x12 bass cab.",
+    "original": "一款定制 1x12 贝斯音箱。",
+    "final": "一款定制 1x12 贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30685": {
+    "decision": "采纳",
+    "source": "A vintage 4x15 bass cab.",
+    "original": "复古 4x15 贝斯音箱。",
+    "final": "复古 4x15 贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30689": {
+    "decision": "采纳",
+    "source": "An 8-inch open-back combo.",
+    "original": "一款8英寸开放式背板组合音箱。",
+    "final": "一款 8 英寸开放式背板一体式音箱。",
+    "reason": "修正combo 设备结构，其余语义与条件保留。"
+  },
+  "30691": {
+    "decision": "采纳",
+    "source": "A 10-inch open-back combo.",
+    "original": "一款 10 英寸开放式背板组合音箱。",
+    "final": "一款 10 英寸开放式背板一体式音箱。",
+    "reason": "修正combo 设备结构，其余语义与条件保留。"
+  },
+  "30693": {
+    "decision": "采纳",
+    "source": "A 12-inch closed-back combo.",
+    "original": "一款 12 英寸封闭式箱体组合音箱。",
+    "final": "一款 12 英寸封闭式一体式音箱。",
+    "reason": "修正combo 设备结构，其余语义与条件保留。"
+  },
+  "30698": {
+    "decision": "采纳",
+    "source": "GA-88S Tweed Cab",
+    "original": "GA-88S Tweed Cab",
+    "final": "GA-88S Tweed 箱体",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "30700": {
+    "decision": "采纳",
+    "source": "GA-8 Discoverer Cab",
+    "original": "GA-8 Discoverer Cab",
+    "final": "GA-8 Discoverer 箱体",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "30702": {
+    "decision": "采纳",
+    "source": "Orange PPC412 Cab",
+    "original": "Orange PPC412 音箱",
+    "final": "Orange PPC412 箱体",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30703": {
+    "decision": "采纳",
+    "source": "A classic Orange 4x12 cab.",
+    "original": "一款经典 Orange 4x12 音箱。",
+    "final": "一款经典 Orange 4x12 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30710": {
+    "decision": "采纳",
+    "source": "A vintage Marshall 4x12 cab.",
+    "original": "一款复古Marshall 4x12音箱柜。",
+    "final": "一款复古 Marshall 4x12 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30712": {
+    "decision": "采纳",
+    "source": "A Marshall 4x12 extension cab.",
+    "original": "Marshall 4x12 扩展音箱。",
+    "final": "Marshall 4x12 扩展箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30725": {
+    "decision": "采纳",
+    "source": "A Cali-style 2x15 cab.",
+    "original": "一款加州风格的 2x15 音箱。",
+    "final": "一款加州风格的 2x15 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30729": {
+    "decision": "采纳",
+    "source": "A classic Jazz 2x12.",
+    "original": "一款经典 Jazz 2x12 音箱。",
+    "final": "一款经典 Jazz 2x12 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30733": {
+    "decision": "采纳",
+    "source": "A rare vintage 2x15 cab.",
+    "original": "一款稀有的复古2x15音箱。",
+    "final": "一款稀有的复古2x15箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30739": {
+    "decision": "采纳",
+    "source": "A vintage UK-style 4x12.",
+    "original": "一款复古英式4x12音箱。",
+    "final": "一款复古英式4x12箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30763": {
+    "decision": "采纳",
+    "source": "A boutique closed-back 1x12 cab.",
+    "original": "一款精品封闭式背板 1x12 音箱。",
+    "final": "一款精品封闭式 1x12 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30765": {
+    "decision": "采纳",
+    "source": "A boutique open-back 1x12 cab.",
+    "original": "一款精品开放式背板 1x12 音箱。",
+    "final": "一款精品开放式背板 1x12 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "30998": {
+    "decision": "重译",
+    "source": "Vintage Flanger",
+    "original": "复古相位",
+    "final": "复古镶边",
+    "reason": "Flanger 不是相位或颤音。"
+  },
+  "31018": {
+    "decision": "重译",
+    "source": "Custom Drive",
+    "original": "自定义失真",
+    "final": "定制过载",
+    "reason": "与项目 Custom Drive 统一。"
+  },
+  "31128": {
+    "decision": "采纳",
+    "source": "Orange OBC115 Bass Cab",
+    "original": "Orange OBC115 贝斯音箱",
+    "final": "Orange OBC115 贝斯箱体",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31168": {
+    "decision": "采纳",
+    "source": "GA-88S Tweed Cab",
+    "original": "GA-88S Tweed Cab",
+    "final": "GA-88S Tweed 箱体",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "31257": {
+    "decision": "采纳",
+    "source": "A high-watt solid state amp.",
+    "original": "高瓦数电子管音箱。",
+    "final": "高瓦数晶体管音箱。",
+    "reason": "修正solid state 电路区分，其余语义与条件保留。"
+  },
+  "31283": {
+    "decision": "采纳",
+    "source": "A US-style classic combo.",
+    "original": "一款美式经典组合音箱。",
+    "final": "一款美式经典一体式音箱。",
+    "reason": "修正combo 设备结构，其余语义与条件保留。"
+  },
+  "31287": {
+    "decision": "重译",
+    "source": "A 1935 vintage combo model with a10-watt amp.",
+    "original": "一款 1935 年的复古组合型号，配备 10 瓦音箱。",
+    "final": "一款 1935 年的复古一体式音箱，功率为 10 瓦。",
+    "reason": "不凭空增加独立音箱头。"
+  },
+  "31299": {
+    "decision": "采纳",
+    "source": "A 1962 classic 15-watt combo.",
+    "original": "一款 1962 年经典的 15 瓦组合音箱。",
+    "final": "一款 1962 年经典的 15 瓦一体式音箱。",
+    "reason": "修正combo 设备结构，其余语义与条件保留。"
+  },
+  "31311": {
+    "decision": "采纳",
+    "source": "A very unique solid state amp built by Orange.",
+    "original": "Orange 制造的非常独特的电子管音箱。",
+    "final": "Orange 制造的非常独特的晶体管音箱。",
+    "reason": "修正solid state 电路区分，其余语义与条件保留。"
+  },
+  "31317": {
+    "decision": "采纳",
+    "source": "Vintage Marshall drive with plenty of low-end.",
+    "original": "带有丰富低频的复古 Marshall 失真音色。",
+    "final": "带有丰富低频的复古 Marshall 过载音色。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "31339": {
+    "decision": "采纳",
+    "source": "A boutique transistor bass head.",
+    "original": "一款精品晶体管贝斯头。",
+    "final": "一款精品晶体管贝斯音箱头。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "31343": {
+    "decision": "采纳",
+    "source": "A classic transistor bass head with tone-shaping EQ.",
+    "original": "一款带有音色塑形均衡的经典晶体管贝斯头。",
+    "final": "一款带有音色塑形均衡的经典晶体管贝斯音箱头。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "31349": {
+    "decision": "重译",
+    "source": "A boutique tube bass head with plenty of drive.",
+    "original": "一款驱动感十足的精品电子管贝斯头。",
+    "final": "一款过载感十足的精品电子管贝斯音箱头。",
+    "reason": "修复 head 与 drive。"
+  },
+  "31353": {
+    "decision": "采纳",
+    "source": "A vintage tube bass head with bright character.",
+    "original": "一款音色明亮复古的电子管贝斯箱头。",
+    "final": "一款音色明亮的复古电子管贝斯音箱头。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "31355": {
+    "decision": "采纳",
+    "source": "A classic Orange bass head with lots of gain and deep tone.",
+    "original": "一款经典 Orange 贝斯头，增益丰富，音色深沉。",
+    "final": "一款经典 Orange 贝斯音箱头，增益丰富，音色深沉。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "31419": {
+    "decision": "采纳",
+    "source": "Adds a modern flanger with extra controls.",
+    "original": "添加带有额外控制功能的现代颤音效果。",
+    "final": "添加带有额外控制功能的现代镶边效果。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "31427": {
+    "decision": "重译",
+    "source": "A highly crunchy nasty fuzz pedal.",
+    "original": "一款音色粗粝刺耳的失真效果器。",
+    "final": "一款音色粗粝刺耳的法兹效果器。",
+    "reason": "Fuzz 为法兹，非模糊。"
+  },
+  "31532": {
+    "decision": "采纳",
+    "source": "SYNTH FILTER",
+    "original": "SYNTH FILTER",
+    "final": "合成器滤波",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "31555": {
+    "decision": "采纳",
+    "source": "A classic 8x10 bass cab.",
+    "original": "一款经典8x10贝斯音箱。",
+    "final": "一款经典8x10贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31559": {
+    "decision": "采纳",
+    "source": "A boutique ported 1x15 bass cab.",
+    "original": "一款精品倒相式1x15贝斯音箱。",
+    "final": "一款精品倒相式1x15贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31561": {
+    "decision": "采纳",
+    "source": "A boutique ported 2x12 bass cab.",
+    "original": "一款精品倒相式 2x12 贝斯音箱。",
+    "final": "一款精品倒相式 2x12 贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31563": {
+    "decision": "采纳",
+    "source": "A boutique 4x10 bass cab.",
+    "original": "一款精品 4x10 贝斯音箱。",
+    "final": "一款精品 4x10 贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31567": {
+    "decision": "采纳",
+    "source": "A classic ported 2x10 cab.",
+    "original": "一款经典倒相式 2x10 音箱。",
+    "final": "一款经典倒相式 2x10 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31569": {
+    "decision": "采纳",
+    "source": "A classic 4x10 alloy speaker cab.",
+    "original": "一款经典 4x10 合金扬声器音箱。",
+    "final": "一款经典 4x10 合金扬声器箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31571": {
+    "decision": "采纳",
+    "source": "A unique 3x12 folded bass cab.",
+    "original": "独特的 3x12 折叠式贝斯音箱。",
+    "final": "独特的 3x12 折叠式贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。 **待核：见 C 节。**"
+  },
+  "31573": {
+    "decision": "采纳",
+    "source": "A classic folded 1x15 bass cab.",
+    "original": "一款经典折叠式 1x15 贝斯音箱。",
+    "final": "一款经典折叠式 1x15 贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。 **待核：见 C 节。**"
+  },
+  "31575": {
+    "decision": "采纳",
+    "source": "A custom 1x12 bass cab.",
+    "original": "一款定制 1x12 贝斯音箱。",
+    "final": "一款定制 1x12 贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31580": {
+    "decision": "采纳",
+    "source": "EPIPHONE® ELECTAR \"HAWAIIAN\" CAB",
+    "original": "EPIPHONE® ELECTAR \"HAWAIIAN\" 音箱",
+    "final": "EPIPHONE® ELECTAR \"HAWAIIAN\" 箱体",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31581": {
+    "decision": "采纳",
+    "source": "An 8-inch open-back combo.",
+    "original": "一款8英寸开放式背板组合音箱。",
+    "final": "一款8英寸开放式背板一体式音箱。",
+    "reason": "修正combo 设备结构，其余语义与条件保留。"
+  },
+  "31583": {
+    "decision": "采纳",
+    "source": "A 10-inch open-back combo.",
+    "original": "一款 10 英寸开放式背板组合音箱。",
+    "final": "一款 10 英寸开放式背板一体式音箱。",
+    "reason": "修正combo 设备结构，其余语义与条件保留。"
+  },
+  "31585": {
+    "decision": "采纳",
+    "source": "A 12-inch closed-back combo.",
+    "original": "一款 12 英寸封闭式箱体组合音箱。",
+    "final": "一款 12 英寸封闭式一体式音箱。",
+    "reason": "修正combo 设备结构，其余语义与条件保留。"
+  },
+  "31586": {
+    "decision": "采纳",
+    "source": "EPIPHONE® \"ZEPHYR\" CAB",
+    "original": "EPIPHONE® \"ZEPHYR\" 音箱",
+    "final": "EPIPHONE® \"ZEPHYR\" 箱体",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31587": {
+    "decision": "采纳",
+    "source": "A 15-inch open-back combo.",
+    "original": "一款15英寸开放式背板组合音箱。",
+    "final": "一款15英寸开放式背板一体式音箱。",
+    "reason": "修正combo 设备结构，其余语义与条件保留。"
+  },
+  "31593": {
+    "decision": "重译",
+    "source": "An open-back 12-inch combo cab.",
+    "original": "开放式背板 12 英寸组合音箱。",
+    "final": "背部开放式 12 英寸一体式音箱箱体。",
+    "reason": "combo cab 中心词箱体不能省略。"
+  },
+  "31595": {
+    "decision": "采纳",
+    "source": "A classic Orange 4x12 cab.",
+    "original": "一款经典 Orange 4x12 音箱。",
+    "final": "一款经典 Orange 4x12 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31597": {
+    "decision": "采纳",
+    "source": "A compact closed-backed Orange 2x12 cab.",
+    "original": "一款紧凑型封闭式背板 Orange 2x12 音箱。",
+    "final": "一款紧凑型封闭式背板 Orange 2x12 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31599": {
+    "decision": "采纳",
+    "source": "A vintage Orange 4x12 cab for a \"Jimmy Bean\" amp.",
+    "original": "复古 Orange 4x12 音箱，用于 \"Jimmy Bean\" 音箱头。",
+    "final": "复古 Orange 4x12 箱体，用于 \"Jimmy Bean\" 音箱头。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31603": {
+    "decision": "采纳",
+    "source": "A vintage Marshall 4x12 cab.",
+    "original": "一款复古Marshall 4x12音箱柜。",
+    "final": "一款复古 Marshall 4x12 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31607": {
+    "decision": "采纳",
+    "source": "A Closed-back Marshall 1x12 cab.",
+    "original": "一款封闭式 Marshall 1x12 音箱柜。",
+    "final": "一款封闭式 Marshall 1x12 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31617": {
+    "decision": "采纳",
+    "source": "A Cali-style 2x15 cab.",
+    "original": "一款加州风格的 2x15 音箱。",
+    "final": "一款加州风格的 2x15 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31625": {
+    "decision": "采纳",
+    "source": "A rare vintage 2x15 cab.",
+    "original": "一款稀有的复古2x15音箱。",
+    "final": "一款稀有的复古2x15箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31639": {
+    "decision": "采纳",
+    "source": "A modern ported 2x15 cab.",
+    "original": "一款现代倒相式2x15音箱柜。",
+    "final": "一款现代倒相式2x15箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31641": {
+    "decision": "采纳",
+    "source": "A modern half-open half-closed 2x12.",
+    "original": "现代半开放式半封闭式 2x12 音箱。",
+    "final": "现代半开放式半封闭式 2x12 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31649": {
+    "decision": "采纳",
+    "source": "A US yellow-style open-back 1x10.",
+    "original": "一款美式黄色风格的开放式背板 1x10 音箱。",
+    "final": "一款美式黄色风格的开放式背板 1x10 箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "31709": {
+    "decision": "采纳",
+    "source": "BODY",
+    "original": "BODY",
+    "final": "琴身",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "31775": {
+    "decision": "重译",
+    "source": "• Make sure the USB end of your Rocksmith Real Tone Cable is plugged into a USB port on the console{C} system{C} or computer you’re using.",
+    "original": "• 请确保 Rocksmith Real Tone Cable 的 USB 端已插入主机的 USB 端口{C} 系统{C} 或您正在使用的电脑。",
+    "final": "• 请确保 Rocksmith Real Tone Cable 的 USB 端已插入你所使用的主机{C}系统{C}或电脑的 USB 端口。",
+    "reason": "端口关联三类设备，清除您。"
+  },
+  "31878": {
+    "decision": "采纳",
+    "source": "BASS INTERFACE",
+    "original": "贝斯接口",
+    "final": "贝斯界面",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "31897": {
+    "decision": "采纳",
+    "source": "WELL-ROOTED",
+    "original": "WELL-ROOTED",
+    "final": "根基深厚",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "32028": {
+    "decision": "采纳",
+    "source": "Shoot [1] ducks in a single game.",
+    "original": "射击 [1] 只鸭子（单局内）。",
+    "final": "在一局游戏中射击 [1] 只鸭子。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32031": {
+    "decision": "重译",
+    "source": "Shoot [1] [2] ducks in a single game.",
+    "original": "击中 [1] [2] 只鸭子在一局游戏中。",
+    "final": "在一局游戏中击中 [1] 只 [2] 鸭子。",
+    "reason": "暂按数量加类型处理，需参数验证。 **待核：见 C 节。**"
+  },
+  "32036": {
+    "decision": "采纳",
+    "source": "Shoot [1] ducks right before they hit the wall.",
+    "original": "射击 [1] 只鸭子，在它们撞上墙壁前。",
+    "final": "在鸭子撞上墙壁前射击 [1] 只鸭子。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32046": {
+    "decision": "重译",
+    "source": "Score a x[1] multiplier.",
+    "original": "得分 [1] 倍率。",
+    "final": "获得 [1] 倍得分倍率。",
+    "reason": "a x[1] multiplier 是倍率值。"
+  },
+  "32050": {
+    "decision": "采纳",
+    "source": "Collect [1] golden bolts in a single game.",
+    "original": "收集 [1] 颗金色螺栓，在一局游戏中。",
+    "final": "在一局游戏中收集 [1] 颗金色螺栓。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32061": {
+    "decision": "采纳",
+    "source": "Collect [1] batteries in a single game.",
+    "original": "收集 [1] 电池于一局游戏中。",
+    "final": "在一局游戏中收集 [1] 个电池。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32069": {
+    "decision": "采纳",
+    "source": "Collect [1] golden bolts.",
+    "original": "收集 [1] 金色螺栓。",
+    "final": "收集 [1] 个金色螺栓。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32073": {
+    "decision": "采纳",
+    "source": "Leap [1] hurdles in a row.",
+    "original": "连续跳跃 [1] 次。",
+    "final": "连续跳过 [1] 个障碍。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32074": {
+    "decision": "采纳",
+    "source": "Leap [1] hurdles.",
+    "original": "跳过 [1] 障碍。",
+    "final": "跳过 [1] 个障碍。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32075": {
+    "decision": "采纳",
+    "source": "Collect [1] golden bolts in a single game.",
+    "original": "收集 [1] 颗金色螺栓，在一局游戏中。",
+    "final": "在一局游戏中收集 [1] 颗金色螺栓。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32077": {
+    "decision": "采纳",
+    "source": "Collect [1] golden bolts.",
+    "original": "收集 [1] 金色螺栓。",
+    "final": "收集 [1] 个金色螺栓。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32084": {
+    "decision": "采纳",
+    "source": "Collect [1] batteries from the battery bot.",
+    "original": "收集 [1] 节电池，来自电池机器人。",
+    "final": "从电池机器人处收集 [1] 节电池。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32117": {
+    "decision": "重译",
+    "source": "Avoid touching [1] islands in a row.",
+    "original": "避免触碰[1]连续出现的岛屿。",
+    "final": "连续避开 [1] 座岛屿。",
+    "reason": "连续避开不等于避免连续触碰。"
+  },
+  "32122": {
+    "decision": "重译",
+    "source": "Avoid [1] banana chains in a row.",
+    "original": "避免[1]连续出现香蕉链。",
+    "final": "连续避开 [1] 串香蕉。",
+    "reason": "不是阻止香蕉链出现。"
+  },
+  "32128": {
+    "decision": "重译",
+    "source": "Collect only the first banana in a chain [1] times in a single game.",
+    "original": "仅收集连击中的第一根香蕉[1]次于一局游戏中。",
+    "final": "在一局游戏中完成 [1] 次只收集一串香蕉中第一根的操作。",
+    "reason": "chain 是香蕉串，保留 only、次数、单局。"
+  },
+  "32136": {
+    "decision": "重译",
+    "source": "Score a x[1] multiplier.",
+    "original": "得分 [1] 倍率。",
+    "final": "获得 [1] 倍得分倍率。",
+    "reason": "a x[1] multiplier 是倍率值。"
+  },
+  "32141": {
+    "decision": "采纳",
+    "source": "Destroy [1] long platforms with the shredder fan in a single game.",
+    "original": "摧毁 [1] 个长平台（使用粉碎风扇），在一局游戏中完成。",
+    "final": "在一局游戏中使用粉碎风扇摧毁 [1] 个长平台。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32146": {
+    "decision": "采纳",
+    "source": "Destroy [1] platforms with the shredder fan in a single game.",
+    "original": "摧毁 [1] 个平台，使用粉碎风扇于一局游戏中。",
+    "final": "在一局游戏中使用粉碎风扇摧毁 [1] 个平台。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32148": {
+    "decision": "采纳",
+    "source": "Destroy [1] zap platforms with the shredder fan without jumping on them in a single game.",
+    "original": "摧毁 [1] 个电击平台，使用粉碎风扇且不跳上它们于一局游戏中。",
+    "final": "在一局游戏中，使用粉碎风扇摧毁 [1] 个电击平台，且不跳上它们。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32159": {
+    "decision": "采纳",
+    "source": "Destroy [1] platforms with the shredder fan.",
+    "original": "摧毁 [1] 个平台，使用粉碎风扇。",
+    "final": "使用粉碎风扇摧毁 [1] 个平台。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32180": {
+    "decision": "采纳",
+    "source": "Steal treasures from the 5th{C} 7th{C} and 12th frets in a single game.",
+    "original": "从第5{C} 7{C} 和12品偷取宝藏，于一局游戏中。",
+    "final": "在一局游戏中从第5{C} 7{C} 和12品偷取宝藏。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32181": {
+    "decision": "采纳",
+    "source": "Steal [1] treasures in a single game.",
+    "original": "偷取 [1] 一局游戏中的宝藏。",
+    "final": "在一局游戏中偷取 [1] 件宝藏。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32184": {
+    "decision": "重译",
+    "source": "Steal [1] [2] treasures in a single game.",
+    "original": "偷取 [1] [2] 件宝物，仅限单局游戏。",
+    "final": "在一局游戏中偷取 [1] 件 [2] 宝藏。",
+    "reason": "暂按数量加类型处理，需参数验证。 **待核：见 C 节。**"
+  },
+  "32186": {
+    "decision": "重译",
+    "source": "Steal [1] treasures in a row{C} in a single game.",
+    "original": "偷取 [1] 件宝藏，连续{C} 次，在一局游戏内。",
+    "final": "连续偷取 [1] 件宝藏{C}在一局游戏内完成。",
+    "reason": "保留连续、单局，避免 token 紧接句号。"
+  },
+  "32191": {
+    "decision": "采纳",
+    "source": "Steal [1] treasures from exposed pedestals in a single game.",
+    "original": "偷取 [1] 件宝藏，从暴露的基座上，在一局游戏内。",
+    "final": "在一局游戏内从暴露的基座上偷取 [1] 件宝藏。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32192": {
+    "decision": "采纳",
+    "source": "Steal [1] treasures in a row from exposed pedestals.",
+    "original": "偷取[1] 件宝藏，从暴露的基座上连续获取。",
+    "final": "从暴露的基座上连续偷取 [1] 件宝藏。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32193": {
+    "decision": "采纳",
+    "source": "Steal [1] treasures in a row.",
+    "original": "偷取 [1] 件宝藏，连续不断。",
+    "final": "连续偷取 [1] 件宝藏。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32194": {
+    "decision": "采纳",
+    "source": "Steal [1] treasures from exposed pedestals.",
+    "original": "偷取 [1] 暴露在外的基座上的宝藏。",
+    "final": "从暴露的基座上偷取 [1] 件宝藏。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32195": {
+    "decision": "重译",
+    "source": "Score [1] multipliers in a single game.",
+    "original": "得分 [1] 倍率在一局游戏中。",
+    "final": "在一局游戏中获得 [1] 次得分倍率奖励。",
+    "reason": "奖励次数与倍率大小不同。"
+  },
+  "32196": {
+    "decision": "重译",
+    "source": "Score a multiplier [1] times.",
+    "original": "获得 [1] 倍乘数。",
+    "final": "获得 [1] 次得分倍率奖励。",
+    "reason": "times 是次数。"
+  },
+  "32197": {
+    "decision": "采纳",
+    "source": "Steal [1] green emeralds in a single game.",
+    "original": "偷取 [1] 颗绿色祖母绿于一局游戏中。",
+    "final": "在一局游戏中偷取 [1] 颗绿色祖母绿。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32200": {
+    "decision": "采纳",
+    "source": "Steal [1] purple cat statues in a single game.",
+    "original": "偷取 [1] 尊紫色猫雕像于一局游戏中。",
+    "final": "在一局游戏中偷取 [1] 尊紫色猫雕像。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32202": {
+    "decision": "采纳",
+    "source": "Steal [1] yellow busts in a single game.",
+    "original": "偷取 [1] 一局游戏中的黄色半身像。",
+    "final": "在一局游戏中偷取 [1] 个黄色半身像。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32203": {
+    "decision": "采纳",
+    "source": "Steal [1] green emeralds and [2] jewels from giant treasure masks a single game.",
+    "original": "偷走 [1] 颗绿色祖母绿和 [2] 颗宝石，目标是一局游戏中的巨型宝藏面具。",
+    "final": "在一局游戏中从巨型宝藏面具处偷走 [1] 颗绿色祖母绿和 [2] 颗宝石。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。 **待核：见 C 节。**"
+  },
+  "32204": {
+    "decision": "采纳",
+    "source": "Steal [1] orange crowns and [2] jewels from giant treasure masks a single game.",
+    "original": "偷取 [1] 顶橙色皇冠和 [2] 颗宝石，来自巨型宝藏面具，于一局游戏中。",
+    "final": "在一局游戏中，从巨型宝藏面具上偷取 [1] 顶橙色皇冠和 [2] 颗宝石。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。 **待核：见 C 节。**"
+  },
+  "32205": {
+    "decision": "采纳",
+    "source": "Steal [1] blue necklaces and [2] jewels from giant treasure masks a single game.",
+    "original": "偷走 [1] 条蓝色项链和 [2] 颗宝石，来自一局游戏中的巨型宝藏面具。",
+    "final": "在一局游戏中，从巨型宝藏面具上偷走 [1] 条蓝色项链和 [2] 颗宝石。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。 **待核：见 C 节。**"
+  },
+  "32206": {
+    "decision": "采纳",
+    "source": "Steal [1] purple cat statues and [2] jewels from giant treasure masks a single game.",
+    "original": "偷取[1] 个紫色猫雕像和[2] 颗宝石，从巨大的宝藏面具上，在一局游戏中。",
+    "final": "在一局游戏中，从巨大的宝藏面具上偷取 [1] 个紫色猫雕像和 [2] 颗宝石。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。 **待核：见 C 节。**"
+  },
+  "32207": {
+    "decision": "采纳",
+    "source": "Steal [1] red urns and [2] jewels from giant treasure masks in a single game.",
+    "original": "偷取 [1] 红色瓮和 [2] 一局游戏中巨型宝藏面具上的宝石。",
+    "final": "在一局游戏中从巨型宝藏面具上偷取 [1] 个红色瓮和 [2] 颗宝石。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。 **待核：见 C 节。**"
+  },
+  "32208": {
+    "decision": "采纳",
+    "source": "Steal [1] yellow busts and [2] jewels from giant treasure masks in a single game.",
+    "original": "偷取 [1] 个黄色半身像和 [2] 颗宝石，从巨型宝藏面具中，在一局游戏内。",
+    "final": "在一局游戏内，从巨型宝藏面具中偷取 [1] 个黄色半身像和 [2] 颗宝石。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。 **待核：见 C 节。**"
+  },
+  "32210": {
+    "decision": "重译",
+    "source": "Steal [1] orange crowns and [2] [3] jewels from a giant treasure mask.",
+    "original": "偷取[1] 个橙色王冠和[2] [3] 颗宝石，从巨大的宝藏面具上。",
+    "final": "从一个巨型宝藏面具上偷取 [1] 顶橙色皇冠和 [2] 颗 [3] 宝石。",
+    "reason": "暂按数量加类型处理，量词与参数需验证。 **待核：见 C 节。**"
+  },
+  "32211": {
+    "decision": "重译",
+    "source": "Steal [1] blue necklaces and [2] [3] jewels from a giant treasure mask.",
+    "original": "偷走 [1] 条蓝色项链和 [2] [3] 颗宝石，目标是一个巨型宝藏面具。",
+    "final": "从一个巨型宝藏面具上偷取 [1] 条蓝色项链和 [2] 颗 [3] 宝石。",
+    "reason": "保留单个来源，参数需验证。 **待核：见 C 节。**"
+  },
+  "32212": {
+    "decision": "重译",
+    "source": "Steal [1] purple cat statues and [2] [3] jewels from a giant treasure mask.",
+    "original": "偷取 [1] 紫色猫雕像和 [2] [3] 巨型宝藏面具上的宝石。",
+    "final": "从一个巨型宝藏面具上偷取 [1] 尊紫色猫雕像和 [2] 颗 [3] 宝石。",
+    "reason": "补量词，参数需验证。 **待核：见 C 节。**"
+  },
+  "32213": {
+    "decision": "重译",
+    "source": "Steal [1] red urns and [2] [3] jewels from a giant treasure mask.",
+    "original": "偷取 [1] 个红色瓮和 [2] [3] 颗宝石，从巨型宝藏面具中。",
+    "final": "从一个巨型宝藏面具上偷取 [1] 个红色瓮和 [2] 颗 [3] 宝石。",
+    "reason": "量词位置与参数需验证。 **待核：见 C 节。**"
+  },
+  "32216": {
+    "decision": "重译",
+    "source": "Slice a ghost for the first time.",
+    "original": "首次消除幽灵。",
+    "final": "首次斩切一只幽灵。",
+    "reason": "保留小游戏实体，不增译音符。"
+  },
+  "32222": {
+    "decision": "重译",
+    "source": "Slice a ghost at the beginning of a slide.",
+    "original": "在滑动开始时切幽灵。",
+    "final": "在滑音开始时斩切一只幽灵。",
+    "reason": "小游戏实体是幽灵，不增译音符。"
+  },
+  "32225": {
+    "decision": "重译",
+    "source": "Slice a color-change ghost at the beginning of a slide.",
+    "original": "在滑动开始时切变色幽灵。",
+    "final": "在滑音开始时斩切一只变色幽灵。",
+    "reason": "Slice 是斩切，不是切分。"
+  },
+  "32244": {
+    "decision": "重译",
+    "source": "Play [1] perfect slides on the yellow string in a single game.",
+    "original": "弹奏 [1] 个黄色琴弦上的完美滑弦于一局游戏中。",
+    "final": "在一局游戏中，在黄色琴弦上完成 [1] 次完美滑音。",
+    "reason": "候选遗留滑弦，保留颜色、单局。"
+  },
+  "32250": {
+    "decision": "采纳",
+    "source": "Play [1] perfect slides on the green string in a single game.",
+    "original": "弹奏 [1] 个绿色琴弦上的完美滑弦于一局游戏中。",
+    "final": "在一局游戏中，在绿色琴弦上弹奏 [1] 个完美滑音。",
+    "reason": "修正滑音术语，其余语义与条件保留。"
+  },
+  "32254": {
+    "decision": "重译",
+    "source": "Slice [1] ghosts in a single game.",
+    "original": "切 [1] 个幽灵于一局游戏中。",
+    "final": "在一局游戏中斩切 [1] 只幽灵。",
+    "reason": "统一动作、实体量词。"
+  },
+  "32265": {
+    "decision": "采纳",
+    "source": "Play [1] perfect slides in a row.",
+    "original": "演奏 [1] 次完美滑音。",
+    "final": "连续演奏 [1] 次完美滑音。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32271": {
+    "decision": "采纳",
+    "source": "Slide to [1] towers in a single game.",
+    "original": "滑向[1]单局游戏中的塔楼。",
+    "final": "在一局游戏中滑向 [1] 座塔楼。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32300": {
+    "decision": "重译",
+    "source": "Pass [1] consecutive lines of cars in a single game.",
+    "original": "连续通过[1]条车道中的车辆。",
+    "final": "在一局游戏中连续超越 [1] 排车辆。",
+    "reason": "lines of cars 是车辆队列，非车道。"
+  },
+  "32302": {
+    "decision": "重译",
+    "source": "Pass [1] lines of cars while in a red lane.",
+    "original": "超越[1]条车线，且处于红色车道。",
+    "final": "在红色车道中超越 [1] 排车辆。",
+    "reason": "lane 与 lines of cars 不同。"
+  },
+  "32304": {
+    "decision": "重译",
+    "source": "Pass [1] lines of cars while in a blue lane.",
+    "original": "超越[1]条车线，且处于蓝色车道。",
+    "final": "在蓝色车道中超越 [1] 排车辆。",
+    "reason": "lane 与 lines of cars 不同。"
+  },
+  "32314": {
+    "decision": "采纳",
+    "source": "Change direction [1] times midway through a scale.",
+    "original": "改变方向 [1] 次，在音阶演奏中途。",
+    "final": "在音阶演奏中途改变方向 [1] 次。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "32366": {
+    "decision": "采纳",
+    "source": "Score [1] points in a single game.",
+    "original": "得分 [1] 分（单局游戏）。",
+    "final": "在单局游戏中得分 [1] 分。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32381": {
+    "decision": "重译",
+    "source": "Score [1] quick-draw bonuses in a single game.",
+    "original": "得分 [1] 快速拔枪奖励在一局游戏中。",
+    "final": "在一局游戏中获得 [1] 次快速拔枪奖励。",
+    "reason": "统一 quick-draw，奖励按次数。"
+  },
+  "32385": {
+    "decision": "重译",
+    "source": "Score [1] quick-draw bonuses in a row.",
+    "original": "得分 [1] 次连续快速反应奖励。",
+    "final": "连续获得 [1] 次快速拔枪奖励。",
+    "reason": "统一奖励名，保留连续。"
+  },
+  "32391": {
+    "decision": "重译",
+    "source": "Score a quick-draw bonus on [1] front-runner bandits in a single game.",
+    "original": "对 [1] 名领先强盗获得快速反应奖励。",
+    "final": "在一局游戏中，对 [1] 名领头强盗取得快速拔枪奖励。",
+    "reason": "统一对象、奖励名，保留单局。"
+  },
+  "32394": {
+    "decision": "重译",
+    "source": "Score [1] quick-draw bonuses.",
+    "original": "得分 [1] 次速射奖励。",
+    "final": "获得 [1] 次快速拔枪奖励。",
+    "reason": "统一 quick-draw。"
+  },
+  "32395": {
+    "decision": "重译",
+    "source": "Shoot down [1] front-runner bandits.",
+    "original": "击落 [1] 个领跑强盗。",
+    "final": "击倒 [1] 名领头强盗。",
+    "reason": "统一对象，人物用击倒。"
+  },
+  "32396": {
+    "decision": "采纳",
+    "source": "Shoot down [1] of every bandit color in a single game.",
+    "original": "击落 [1] 名每种颜色的强盗，在一局游戏中。",
+    "final": "在一局游戏中击落每种颜色的 [1] 名强盗。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32399": {
+    "decision": "采纳",
+    "source": "Shoot down [1] front-runner bandits in a single game.",
+    "original": "击落 [1] 名领头强盗（单局内）。",
+    "final": "在一局游戏中击落 [1] 名领头强盗。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "32400": {
+    "decision": "重译",
+    "source": "Score [1] quick-draw bonuses in a single game.",
+    "original": "得分 [1] 快速拔枪奖励在一局游戏中。",
+    "final": "在一局游戏中获得 [1] 次快速拔枪奖励。",
+    "reason": "统一 quick-draw，奖励按次数。"
+  },
+  "32402": {
+    "decision": "重译",
+    "source": "Shoot [1] front-runner bandits in a row.",
+    "original": "射击 [1] 名连续领先的强盗。",
+    "final": "连续射击 [1] 名领头强盗。",
+    "reason": "连续修饰射击行为。"
+  },
+  "32403": {
+    "decision": "重译",
+    "source": "Score [1] quick-draw bonuses in a row.",
+    "original": "得分 [1] 次连续快速反应奖励。",
+    "final": "连续获得 [1] 次快速拔枪奖励。",
+    "reason": "统一奖励名，保留连续。"
+  },
+  "32404": {
+    "decision": "重译",
+    "source": "Score a quick-draw bonus on [1] front-runner bandits in a single game.",
+    "original": "对 [1] 名领先强盗获得快速反应奖励。",
+    "final": "在一局游戏中，对 [1] 名领头强盗取得快速拔枪奖励。",
+    "reason": "统一对象、奖励名，保留单局。"
+  },
+  "32406": {
+    "decision": "重译",
+    "source": "Shoot down [1] [2] bandits in a single game.",
+    "original": "击落 [1] [2] 名强盗，在一局游戏中。",
+    "final": "在一局游戏中击倒 [1] 名 [2] 强盗。",
+    "reason": "暂按数量加类型处理，需参数验证。 **待核：见 C 节。**"
+  },
+  "32415": {
+    "decision": "重译",
+    "source": "Shoot consecutively between the top and bottom strings [1] times.",
+    "original": "在最高弦和最低弦之间连续射击 [1] 次。",
+    "final": "在最上方和最下方的琴弦之间交替射击，连续完成 [1] 次。",
+    "reason": "保留 shoot 游戏动作，明确上下交替。"
+  },
+  "32698": {
+    "decision": "采纳",
+    "source": "Phrygian Dominant",
+    "original": "弗里吉亚属调式",
+    "final": "弗里吉亚属音阶",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "32699": {
+    "decision": "采纳",
+    "source": "A Minor",
+    "original": "A Minor",
+    "final": "A小调",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "32700": {
+    "decision": "采纳",
+    "source": "E Minor",
+    "original": "E Minor",
+    "final": "E小调",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "32703": {
+    "decision": "采纳",
+    "source": "F Major",
+    "original": "F Major",
+    "final": "F大调",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "32707": {
+    "decision": "重译",
+    "source": "F Minor",
+    "original": "F Minor",
+    "final": "F小调",
+    "reason": "与本组 A小调、E小调格式一致。"
+  },
+  "33078": {
+    "decision": "重译",
+    "source": "Modulated Chorus",
+    "original": "Modulated Chorus",
+    "final": "转调副歌",
+    "reason": "相邻为 Modulated Bridge、Modulated Verse、Outro，属于歌曲结构。"
+  },
+  "33111": {
+    "decision": "重译",
+    "source": "POST-CHORUS",
+    "original": "POST-CHORUS",
+    "final": "副歌后段",
+    "reason": "Post-Chorus 是歌曲结构，不是后置合唱。"
+  },
+  "33122": {
+    "decision": "采纳",
+    "source": "VERSE",
+    "original": "VERSE",
+    "final": "主歌",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "33376": {
+    "decision": "采纳",
+    "source": "Double Stop Riffs",
+    "original": "Double Stop Riffs",
+    "final": "双音里夫",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "33378": {
+    "decision": "采纳",
+    "source": "Frethand Mute Basics",
+    "original": "按弦手制音基础",
+    "final": "左手制音基础",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "33379": {
+    "decision": "采纳",
+    "source": "Frethand Mute Riffs",
+    "original": "左手闷音乐句",
+    "final": "左手制音乐句",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "33393": {
+    "decision": "采纳",
+    "source": "Palm Mutes 101B",
+    "original": "手掌护弦入门 101B",
+    "final": "手掌制音入门 101B",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "33394": {
+    "decision": "采纳",
+    "source": "Palm Mute Basics",
+    "original": "手掌护弦基础",
+    "final": "手掌制音基础",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "33415": {
+    "decision": "采纳",
+    "source": "Slap Basics",
+    "original": "击打基础",
+    "final": "拍弦基础",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "33416": {
+    "decision": "采纳",
+    "source": "Pop Basics",
+    "original": "流行基础",
+    "final": "勾拍基础",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "33654": {
+    "decision": "采纳",
+    "source": "Learn basic strumming patterns with the G Major{C} D Major{C} and A Major chords.",
+    "original": "学习使用 G 大调{C} D 大调{C} 和 A 大调和弦的基本扫弦模式。",
+    "final": "学习使用 G 大三和弦{C} D 大三和弦{C} 和 A 大三和弦的基本扫弦模式。",
+    "reason": "修正和弦性质，其余语义与条件保留。"
+  },
+  "33655": {
+    "decision": "采纳",
+    "source": "Add some rhythm to your rhythm guitar playing with basic strumming patterns using the G Major{C} D Major{C} and A Major chords.",
+    "original": "使用 G 大调{C} D 大调{C} 和 A 大调和弦，用基本扫弦模式为你的节奏吉他演奏增添节奏感。",
+    "final": "使用 G 大三和弦{C} D 大三和弦{C} 和 A 大三和弦，用基本扫弦模式为你的节奏吉他演奏增添节奏感。",
+    "reason": "修正和弦性质，其余语义与条件保留。"
+  },
+  "33656": {
+    "decision": "采纳",
+    "source": "Further expand your chord vocabulary with barre chords you can slide up and down the neck{C} allowing you to play any major chord.",
+    "original": "通过可沿琴颈上下滑动的横按和弦，进一步扩展你的和弦词汇量{C}让你能够演奏任何大调三和弦。",
+    "final": "通过可沿琴颈上下滑动的横按和弦，进一步扩展你的和弦词汇量{C}让你能够演奏任何大三和弦。",
+    "reason": "修正和弦性质，其余语义与条件保留。"
+  },
+  "33657": {
+    "decision": "重译",
+    "source": "Expand your harmonic universe even further with more barre chord shapes{C} focusing on dominant 7 chords{C} minor chords{C} and minor 7 chords.",
+    "original": "通过更多横按和弦形状进一步扩展你的和声宇宙{C} 重点练习属七和弦{C} 小和弦{C} 和小七和弦。",
+    "final": "通过更多横按和弦指型进一步拓展和声表现{C}重点练习属七和弦{C}小三和弦{C}以及小七和弦。",
+    "reason": "明确 minor chords，避免和声宇宙直译。"
+  },
+  "33670": {
+    "decision": "采纳",
+    "source": "Learn how to get a muffled{C} thunkier sound with palm mutes{C} allowing you to vary the sound of your notes as you play.",
+    "original": "学习如何通过手掌护弦获得{C}沉闷且厚重的声音{C}从而在演奏中变化音符的音色。",
+    "final": "学习如何通过手掌制音获得{C}沉闷且厚重的声音{C}从而在演奏中变化音符的音色。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "33671": {
+    "decision": "采纳",
+    "source": "Learn how to combine palm mutes with double stops for a muted sound with some harmonic variety.",
+    "original": "学习如何将手掌护弦与双音结合，以获得带有和声变化的闷音效果。",
+    "final": "学习如何将手掌制音与双音结合，以获得带有和声变化的闷音效果。",
+    "reason": "修正制音术语、制音技法，其余语义与条件保留。"
+  },
+  "33672": {
+    "decision": "采纳",
+    "source": "Learn how to combine palm mutes with power chords for that classic \"chugga-chugga\" sound.",
+    "original": "学习如何将手掌护弦与强力和弦结合，营造经典的“咚咚”声效。",
+    "final": "学习如何将手掌制音与强力和弦结合，营造经典的“咚咚”声效。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "33711": {
+    "decision": "采纳",
+    "source": "Learn how to get a muffled{C} thunkier sound with palm mutes{C} allowing you to vary the sound of your notes as you play.",
+    "original": "学习如何通过手掌护弦获得{C}沉闷且厚重的声音{C}从而在演奏中变化音符的音色。",
+    "final": "学习如何通过手掌制音获得{C}沉闷且厚重的声音{C}从而在演奏中变化音符的音色。",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "33764": {
+    "decision": "采纳",
+    "source": "\"Bends 102\"",
+    "original": "“Bends 102”",
+    "final": "“推弦 102”",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "33772": {
+    "decision": "采纳",
+    "source": "\"Chords 301\"",
+    "original": "“和弦高阶 301”",
+    "final": "“和弦 301”",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "33786": {
+    "decision": "采纳",
+    "source": "\"Palm Mutes 101\"",
+    "original": "“Palm Mutes 101”",
+    "final": "“手掌制音 101”",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "33787": {
+    "decision": "采纳",
+    "source": "\"Palm Mutes 102\"",
+    "original": "“手掌护弦 102”",
+    "final": "“手掌制音 102”",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "33793": {
+    "decision": "采纳",
+    "source": "\"Slides 101\"",
+    "original": "“Slides 101”",
+    "final": "“滑音 101”",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "34009": {
+    "decision": "采纳",
+    "source": "Get a new high score in Score Attack on Easy for [1].",
+    "original": "在得分挑战的简单难度中刷新最高分，达到 [1]。",
+    "final": "在得分挑战的简单难度中刷新 [1] 的最高分。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "34026": {
+    "decision": "采纳",
+    "source": "Select an Authentic Tone in Tone Designer.",
+    "original": "在音色设计师中选择一个真实音色。",
+    "final": "在音色设计师中选择一个原曲音色。",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "34070": {
+    "decision": "采纳",
+    "source": "Successfully hit 4 palm mutes.",
+    "original": "成功完成了 4 次手掌闷音。",
+    "final": "成功完成了 4 次手掌制音。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "34073": {
+    "decision": "采纳",
+    "source": "Successfully hit 4 frethand mutes.",
+    "original": "成功完成了 4 次左手闷音。",
+    "final": "成功完成了 4 次左手制音。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "34075": {
+    "decision": "采纳",
+    "source": "Successfully hit 4 chords.",
+    "original": "成功击中 4 个和弦。",
+    "final": "成功演奏 4 个和弦。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "34099": {
+    "decision": "采纳",
+    "source": "Successfully hit a chord frethand mute.",
+    "original": "成功完成了一次和弦左手闷音。",
+    "final": "成功完成了一次和弦左手制音。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "34109": {
+    "decision": "采纳",
+    "source": "Successfully hit 4 chord frethand mutes.",
+    "original": "成功弹奏 4 个和弦制音。",
+    "final": "成功弹奏 4 个和弦左手制音。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "34110": {
+    "decision": "采纳",
+    "source": "Successfully hit 4 chord palm mutes.",
+    "original": "成功演奏了 4 个和弦闷音。",
+    "final": "成功演奏 4 个和弦手掌制音。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "34132": {
+    "decision": "采纳",
+    "source": "Successfully hit a slap.",
+    "original": "成功完成了一次击弦。",
+    "final": "成功完成了一次拍弦。",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "34134": {
+    "decision": "采纳",
+    "source": "Successfully hit a slap frethand mute.",
+    "original": "成功演奏了击弦手闷音。",
+    "final": "成功演奏了拍弦左手制音。",
+    "reason": "修正制音技法、Slap 技法，其余语义与条件保留。"
+  },
+  "34135": {
+    "decision": "重译",
+    "source": "Successfully hit a pop frethand mute.",
+    "original": "成功完成了一次 Pop 左手闷音。",
+    "final": "成功完成一次勾拍左手制音。",
+    "reason": "补回一次，保留复合技法。"
+  },
+  "34136": {
+    "decision": "采纳",
+    "source": "Successfully hit 4 slaps.",
+    "original": "成功完成了 4 次击弦。",
+    "final": "成功完成了 4 次拍弦。",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "34137": {
+    "decision": "采纳",
+    "source": "Successfully hit 4 pops.",
+    "original": "成功击中 4 个波普。",
+    "final": "成功完成 4 个勾拍。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "34138": {
+    "decision": "采纳",
+    "source": "Successfully hit 4 slap frethand mutes.",
+    "original": "成功完成 4 次击弦手闷音。",
+    "final": "成功完成 4 次拍弦左手制音。",
+    "reason": "修正制音技法、Slap 技法，其余语义与条件保留。"
+  },
+  "34139": {
+    "decision": "采纳",
+    "source": "Successfully hit 4 pop frethand mutes.",
+    "original": "成功演奏了 4 个流行乐左手闷音。",
+    "final": "成功演奏了 4 个勾拍左手制音。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "34187": {
+    "decision": "采纳",
+    "source": "palm mutes",
+    "original": "手掌闷音",
+    "final": "手掌制音",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "34188": {
+    "decision": "采纳",
+    "source": "slaps",
+    "original": "击弦",
+    "final": "拍弦",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "34189": {
+    "decision": "采纳",
+    "source": "pops",
+    "original": "勾弦",
+    "final": "勾拍",
+    "reason": "修正Pop 技法，其余语义与条件保留。"
+  },
+  "34195": {
+    "decision": "采纳",
+    "source": "pop frethand mutes",
+    "original": "流行乐左手闷音",
+    "final": "勾拍左手制音",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "34216": {
+    "decision": "采纳",
+    "source": "Slides",
+    "original": "滑弦",
+    "final": "滑音",
+    "reason": "修正滑音术语，其余语义与条件保留。"
+  },
+  "34221": {
+    "decision": "采纳",
+    "source": "Frethand Mutes",
+    "original": "按弦手制音",
+    "final": "左手制音",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "34230": {
+    "decision": "采纳",
+    "source": "Pop Fret Hand Mutes",
+    "original": "流行乐左手制音",
+    "final": "勾拍左手制音",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "34236": {
+    "decision": "采纳",
+    "source": "Oblique Bends",
+    "original": "Oblique Bends",
+    "final": "斜向推弦",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。 **待核：见 C 节。**"
+  },
+  "34245": {
+    "decision": "采纳",
+    "source": "Palm Mute Double Stops",
+    "original": "手掌护弦双音",
+    "final": "手掌制音双音",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "34248": {
+    "decision": "采纳",
+    "source": "Slides",
+    "original": "滑弦",
+    "final": "滑音",
+    "reason": "修正滑音术语，其余语义与条件保留。"
+  },
+  "34256": {
+    "decision": "采纳",
+    "source": "Frethand Mutes",
+    "original": "按弦手制音",
+    "final": "左手制音",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "34260": {
+    "decision": "采纳",
+    "source": "Palm Mute Double Stops",
+    "original": "手掌护弦双音",
+    "final": "手掌制音双音",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "34272": {
+    "decision": "采纳",
+    "source": "Slaps and Pops",
+    "original": "Slap 和 Pop",
+    "final": "拍弦和勾拍",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "34289": {
+    "decision": "重译",
+    "source": "Modulated Chorus",
+    "original": "Modulated Chorus",
+    "final": "转调副歌",
+    "reason": "相邻为 Modulated Bridge、Modulated Verse、Outro，属于歌曲结构。"
+  },
+  "34322": {
+    "decision": "采纳",
+    "source": "You ran into some arpeggios last time you played this song{C} and it sounded like you were super close to mastering them. Playing Hurtlin' Hurdles is a an exciting way to hone your arpeggio skills{C} so you can get even closer to perfection when you play the song this time around.",
+    "original": "你上次演奏这首歌时遇到了一些分解和弦{C} 听起来你快要掌握它们了。演奏Hurtlin' Hurdles是磨练分解和弦技巧的一种令人兴奋的方式{C} 这样你这次演奏这首歌时就能更接近完美。",
+    "final": "你上次演奏这首歌时遇到了一些琶音{C} 听起来你快要掌握它们了。演奏Hurtlin' Hurdles是磨练琶音技巧的一种令人兴奋的方式{C} 这样你这次演奏这首歌时就能更接近完美。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "34324": {
+    "decision": "重译",
+    "source": "It sounds like you're really close to mastering the slides in this song{C} so you should definitely give Ninja Slide N a try. It'll make perfecting your slides fun{C} and you'll be more prepared to nail them this time in the song.",
+    "original": "听起来你快要掌握这首歌里的滑弦了{C}所以一定要试试忍者滑弦N。它会让完善滑弦变得有趣{C}并且让你为在歌曲中完美演奏它们做好更充分的准备。",
+    "final": "听起来你快要掌握这首歌里的滑音了{C}所以一定要试试 Ninja Slide N。它能让滑音练习更有趣{C}让你更有把握在这次演奏中准确弹出这些滑音。",
+    "reason": "候选仅改游戏名，仍遗留滑弦。"
+  },
+  "34326": {
+    "decision": "采纳",
+    "source": "Argeggios can be a little hard to get just perfect. It sounds like you're super close to mastering them{C} so give String Skip Saloon a shot. It's a great way to practice them{C} so you'll be sure to nail them in the song this time.",
+    "original": "Argeggios 可能有点难做到完美。听起来你离掌握它们非常接近了{C}所以不妨试试 String Skip Saloon。这是练习它们的绝佳方式{C}这样你这次在歌曲中就能完美演奏它们了。",
+    "final": "琶音可能有点难做到完美。听起来你离掌握它们非常接近了{C}所以不妨试试 String Skip Saloon。这是练习它们的绝佳方式{C}这样你这次在歌曲中就能完美演奏它们了。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "34339": {
+    "decision": "重译",
+    "source": "When you've played this song before{C} it's sounded like you might need a hand with your [1]. You can get a solid handle on them playing this phrase with Riff Repeater set to Accelerate.",
+    "original": "如果你之前演奏过这首歌{C}听起来你可能需要在你的  方面需要帮助。[1]你可以将乐句重复器设置为加速模式，通过演奏这个乐句来熟练掌握它们。",
+    "final": "你之前演奏这首歌时{C}听起来在 [1] 方面还需要一些帮助。将乐句重复器设为加速模式，练习这个乐句，就能更熟练地掌握这些技巧。",
+    "reason": "When 为过去经历非假设，修复重复需要、参数位置。"
+  },
+  "34387": {
+    "decision": "采纳",
+    "source": "palm mutes",
+    "original": "手掌闷音",
+    "final": "手掌制音",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "34388": {
+    "decision": "采纳",
+    "source": "slaps",
+    "original": "击弦",
+    "final": "拍弦",
+    "reason": "修正Slap 技法，其余语义与条件保留。"
+  },
+  "34389": {
+    "decision": "采纳",
+    "source": "pops",
+    "original": "勾弦",
+    "final": "勾拍",
+    "reason": "修正Pop 技法，其余语义与条件保留。"
+  },
+  "34394": {
+    "decision": "重译",
+    "source": "slap frethand mutes",
+    "original": "击弦手闷音",
+    "final": "拍弦左手制音",
+    "reason": "候选删掉 slap，复合技法不能省略。"
+  },
+  "34395": {
+    "decision": "采纳",
+    "source": "pop frethand mutes",
+    "original": "流行乐左手闷音",
+    "final": "勾拍左手制音",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "34446": {
+    "decision": "采纳",
+    "source": "Palm Mute Double Stops",
+    "original": "手掌护弦双音",
+    "final": "手掌制音双音",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "34447": {
+    "decision": "采纳",
+    "source": "Palm Mute Power Chords",
+    "original": "手掌护弦强力和弦",
+    "final": "手掌制音强力和弦",
+    "reason": "修正制音术语，其余语义与条件保留。"
+  },
+  "34473": {
+    "decision": "重译",
+    "source": "Modulated Chorus",
+    "original": "Modulated Chorus",
+    "final": "转调副歌",
+    "reason": "相邻为 Modulated Bridge、Modulated Verse、Outro，属于歌曲结构。"
+  },
+  "34507": {
+    "decision": "采纳",
+    "source": "Slap and Pop",
+    "original": "击打与拨弹",
+    "final": "拍弦与勾拍",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "34531": {
+    "decision": "采纳",
+    "source": "Palm Mute",
+    "original": "手掌闷音",
+    "final": "手掌制音",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "34532": {
+    "decision": "采纳",
+    "source": "Slap",
+    "original": "击打",
+    "final": "拍弦",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "34539": {
+    "decision": "采纳",
+    "source": "Pop Fret Hand Mute",
+    "original": "流行按弦手制音",
+    "final": "勾拍左手制音",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "34674": {
+    "decision": "采纳",
+    "source": "Last time you tried out the frethand mutes in this song{C} it sounded like you almost hit them all perfectly. Great job! Give Hurtlin' Hurdles  a shot to prep. It'll make working on frethand mutes exciting{C} and afterwards you'll be ready to master them in the song.",
+    "original": "上次尝试这首歌中的左手闷音时{C} 听起来你几乎全部完美命中。干得漂亮！试试 Hurtlin' Hurdles 来热身。这会让练习左手闷音变得有趣{C} 之后你就能在歌曲中掌握它们了。",
+    "final": "上次尝试这首歌中的左手制音时{C} 听起来你几乎全部完美命中。干得漂亮！试试 Hurtlin' Hurdles 来热身。这会让练习左手制音变得有趣{C} 之后你就能在歌曲中掌握它们了。",
+    "reason": "修正制音技法，其余语义与条件保留。"
+  },
+  "34840": {
+    "decision": "采纳",
+    "source": "Zoom Out = D-pad down",
+    "original": "缩小 = 方向键下",
+    "final": "缩小 = 十字键下",
+    "reason": "修正D-pad 既定用词，其余语义与条件保留。"
+  },
+  "34846": {
+    "decision": "采纳",
+    "source": "Tempo Decrease = D-pad left",
+    "original": "速度减慢 = 方向键左",
+    "final": "速度减慢 = 十字键左",
+    "reason": "修正D-pad 既定用词，其余语义与条件保留。"
+  },
+  "34864": {
+    "decision": "采纳",
+    "source": "18. Scale Shape",
+    "original": "18. 音阶型",
+    "final": "18. 音阶指型",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "34969": {
+    "decision": "采纳",
+    "source": "Beat your previous best.",
+    "original": "Beat your previous best.",
+    "final": "超越你的最佳成绩。",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "35000": {
+    "decision": "采纳",
+    "source": "Steal [1] treasures from a single giant treasure mask.",
+    "original": "偷取 [1] 件宝藏，来自单个巨型宝藏面具。",
+    "final": "从单个巨型宝藏面具处偷取 [1] 件宝藏。",
+    "reason": "修复任务语序、量词或条件表达，保留目标、数量与限制。"
+  },
+  "35009": {
+    "decision": "重译",
+    "source": "Stop Your Slide Later!",
+    "original": "稍后停止滑动！",
+    "final": "再晚一点结束滑音！",
+    "reason": "明确延后结束时机的即时反馈。"
+  },
+  "35010": {
+    "decision": "重译",
+    "source": "Slide Faster!",
+    "original": "滑动更快！",
+    "final": "滑音再快一点！",
+    "reason": "自然的操作提示。"
+  },
+  "35139": {
+    "decision": "采纳",
+    "source": "Shielded Ships Destroyed",
+    "original": "Shielded Ships Destroyed",
+    "final": "摧毁的护盾飞船",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "35190": {
+    "decision": "采纳",
+    "source": "Giant treasure masks let you play the same harmonic multiple times for major points.",
+    "original": "巨型宝藏面具让你可以多次演奏相同的和声以获得大量分数。",
+    "final": "巨型宝藏面具让你可以多次演奏相同的泛音以获得大量分数。",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "35227": {
+    "decision": "采纳",
+    "source": "Improve your score by reaching a score of at least [1].",
+    "original": "达到至少 {0} 的分数来提升你的得分。[1]。",
+    "final": "达到至少 [1] 的分数来提升你的得分。",
+    "reason": "按 source 移除误加的 {0}，保留 [1]；合并前人工核对源文版本。 **待核：见 C 节。**"
+  },
+  "35286": {
+    "decision": "采纳",
+    "source": "Phrygian Dom",
+    "original": "弗里吉亚属调",
+    "final": "弗里吉亚属音阶",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "35287": {
+    "decision": "采纳",
+    "source": "Phrygian Dominant",
+    "original": "弗里吉亚属调式",
+    "final": "弗里吉亚属音阶",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "35302": {
+    "decision": "重译",
+    "source": "Downbeat",
+    "original": "强拍",
+    "final": "小节首拍",
+    "reason": "35303 明确 at the start of a bar or measure。"
+  },
+  "35341": {
+    "decision": "采纳",
+    "source": "Scales are the building blocks of music. In Session Mode{C} Scale Shapes are displayed to give you a frame work for learning to improvise.",
+    "original": "音阶是音乐的基石。在即兴演奏模式中{C}会显示音阶形态，为你学习即兴演奏提供框架。",
+    "final": "音阶是音乐的基石。在即兴演奏模式中{C}会显示音阶指型，为你学习即兴演奏提供框架。",
+    "reason": "修正指型术语，其余语义与条件保留。"
+  },
+  "35366": {
+    "decision": "采纳",
+    "source": "New skins are now available for this cabinet.",
+    "original": "该机柜现已提供新皮肤。",
+    "final": "该箱体现已提供新皮肤。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "35373": {
+    "decision": "采纳",
+    "source": "An Eden compact bass head.",
+    "original": "Eden 紧凑型贝斯头。",
+    "final": "Eden 紧凑型贝斯音箱头。",
+    "reason": "修正设备／音色名称或描述，保留型号与参数。"
+  },
+  "35375": {
+    "decision": "重译",
+    "source": "An Eden 1x15 with HF driver.",
+    "original": "配备高频驱动器的 Eden 1x15 音箱。",
+    "final": "配备高频扬声器单元的 Eden 1x15 箱体。",
+    "reason": "结合相邻设备组修复 driver 与箱体。"
+  },
+  "35377": {
+    "decision": "重译",
+    "source": "An Eden 4x10 with HF driver.",
+    "original": "配备高频扬声器的Eden 4x10音箱。",
+    "final": "配备高频扬声器单元的 Eden 4x10 箱体。",
+    "reason": "与相邻设备组一致。"
+  },
+  "35378": {
+    "decision": "采纳",
+    "source": "An Eden high-power 6x10 with HF driver.",
+    "original": "配备高频扬声器的Eden高功率6x10音箱。",
+    "final": "配备高频扬声器单元的Eden高功率6x10箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "35379": {
+    "decision": "采纳",
+    "source": "A classic ‘punchy’ 4x10 bass cab.",
+    "original": "一款经典“有力”的 4x10 贝斯音箱。",
+    "final": "一款经典“有力”的 4x10 贝斯箱体。",
+    "reason": "修正cab 设备区分，其余语义与条件保留。"
+  },
+  "35483": {
+    "decision": "采纳",
+    "source": "Pentatonic Major Jam",
+    "original": "Pentatonic Major Jam",
+    "final": "大调五声音阶即兴",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "35499": {
+    "decision": "重译",
+    "source": "Phrygian Dominant Funk",
+    "original": "弗里吉亚属音Funk",
+    "final": "弗里吉亚属音阶放克",
+    "reason": "Funk 是风格通名，应译。"
+  },
+  "35550": {
+    "decision": "采纳",
+    "source": "Noise Rock",
+    "original": "Noise Rock",
+    "final": "噪音摇滚",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "35570": {
+    "decision": "采纳",
+    "source": "Jazz Fusion",
+    "original": "Jazz Fusion",
+    "final": "爵士融合",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "35606": {
+    "decision": "采纳",
+    "source": "Post Funk",
+    "original": "放克后摇",
+    "final": "后放克",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "35632": {
+    "decision": "采纳",
+    "source": "Modern Bluegrass",
+    "original": "Modern Bluegrass",
+    "final": "现代蓝草",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "35654": {
+    "decision": "采纳",
+    "source": "Cartridge Noise",
+    "original": "Cartridge Noise",
+    "final": "卡带噪声",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。 **待核：见 C 节。**"
+  },
+  "35667": {
+    "decision": "采纳",
+    "source": "Acoustic Grunge",
+    "original": "Acoustic Grunge",
+    "final": "原声垃圾摇滚",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "35681": {
+    "decision": "采纳",
+    "source": "Modern Jazz Rock",
+    "original": "Modern Jazz Rock",
+    "final": "现代爵士摇滚",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "35731": {
+    "decision": "重译",
+    "source": "Flanger",
+    "original": "相位器",
+    "final": "镶边效果器",
+    "reason": "Flanger 非相位器、颤音器。"
+  },
+  "35802": {
+    "decision": "采纳",
+    "source": "Path:",
+    "original": "路径：",
+    "final": "演奏路径：",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "35856": {
+    "decision": "采纳",
+    "source": "SPEED",
+    "original": "SPEED",
+    "final": "速度",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "35981": {
+    "decision": "采纳",
+    "source": "Check out [1] in the Chord Book",
+    "original": "查看 [1] 在和弦书中",
+    "final": "查看和弦书中的 [1]",
+    "reason": "修正技法、音程或指法表达，保留操作要求。"
+  },
+  "36063": {
+    "decision": "重译",
+    "source": "Score Attacking a Song",
+    "original": "得分：挑战歌曲",
+    "final": "进行歌曲得分挑战",
+    "reason": "保留 Score Attacking 的动作含义。"
+  },
+  "36185": {
+    "decision": "采纳",
+    "source": "Uninstalling the latest patch will cause your save data to be incompatible with previous versions of Rocksmith. Do you want to overwrite and create new Save Data ?",
+    "original": "卸载最新补丁将导致您的存档数据与 Rocksmith 旧版本不兼容。您是否要覆盖并创建新的存档数据？",
+    "final": "卸载最新补丁将导致你的存档数据与 Rocksmith 旧版本不兼容。你是否要覆盖并创建新的存档数据？",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "36448": {
+    "decision": "采纳",
+    "source": "B flat",
+    "original": "B 降",
+    "final": "降B",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "36452": {
+    "decision": "采纳",
+    "source": "D flat",
+    "original": "D 降",
+    "final": "降D",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "36454": {
+    "decision": "采纳",
+    "source": "E flat",
+    "original": "E flat",
+    "final": "降E",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "36455": {
+    "decision": "采纳",
+    "source": "E sharp",
+    "original": "E sharp",
+    "final": "升E",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "36458": {
+    "decision": "重译",
+    "source": "G flat",
+    "original": "G 降",
+    "final": "降G",
+    "reason": "与降B、降D、降E格式一致。"
+  },
+  "36580": {
+    "decision": "采纳",
+    "source": "C♯ STANDARD",
+    "original": "C♯ STANDARD",
+    "final": "C♯ 标准调",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "36853": {
+    "decision": "采纳",
+    "source": "In Microphone Mode{C} you can play your guitar into a USB microphone connected to your console or computer. This is a great option for players using an acoustic guitar with no pickup. Your guitar will not be processed through Rocksmith 2014’s Authentic Tones{C} but you will be scored normally when playing songs. Multiplayer is not available in Microphone Mode. {L}{L}Note:  USB Microphone cannot be used for singing while in Microphone Mode",
+    "original": "在麦克风模式下{C} 你可以对着连接到主机或电脑的 USB 麦克风演奏吉他。这是没有拾音器的原声吉他玩家的绝佳选择。你的吉他不会经过 Rocksmith 2014 的真实音色处理{C} 但在演奏歌曲时仍会正常计分。麦克风模式下不支持多人游戏。 {L}{L}注意： 在麦克风模式下无法使用 USB 麦克风进行演唱",
+    "final": "在麦克风模式下{C} 你可以对着连接到主机或电脑的 USB 麦克风演奏吉他。这是没有拾音器的原声吉他玩家的绝佳选择。你的吉他不会经过 Rocksmith 2014 的原曲音色处理{C} 但在演奏歌曲时仍会正常计分。麦克风模式下不支持多人游戏。 {L}{L}注意： 在麦克风模式下无法使用 USB 麦克风进行演唱",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "36986": {
+    "decision": "采纳",
+    "source": "FIND A SONG...",
+    "original": "查找歌曲...",
+    "final": "查找歌曲……",
+    "reason": "规范中文省略号，含义不变。"
+  },
+  "37029": {
+    "decision": "采纳",
+    "source": "Please wait while we untangle some cords...",
+    "original": "请稍候，我们正在整理线缆...",
+    "final": "请稍候，我们正在整理线缆……",
+    "reason": "规范中文省略号，含义不变。"
+  },
+  "37203": {
+    "decision": "重译",
+    "source": "Change Path",
+    "original": "改变路径",
+    "final": "更改演奏路径",
+    "reason": "沿用演奏路径，菜单动作用更改。"
+  },
+  "37204": {
+    "decision": "采纳",
+    "source": "Select Path",
+    "original": "选择路径",
+    "final": "选择演奏路径",
+    "reason": "修复本条标签或叙述，原文含义保留。"
+  },
+  "37213": {
+    "decision": "采纳",
+    "source": "AUTHENTIC TONES",
+    "original": "真实音色",
+    "final": "原曲音色",
+    "reason": "修正原曲音色，其余语义与条件保留。"
+  },
+  "37227": {
+    "decision": "采纳",
+    "source": "KEEP GOING",
+    "original": "KEEP GOING",
+    "final": "继续",
+    "reason": "补译普通标题、风格或教学标签，依本条语境采用中文。"
+  },
+  "37281": {
+    "decision": "重译",
+    "source": "FIND A PACK...",
+    "original": "寻找一个包...",
+    "final": "查找曲包……",
+    "reason": "歌曲商店 Pack 暂用曲包，具体界面待核。 **待核：见 C 节。**"
+  },
+  "37365": {
+    "decision": "采纳",
+    "source": "Rocksmith will not evaluate your playing or adjust your difficulty as you play. You can adjust your difficulty manually using Riff Repeater or the Difficulty Settings menu.",
+    "original": "Rocksmith 不会评估您的演奏或在游玩时自动调整难度。您可以使用乐句重复器或难度设置菜单手动调整难度。",
+    "final": "Rocksmith 不会评估你的演奏或在游玩时自动调整难度。你可以使用乐句重复器或难度设置菜单手动调整难度。",
+    "reason": "修正玩家代词，其余语义与条件保留。"
+  },
+  "37374": {
+    "decision": "采纳",
+    "source": "Switching to bass...",
+    "original": "正在切换到贝斯...",
+    "final": "正在切换到贝斯……",
+    "reason": "规范中文省略号，含义不变。"
+  }
+}

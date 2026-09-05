@@ -43,3 +43,5 @@ scripts/proofreader/selftest/development/
 
 data/proofread_routed.json.part*.json
 
+data/proofread_routed.json.sample.json
+
