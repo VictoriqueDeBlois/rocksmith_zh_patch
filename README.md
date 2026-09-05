@@ -8,7 +8,7 @@
 ## 背景
 
 - `legacy`(老版, 2014)：网上流传的“摇滚史密斯2014汉化补丁 v3”，
-  **人工汉化组**把部分文本(繁体中文)写进 English 列，共 4022 条；
+  **人工汉化组**把部分文本(简体中文)写进 English 列，共 4022 条；
 - `learn_play`(当前版, Remastered)：游戏本体 cache.psarc 解包出的
   maingame.csv，共 20143 行；其中 578 条是老版没有的新文本；
 - 之前 agent 用 ollama 把 578 条新文本译成简体中文
@@ -87,7 +87,7 @@ data/
 
 游戏解包/缓存目录(不入库)：
 ```
-legacy_cache4/            # 老版汉化 cache4 解包 (localization/maingame.csv)
+legacy_cache4/            # 老版汉化 cache4 解包 (maingame.csv 简体 + localization/ 繁体副本)
 learnplay_cache4/         # 当前版 cache4 解包 (基准)
 learnplay_cache8/         # 当前版 cache8 解包
 hybrid_cache4|8/          # 之前生成的含字体/译文缓存
@@ -100,12 +100,12 @@ rstoolkit/                # RocksmithToolkit (packer.exe, tools/7za.exe)
 
 1) 提取汉化组人工译文(只跑一次)：
 ```powershell
-uv run python scripts\extract_legacy_translations.py legacy_cache4\localization\maingame.csv data\translations_legacy.json
+uv run python scripts\extract_legacy_translations.py legacy_cache4\maingame.csv data\translations_legacy.json
 ```
 
 2) 翻译剩余英文(用服务器 qwen3.8，断点续传，每批落盘)：
 ```powershell
-uv run python scripts\translate_remaining.py --legacy legacy_cache4\localization\maingame.csv --current learnplay_cache4\localization\maingame.csv --out data\translations_remaining.json --config config\workers.json
+uv run python scripts\translate_remaining.py --legacy legacy_cache4\maingame.csv --current learnplay_cache4\localization\maingame.csv --out data\translations_remaining.json --config config\workers.json
 ```
 
 3) 校对 AI 译文(跳过汉化组人工条目)：
@@ -135,7 +135,7 @@ uv run python scripts\merge_and_audit_translations.py --current learnplay_cache4
 - 占位符如 {C} {B} {L} {X} [1] 必须原样保留；脚本自动拆分并在校验时核对。
 - 请求 id 使用稳定短 id，避免模型因超长/特殊字符 id 而漏译。
 - 半角逗号会被替换为中文逗号，避免破坏 CSV 列结构。
-- 汉化组繁体译文未做繁→简转换，也未参与 AI 校对(按需求跳过)。
+- 汉化组译文为简体，未参与 AI 校对(按需求跳过)。
 - 音乐记号/音名/品牌名等由模型保留英文；纯数字/符号行不会送译。
 
 ## 后台运行翻译 (Windows 无原生 tmux)

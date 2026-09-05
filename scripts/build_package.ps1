@@ -27,7 +27,7 @@ $utf8 = [System.Text.UTF8Encoding]::new($false)
 [Console]::OutputEncoding = $utf8
 $OutputEncoding = $utf8
 
-$legacyCsv   = Join-Path $Root "legacy_cache4\localization\maingame.csv"
+$legacyCsv   = Join-Path $Root "legacy_cache4\maingame.csv"
 $currentCsv  = Join-Path $Root "learnplay_cache4\localization\maingame.csv"
 $finalJson   = Join-Path $Root "data\translations_final.json"
 $legacyJson  = Join-Path $Root "data\translations_legacy.json"

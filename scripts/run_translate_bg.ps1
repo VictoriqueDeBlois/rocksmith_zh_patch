@@ -42,7 +42,7 @@ $Failed     = Join-Path $Root 'data\translations_remaining.failed.json'
 $ArgList = @(
     '-X', 'utf8',
     $Script,
-    '--legacy',   (Join-Path $Root 'legacy_cache4\localization\maingame.csv'),
+    '--legacy',   (Join-Path $Root 'legacy_cache4\maingame.csv'),
     '--current',  (Join-Path $Root 'learnplay_cache4\localization\maingame.csv'),
     '--out',      (Join-Path $Root 'data\translations_remaining.json'),
     '--config',   (Join-Path $Root 'config\workers.json')
