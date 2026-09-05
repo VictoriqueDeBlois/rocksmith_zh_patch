@@ -137,7 +137,10 @@ TRANSLATION_SCHEMA = {
 
 
 def restore_and_map(endpoint: str, model: str, batch: list[dict], timeout: int) -> dict[str, str]:
-    """翻译一个 batch, 返回 {item_id: translated}。失败抛异常。"""
+    """翻译一个 batch, 返回 {short_id: translated}。失败抛异常。
+
+    注意: 模型有时会打乱返回顺序, 因此严格按 id 匹配, 不能依赖数组顺序。
+    """
     request_items, plans = split_for_translation(batch)
     if not request_items:
         return {it["id"]: it["text"] for it in batch}
@@ -147,17 +150,19 @@ def restore_and_map(endpoint: str, model: str, batch: list[dict], timeout: int) 
     expected_ids = [it["id"] for it in request_items]
     if len(items) != len(expected_ids):
         raise ValueError(f"Segment count mismatch: expected {len(expected_ids)}, got {len(items)}")
-    returned_ids = [it.get("id") for it in items]
-    if returned_ids == expected_ids:
-        seg_text = {it["id"]: it["text"] for it in items}
-    else:
-        if len(set(returned_ids)) != len(expected_ids):
-            raise ValueError(f"id mismatch/duplicate: {returned_ids}")
-        seg_text = {eid: it["text"] for eid, it in zip(expected_ids, items)}
+    seg_by_id: dict[str, str] = {}
+    for it in items:
+        rid = it.get("id")
+        if rid in seg_by_id:
+            raise ValueError(f"duplicate returned id: {rid}")
+        seg_by_id[rid] = it["text"]
+    missing = [eid for eid in expected_ids if eid not in seg_by_id]
+    if missing:
+        raise ValueError(f"missing returned ids: {missing}")
     restored = {}
     for item in batch:
         translated = "".join(
-            value if kind == "literal" else seg_text[value]
+            value if kind == "literal" else seg_by_id[value]
             for kind, value in plans[item["id"]]
         )
         ok, reason = validate(item["text"], translated)
@@ -186,22 +191,28 @@ def translate_worker(worker: dict, texts: list[str], text_to_ids: dict,
     if total == 0:
         return
 
+    # 给每条文本一个稳定且短小的 id, 避免把整段原文塞进 id 导致模型出错
+    short_id = {}
+    id_to_text = {}
+    for i, text in enumerate(sorted(texts)):
+        sid = f"T{i:06d}"
+        short_id[text] = sid
+        id_to_text[sid] = text
+
     batch: list[dict] = []
     batch_chars = 0
     batch_index = 0
     failed_log: dict[str, str] = {}
 
     def commit(received: dict[str, str]):
-        for canonical_id, translated in received.items():
+        for canonical_short, translated in received.items():
+            source = id_to_text[canonical_short]
             translated = translated.replace(",", "，")
-            for sid in text_to_ids[canonical_id]:
+            for sid in text_to_ids[source]:
                 done[sid] = translated
         write_json(out_part, dict(done))
         if failed_out is not None:
             write_json(failed_out, failed_log)
-
-    def try_full():
-        return restore_and_map(endpoint, model, batch, timeout)
 
     def flush():
         nonlocal batch, batch_chars, batch_index
@@ -211,7 +222,7 @@ def translate_worker(worker: dict, texts: list[str], text_to_ids: dict,
         last_error = ""
         for attempt in range(1, 4):
             try:
-                received = try_full()
+                received = restore_and_map(endpoint, model, batch, timeout)
                 break
             except Exception as exc:
                 received = None
@@ -235,7 +246,7 @@ def translate_worker(worker: dict, texts: list[str], text_to_ids: dict,
                         time.sleep(attempt * 2)
                 if not ok:
                     failed_log[item["id"]] = last_error
-                    print(f"[{name}] FAILED item: {item['id'][:80]!r} ({last_error})", flush=True)
+                    print(f"[{name}] FAILED text: {id_to_text[item['id']][:90]!r} ({last_error})", flush=True)
         commit(received)
         batch_index += 1
         print(f"[{name}] batch {batch_index}: {len(received)} texts -> saved {len(done)} ids"
@@ -244,9 +255,10 @@ def translate_worker(worker: dict, texts: list[str], text_to_ids: dict,
         batch_chars = 0
 
     for text in pending:
+        sid = short_id[text]
         if batch and batch_chars + len(text) > max_chars:
             flush()
-        batch.append({"id": text, "text": text})
+        batch.append({"id": sid, "text": text})
         batch_chars += len(text)
         if len(batch) >= batch_size:
             flush()

@@ -5,11 +5,12 @@
 .DESCRIPTION
   步骤:
     1. 用 data/translations_final.json 生成汉化版 maingame.csv 到 work/hybrid_cache4
-    2. 复用 learnplay_cache8 / hybrid_cache8(含中文字体) 作为 cache8 内容
+    2. 复用 hybrid_cache8(含中文字体 fonts.gfx) 作为 cache8 内容
     3. 用 7za 重新压成 cache4.7z / cache8.7z
-    4. 用 unpacked_learnplay 里的原版其余 cacheX.7z + NamesBlock.bin 组装
+    4. 与原版其余 cacheX.7z 组装到 work/package (不需要 NamesBlock.bin)
     5. 用 RocksmithToolkit packer.exe 打包出 cache.psarc
   产物: work/hybrid_built/cache.psarc
+  说明: packer -p 的输入是只含 cacheX.7z 的目录; NamesBlock.bin 由 packer 生成。
 #>
 param(
     [string]$Python = "python",
@@ -30,12 +31,10 @@ $mergedJson  = Join-Path $Root "data\translations_merged.json"
 $remaining   = Join-Path $Root "data\translations_remaining.json"
 $proofJson   = Join-Path $Root "data\translations_proofread.json"
 $ovJson      = Join-Path $Root "config\overrides.json"
-$workersCfg  = Join-Path $Root "config\workers.json"
 
 $learnplayCache4 = Join-Path $Root "learnplay_cache4"
-$learnplayCache8 = Join-Path $Root "learnplay_cache8"
-$hybridCache8    = Join-Path $Root "hybrid_cache8"
 $hybridCache4    = Join-Path $Root "work\hybrid_cache4"
+$hybridCache8    = Join-Path $Root "hybrid_cache8"
 $hybridCache8Out = Join-Path $Root "work\hybrid_cache8"
 $origUnpack      = Join-Path $Root "unpacked_learnplay\cache.psarc.learnplay-original-20260905.bak_RS2014_Pc"
 $pkgDir          = Join-Path $Root "work\package"
@@ -48,17 +47,15 @@ function Assert-Exists([string]$p, [string]$msg) {
 }
 Assert-Exists $legacyCsv   "缺少老版 CSV"
 Assert-Exists $currentCsv  "缺少当前版 CSV"
-Assert-Exists $learnplayCache8 "缺少 learnplay_cache8"
+Assert-Exists $hybridCache8 "缺少 hybrid_cache8 (中文字体)"
 Assert-Exists $origUnpack  "缺少原版解包目录"
 Assert-Exists $sevenZip "缺少 7za"
 Assert-Exists $packer   "缺少 packer"
 
 # ---------- 0. 前置数据 ----------
-# 汉化组人工译文
 & $Python -X utf8 (Join-Path $Root "scripts\extract_legacy_translations.py") $legacyCsv $legacyJson
 if ($LASTEXITCODE -ne 0) { throw "extract_legacy_translations failed" }
 
-# AI 全集 = 校对结果(若有) + 新翻译 + 之前的 merged
 $aiArgs = @()
 if (Test-Path -LiteralPath $proofJson) { $aiArgs += $proofJson }
 if (Test-Path -LiteralPath $remaining) { $aiArgs += $remaining }
@@ -103,8 +100,8 @@ Push-Location $hybridCache8Out
 try { & $sevenZip a -t7z -mx=5 $cache8New * | Out-Null } finally { Pop-Location }
 if ($LASTEXITCODE -ne 0) { throw "7za cache8 failed" }
 
-# ---------- 4. 组装其余原版 cache ----------
-foreach ($name in @("cache0.7z","cache1.7z","cache3.7z","cache6.7z","cache7.7z","NamesBlock.bin")) {
+# ---------- 4. 组装其余原版 cache (不要 NamesBlock.bin) ----------
+foreach ($name in @("cache0.7z","cache1.7z","cache3.7z","cache6.7z","cache7.7z")) {
     $src = Join-Path $origUnpack $name
     Assert-Exists $src "缺少原版 $name"
     Copy-Item -LiteralPath $src -Destination (Join-Path $pkgDir $name) -Force
@@ -112,7 +109,7 @@ foreach ($name in @("cache0.7z","cache1.7z","cache3.7z","cache6.7z","cache7.7z",
 
 # ---------- 5. packer 打包 cache.psarc ----------
 if (-not (Test-Path -LiteralPath $outDir)) { New-Item -ItemType Directory -Force -Path $outDir | Out-Null }
-& $packer -p -f=Pc -v=RS2014 -i=$pkgDir -o=(Join-Path $outDir "cache")
+& $packer -p -f Pc -v RS2014 -i $pkgDir -o (Join-Path $outDir "cache")
 if ($LASTEXITCODE -ne 0) { throw "packer failed" }
 $outPsarc = Join-Path $outDir "cache.psarc"
 Assert-Exists $outPsarc "打包失败, 未生成 cache.psarc"

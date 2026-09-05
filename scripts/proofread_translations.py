@@ -31,7 +31,7 @@ PROOFREAD_SYSTEM = (
     "请逐条校对并修正错译、漏译、术语不统一、占位符丢失、错别字与不通顺之处；"
     "如果译文已经准确自然，就原样返回。\n"
     "规则：\n"
-    "1. 每个 id 一一对应输出，不得合并、遗漏或新增。\n"
+    "1. 每个 id 一一对应输出，输出数量与输入完全一致，不得合并、遗漏或新增。\n"
     "2. 保留 {C} {B} {L} {X} {Y} {A} {0} {1} 与 [1] [2] 等占位符原样。\n"
     "3. 保留 Rocksmith、Ubisoft、Uplay、Steam、PSN、Xbox LIVE、PlayStation、Real Tone Cable 等品牌名，"
     "音名/和弦记号/歌曲名/艺人名不翻译。\n"
@@ -90,12 +90,16 @@ def proofread_batch(endpoint: str, model: str, batch: list[dict], timeout: int) 
     expected = [it["id"] for it in batch]
     if len(out) != len(expected):
         raise ValueError(f"count mismatch: expected {len(expected)}, got {len(out)}")
-    if [x.get("id") for x in out] != expected:
-        by_id = {x.get("id"): x.get("text") for x in out}
-        if len(by_id) != len(expected):
-            raise ValueError("id mismatch / duplicate ids")
-        return [{"id": eid, "text": by_id.get(eid, "")} for eid in expected]
-    return [{"id": x["id"], "text": x["text"]} for x in out]
+    by_id: dict[str, str] = {}
+    for x in out:
+        rid = x.get("id")
+        if rid in by_id:
+            raise ValueError(f"duplicate id: {rid}")
+        by_id[rid] = x.get("text", "")
+    missing = [eid for eid in expected if eid not in by_id]
+    if missing:
+        raise ValueError(f"missing ids: {missing}")
+    return [{"id": eid, "text": by_id[eid]} for eid in expected]
 
 
 def validate(translated: str) -> tuple[bool, str]:
@@ -103,8 +107,6 @@ def validate(translated: str) -> tuple[bool, str]:
         return False, "empty"
     if "\n" in translated or "\r" in translated:
         return False, "embedded newline"
-    if "," in translated:
-        return False, "half-width comma"
     return True, ""
 
 

@@ -127,3 +127,28 @@ python scripts/translate_remaining.py ... --merge-only          # 合并 part
 - 半角逗号会被替换为中文逗号，避免破坏 CSV 列结构。
 - 汉化组繁体译文未做繁→简转换，也未参与 AI 校对(按需求跳过)。
 - 音乐记号/音名/品牌名等由模型保留英文；纯数字/符号行不会送译。
+
+## 并行使用服务器 ollama(SSH 隧道示例)
+
+若服务器 ollama 只监听 127.0.0.1，可先开隧道再写进 workers.json：
+```powershell
+# 把服务器 11434 映射到本机 11435
+ssh -N -L 11435:127.0.0.1:11434 remote-ollama-host
+```
+```json
+{ "name": "server-gpu", "endpoint": "http://127.0.0.1:11435", "model": "qwen3.8:latest" }
+```
+
+在 `config/workers.json` 里并列写多个 worker，例如本机 9B + 服务器 27B：
+`translate_remaining.py` 会按 weight 把文本切片分给各 worker，线程并行，
+各自断点续传，最后自动合并。也可分开跑：
+```powershell
+python scripts/translate_remaining.py ... --worker server-gpu   # 只跑服务器
+python scripts/translate_remaining.py ... --merge-only          # 合并 part
+```
+
+## 打包说明
+
+`scripts/build_package.ps1` 会执行 0-5 全部步骤并生成
+`work/hybrid_built/cache.psarc`。packer -p 的输入目录只放
+`cache0.7z ... cache8.7z`(不需要 NamesBlock.bin，packer 会重建)。
