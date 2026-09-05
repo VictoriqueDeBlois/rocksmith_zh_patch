@@ -36,3 +36,5 @@ __pycache__/
 
 config/api.json
 
+data/translations_remaining.part*.json
+
