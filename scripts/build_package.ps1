@@ -13,10 +13,14 @@
   说明: packer -p 的输入是只含 cacheX.7z 的目录; NamesBlock.bin 由 packer 生成。
 #>
 param(
-    [string]$Python = "python",
+    [string]$Python = "",
     [string]$Root = $PSScriptRoot
 )
 $ErrorActionPreference = "Stop"
+if (-not $Python) {
+    $venvPy = Join-Path $Root ".venv\Scripts\python.exe"
+    if (Test-Path -LiteralPath $venvPy) { $Python = $venvPy } else { $Python = "python" }
+}
 chcp 65001 > $null
 $utf8 = [System.Text.UTF8Encoding]::new($false)
 [Console]::InputEncoding = $utf8
