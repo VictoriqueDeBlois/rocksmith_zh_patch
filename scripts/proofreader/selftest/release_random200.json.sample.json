@@ -1,0 +1,1202 @@
+{
+  "25545": {
+    "id": "25545",
+    "source": "It can sound pretty cool to slide off of a chord after you've been holding it out for a while.",
+    "translation": "在按住和弦一段时间后滑出，听起来会非常酷。",
+    "category": "B"
+  },
+  "19779": {
+    "id": "19779",
+    "source": "It's over",
+    "translation": "结束了",
+    "category": "A"
+  },
+  "6523": {
+    "id": "6523",
+    "source": "Your NAT type is OPEN. OPEN NAT is the optimal setting. You will join GAME SESSIONS and communicate with other PLAYERS without experiencing any problems.",
+    "translation": "你的 NAT 类型为 OPEN。OPEN NAT 是最佳设置。你可以加入游戏会话并与其他玩家通信，且不会遇到任何问题。",
+    "category": "D"
+  },
+  "30488": {
+    "id": "30488",
+    "source": "Limiter",
+    "translation": "限幅器",
+    "category": "E"
+  },
+  "18291": {
+    "id": "18291",
+    "source": "Solo 3",
+    "translation": "独奏 3",
+    "category": "A"
+  },
+  "22493": {
+    "id": "22493",
+    "source": "High",
+    "translation": "高",
+    "category": "A"
+  },
+  "19796": {
+    "id": "19796",
+    "source": "You've done it!",
+    "translation": "你做到了！",
+    "category": "A"
+  },
+  "35111": {
+    "id": "35111",
+    "source": "Be Careful!",
+    "translation": "小心！",
+    "category": "A"
+  },
+  "19742": {
+    "id": "19742",
+    "source": "Breathing room!",
+    "translation": "呼吸空间！",
+    "category": "A"
+  },
+  "30625": {
+    "id": "30625",
+    "source": "Adds a sub-octave pitch-shift voiced for bass.",
+    "translation": "添加专为贝斯调音的低八度移调效果。",
+    "category": "E"
+  },
+  "24825": {
+    "id": "24825",
+    "source": "You can use natural harmonics to tune your guitar.",
+    "translation": "你可以使用自然泛音来调弦。",
+    "category": "B"
+  },
+  "34319": {
+    "id": "34319",
+    "source": "This song threw some tremolos at you last time{C} and it sounded like you might want to improve on your technique a little before trying the song{C} again. Hurtlin' Hurdles is an exciting way to practice tremolos{C} so you'll be totally ready to hit them hard this time around.",
+    "translation": "上次这首歌给你出了些颤音{C} 听起来你可能想在再次尝试这首歌之前稍微改进一下技巧{C}。Hurtlin' Hurdles 是练习颤音的有趣方式{C} 这样你这次就能完全准备好强力演奏它们了。",
+    "category": "B"
+  },
+  "19582": {
+    "id": "19582",
+    "source": "3{C}2{C}1{C} Slide!",
+    "translation": "3{C}2{C}1{C} 滑音！",
+    "category": "B"
+  },
+  "34584": {
+    "id": "34584",
+    "source": "Hybrids: Note + Tail",
+    "translation": "混合：音符 + 尾音",
+    "category": "A"
+  },
+  "17931": {
+    "id": "17931",
+    "source": "TBD",
+    "translation": "待定",
+    "category": "A"
+  },
+  "27436": {
+    "id": "27436",
+    "source": "PRECISELY{C} MY DEAR",
+    "translation": "PRECISELY{C} MY DEAR",
+    "category": "A"
+  },
+  "20960": {
+    "id": "20960",
+    "source": "This hand-built pedal delivers a custom drive.",
+    "translation": "这款手工打造的效果器提供定制过载音色。",
+    "category": "E"
+  },
+  "34137": {
+    "id": "34137",
+    "source": "Successfully hit 4 pops.",
+    "translation": "成功击中 4 个波普。",
+    "category": "C"
+  },
+  "21288": {
+    "id": "21288",
+    "source": "Saving content. Please don't turn off your console.",
+    "translation": "正在保存内容。请勿关闭主机。",
+    "category": "F"
+  },
+  "27765": {
+    "id": "27765",
+    "source": "Lightly pluck the string as finger is released.",
+    "translation": "手指抬起时轻拨琴弦。",
+    "category": "B"
+  },
+  "29165": {
+    "id": "29165",
+    "source": "Play Return to Castle Chordead.",
+    "translation": "演奏 Return to Castle Chordead。",
+    "category": "G"
+  },
+  "37186": {
+    "id": "37186",
+    "source": "Error",
+    "translation": "错误",
+    "category": "A"
+  },
+  "12528": {
+    "id": "12528",
+    "source": "If you're sure you're playing the right string and the right fret{C} but Rocksmith still thinks you're wrong{C} there are a couple of things you can try.",
+    "translation": "如果你确定按对了琴弦和品位{C}但 Rocksmith 仍判定你错误{C}你可以尝试以下几种方法。",
+    "category": "B"
+  },
+  "23767": {
+    "id": "23767",
+    "source": "Now{C} let’s play each string one more time just to double-check that you’re good to go.",
+    "translation": "现在{C}让我们再拨动每根琴弦一次，以确认一切就绪。",
+    "category": "B"
+  },
+  "29153": {
+    "id": "29153",
+    "source": "Play Scale Racer.",
+    "translation": "演奏 Scale Racer。",
+    "category": "B"
+  },
+  "6969": {
+    "id": "6969",
+    "source": "microphone icon",
+    "translation": "麦克风图标",
+    "category": "A"
+  },
+  "32133": {
+    "id": "32133",
+    "source": "Jump past a zap platform to avoid being stunned.",
+    "translation": "跳过电击平台以避免被眩晕。",
+    "category": "C"
+  },
+  "33442": {
+    "id": "33442",
+    "source": "Vibrato Basics",
+    "translation": "颤音基础",
+    "category": "A"
+  },
+  "36943": {
+    "id": "36943",
+    "source": "When checked{C} all songs will play at maximum difficulty and will not level down.",
+    "translation": "勾选后{C}所有歌曲将以最高难度播放，且不会降低难度。",
+    "category": "G"
+  },
+  "31534": {
+    "id": "31534",
+    "source": "STUDIO FLANGER",
+    "translation": "录音室镶边",
+    "category": "E"
+  },
+  "17304": {
+    "id": "17304",
+    "source": "That's plenty of volume. Now get quiet by muting the strings with your hand.",
+    "translation": "音量足够了。现在用手闷住琴弦，把声音变小。",
+    "category": "B"
+  },
+  "36966": {
+    "id": "36966",
+    "source": "OLDER",
+    "translation": "较旧",
+    "category": "A"
+  },
+  "22814": {
+    "id": "22814",
+    "source": "Rocksmith is not compatible with your current operating system.",
+    "translation": "Rocksmith 与你当前的操作系统不兼容。",
+    "category": "G"
+  },
+  "32967": {
+    "id": "32967",
+    "source": "DUET",
+    "translation": "DUET",
+    "category": "A"
+  },
+  "22667": {
+    "id": "22667",
+    "source": "Bass Setup",
+    "translation": "贝斯设置",
+    "category": "A"
+  },
+  "17763": {
+    "id": "17763",
+    "source": "Edit",
+    "translation": "编辑",
+    "category": "A"
+  },
+  "20387": {
+    "id": "20387",
+    "source": "Invert Strings Off",
+    "translation": "关闭琴弦反转",
+    "category": "B"
+  },
+  "13581": {
+    "id": "13581",
+    "source": "You're gonna start off by making the chord shape here at the 12th fret.",
+    "translation": "你将从在第12品做出这个和弦指型开始。",
+    "category": "B"
+  },
+  "27521": {
+    "id": "27521",
+    "source": "WARM SUITCASE PIANO",
+    "translation": "WARM SUITCASE PIANO",
+    "category": "A"
+  },
+  "11253": {
+    "id": "11253",
+    "source": "...and now the other one.",
+    "translation": "... 然后是另一个。",
+    "category": "G"
+  },
+  "35792": {
+    "id": "35792",
+    "source": "Level Complete!",
+    "translation": "关卡完成！",
+    "category": "A"
+  },
+  "35645": {
+    "id": "35645",
+    "source": "Studio Blues",
+    "translation": "Studio Blues",
+    "category": "A"
+  },
+  "28722": {
+    "id": "28722",
+    "source": "Multiple techniques can be combined on a single note.",
+    "translation": "可以在单个音符上组合多种技巧。",
+    "category": "B"
+  },
+  "7203": {
+    "id": "7203",
+    "source": "right stick",
+    "translation": "右摇杆",
+    "category": "A"
+  },
+  "34017": {
+    "id": "34017",
+    "source": "Get a new high score in Score Attack on Hard for [1].",
+    "translation": "在 [1] 的困难难度得分挑战中刷新最高分",
+    "category": "C"
+  },
+  "32300": {
+    "id": "32300",
+    "source": "Pass [1] consecutive lines of cars in a single game.",
+    "translation": "连续通过[1]条车道中的车辆。",
+    "category": "C"
+  },
+  "5936": {
+    "id": "5936",
+    "source": "Press the PS button to turn on your PlayStation®Move motion controller. Once the sphere is lightened up{C} press the Move button to calibrate until the sphere has got a color.",
+    "translation": "按PS键打开PlayStation®Move动作控制器。当球体亮起后{C}按Move键进行校准，直到球体显示颜色。",
+    "category": "D"
+  },
+  "12764": {
+    "id": "12764",
+    "source": "Let's try playing the low E string - the thickest one. This time your finger can rest on your thumb after it plays.",
+    "translation": "让我们试试弹奏低音 E 弦——最粗的那根。这次你的手指在弹奏后可以搭在拇指上。",
+    "category": "B"
+  },
+  "11325": {
+    "id": "11325",
+    "source": "To deaden the string{C} cover it with your fingers. Just don't press it all the way down.",
+    "translation": "要制音{C} 请用手指覆盖琴弦。注意不要完全按到底。",
+    "category": "B"
+  },
+  "27818": {
+    "id": "27818",
+    "source": "That was good.",
+    "translation": "很好。",
+    "category": "A"
+  },
+  "35311": {
+    "id": "35311",
+    "source": "This shows when you play a Scale Note{C} chord tone{C} or a Dissonant note outside of the scale.",
+    "translation": "当你演奏音阶音符时{C} 和弦音{C} 或音阶外的不协和音时，会显示此提示。",
+    "category": "B"
+  },
+  "6367": {
+    "id": "6367",
+    "source": "Friends list",
+    "translation": "好友列表",
+    "category": "A"
+  },
+  "9933": {
+    "id": "9933",
+    "source": "You've already been doing this... every time you've played through the notes of a chord one by one{C} you've been playing an arpeggio.",
+    "translation": "你其实一直在做这件事……每次你逐个弹奏和弦中的音符时{C}你都在演奏分解和弦。",
+    "category": "B"
+  },
+  "6577": {
+    "id": "6577",
+    "source": "The game session is no longer available.",
+    "translation": "游戏会话已不可用。",
+    "category": "D"
+  },
+  "18287": {
+    "id": "18287",
+    "source": "Chorus 9",
+    "translation": "副歌 9",
+    "category": "A"
+  },
+  "36216": {
+    "id": "36216",
+    "source": "This is no ordinary rock.  It’s a rock rock!",
+    "translation": "这不是一块普通的石头。这是一块摇滚石！",
+    "category": "G"
+  },
+  "19207": {
+    "id": "19207",
+    "source": "Feeding the new Low E string through the bridge.",
+    "translation": "将新的低音 E 弦穿过琴桥。",
+    "category": "B"
+  },
+  "20563": {
+    "id": "20563",
+    "source": "TBD",
+    "translation": "待定",
+    "category": "A"
+  },
+  "31919": {
+    "id": "31919",
+    "source": "Play the Aeolian Scale Notes.",
+    "translation": "弹奏 Aeolian 音阶音符。",
+    "category": "B"
+  },
+  "13302": {
+    "id": "13302",
+    "source": "two...",
+    "translation": "二……",
+    "category": "A"
+  },
+  "25032": {
+    "id": "25032",
+    "source": "The Harmonicity Meter tracks how Consonant or Dissonant you are. Playing Scale Notes makes the meter Consonant{C} while playing notes outside of the scale will make you Dissonant.",
+    "translation": "和谐度计用于追踪你的演奏是和谐还是不和谐。弹奏音阶内的音符会使计器显示为和谐{C}而弹奏音阶外的音符则会显示为不和谐。",
+    "category": "B"
+  },
+  "26762": {
+    "id": "26762",
+    "source": "PLAY TIME",
+    "translation": "游玩时长",
+    "category": "A"
+  },
+  "17736": {
+    "id": "17736",
+    "source": "Completed Master Event",
+    "translation": "完成大师事件",
+    "category": "G"
+  },
+  "20264": {
+    "id": "20264",
+    "source": "TBD",
+    "translation": "待定",
+    "category": "A"
+  },
+  "37068": {
+    "id": "37068",
+    "source": "Distinct Songs Passed by Difficulty",
+    "translation": "按难度划分的不同歌曲",
+    "category": "G"
+  },
+  "34190": {
+    "id": "34190",
+    "source": "taps",
+    "translation": "点弦",
+    "category": "A"
+  },
+  "13533": {
+    "id": "13533",
+    "source": "Sweeeeeet...",
+    "translation": "太美妙了……",
+    "category": "A"
+  },
+  "7319": {
+    "id": "7319",
+    "source": "right stick",
+    "translation": "右摇杆",
+    "category": "A"
+  },
+  "31890": {
+    "id": "31890",
+    "source": "Learn a Scale Shape: Pentatonic Minor.",
+    "translation": "学习音阶指型：Pentatonic Minor。",
+    "category": "B"
+  },
+  "18149": {
+    "id": "18149",
+    "source": "TBD",
+    "translation": "待定",
+    "category": "A"
+  },
+  "22815": {
+    "id": "22815",
+    "source": "Press Space Bar",
+    "translation": "按空格键",
+    "category": "A"
+  },
+  "24175": {
+    "id": "24175",
+    "source": "Only the G string came through there. Make sure you play the B string too.",
+    "translation": "刚才只有 G 弦传出来了。请确保你也弹奏了 B 弦。",
+    "category": "B"
+  },
+  "26573": {
+    "id": "26573",
+    "source": "Riff Repeater is now fully customizable{C} so you can practice what you want{C} how you want.",
+    "translation": "乐句重复器现在完全可自定义{C}你可以练习想要的内容{C}以你想要的方式。",
+    "category": "B"
+  },
+  "35208": {
+    "id": "35208",
+    "source": "ADD",
+    "translation": "添加",
+    "category": "A"
+  },
+  "37054": {
+    "id": "37054",
+    "source": "Previous Section",
+    "translation": "上一部分",
+    "category": "A"
+  },
+  "27189": {
+    "id": "27189",
+    "source": "Hexagon Pad",
+    "translation": "六边形垫",
+    "category": "E"
+  },
+  "32058": {
+    "id": "32058",
+    "source": "Avoid the battery bot for a single game.",
+    "translation": "在一局游戏中避免电池机器人。",
+    "category": "C"
+  },
+  "19262": {
+    "id": "19262",
+    "source": "Packs",
+    "translation": "曲包",
+    "category": "A"
+  },
+  "18659": {
+    "id": "18659",
+    "source": "Arch your finger slightly so it doesn’t touch the other strings.",
+    "translation": "手指略微拱起，以免触碰到其他琴弦。",
+    "category": "B"
+  },
+  "21096": {
+    "id": "21096",
+    "source": "Octave Select",
+    "translation": "八度选择",
+    "category": "A"
+  },
+  "18258": {
+    "id": "18258",
+    "source": "Chorus [1]",
+    "translation": "副歌[1]",
+    "category": "A"
+  },
+  "21690": {
+    "id": "21690",
+    "source": "You can't win if you don't play.",
+    "translation": "如果你不演奏，就无法获胜。",
+    "category": "G"
+  },
+  "18220": {
+    "id": "18220",
+    "source": "Top{L}10%{L}in the{L}World",
+    "translation": "前{L}10%{L}全球{L}排名",
+    "category": "A"
+  },
+  "22168": {
+    "id": "22168",
+    "source": "Play Free Speed to learn complex sections at your own pace",
+    "translation": "使用自由速度模式，按自己的节奏学习复杂段落。",
+    "category": "G"
+  },
+  "35748": {
+    "id": "35748",
+    "source": "With a D Chord",
+    "translation": "使用 D 和弦",
+    "category": "B"
+  },
+  "18995": {
+    "id": "18995",
+    "source": "Learn muting techniques for advanced chords and double stops.",
+    "translation": "学习护弦技巧以演奏高级和弦和双音。",
+    "category": "B"
+  },
+  "24458": {
+    "id": "24458",
+    "source": "This bend starts on the 5th fret of the E string.",
+    "translation": "此推弦起始于E弦的第5品。",
+    "category": "B"
+  },
+  "11858": {
+    "id": "11858",
+    "source": "Like with hammer-ons and pull-offs{C} you play notes without picking{C} but the cool part here is you use both hands on the fretboard.",
+    "translation": "就像击弦和勾弦一样{C}你无需拨弦即可弹奏音符{C}但这里酷的地方在于你需要双手都在指板上操作。",
+    "category": "B"
+  },
+  "22517": {
+    "id": "22517",
+    "source": "Density",
+    "translation": "密度",
+    "category": "A"
+  },
+  "6292": {
+    "id": "6292",
+    "source": "Load options failed. The storage device in use has been removed.",
+    "translation": "加载选项失败。正在使用的存储设备已被移除。",
+    "category": "F"
+  },
+  "12511": {
+    "id": "12511",
+    "source": "So that's the basic idea. Again{C} remember your bass might work a little differently{C} so if you have any questions{C} feel free to ask at your local guitar store.",
+    "translation": "这就是基本思路。再次{C}记住你的贝斯可能略有不同{C}所以如果你有任何问题{C}欢迎向当地吉他店咨询。",
+    "category": "G"
+  },
+  "9631": {
+    "id": "9631",
+    "source": "And then your third finger goes all the way over here on the high E string at the third fret.",
+    "translation": "然后你的第三指要一直按到高E弦的第三品。",
+    "category": "B"
+  },
+  "23678": {
+    "id": "23678",
+    "source": "Make sure you bend the string before you play the note.",
+    "translation": "确保在弹奏音符之前先推弦。",
+    "category": "B"
+  },
+  "32917": {
+    "id": "32917",
+    "source": "And I guess I'll just watch.",
+    "translation": "我想我就只能看着了。",
+    "category": "G"
+  },
+  "25084": {
+    "id": "25084",
+    "source": "Practice slap bass slowly at first{C} then build up your speed.",
+    "translation": "起初请慢速练习Slap Bass{C}然后逐渐提升速度。",
+    "category": "B"
+  },
+  "11577": {
+    "id": "11577",
+    "source": "Usually you'll get several palm mutes in a row{C} so let's try repeating it a few times.",
+    "translation": "通常你会连续进行几次手掌护弦{C}所以让我们试着重复几次。",
+    "category": "B"
+  },
+  "37134": {
+    "id": "37134",
+    "source": "SELECT",
+    "translation": "选择",
+    "category": "A"
+  },
+  "21964": {
+    "id": "21964",
+    "source": "The Rocksmith DC58",
+    "translation": "Rocksmith DC58",
+    "category": "A"
+  },
+  "6387": {
+    "id": "6387",
+    "source": "Manage your Xbox LIVE Party. Invite more friends or send them a challenge via Xbox LIVE.",
+    "translation": "管理你的 Xbox LIVE 派对。邀请更多朋友或通过 Xbox LIVE 向他们发送挑战。",
+    "category": "D"
+  },
+  "6611": {
+    "id": "6611",
+    "source": "Your game experience will be optimal.",
+    "translation": "你的游戏体验将是最佳的。",
+    "category": "G"
+  },
+  "30107": {
+    "id": "30107",
+    "source": "SLOW JAM",
+    "translation": "慢速即兴",
+    "category": "A"
+  },
+  "19213": {
+    "id": "19213",
+    "source": "A detailed look at feeding a new B string through the bridge.",
+    "translation": "详细展示如何将新的 B 弦穿过琴桥。",
+    "category": "B"
+  },
+  "18226": {
+    "id": "18226",
+    "source": "TBD",
+    "translation": "待定",
+    "category": "A"
+  },
+  "32512": {
+    "id": "32512",
+    "source": "Play the matching notes in the scale to dodge traffic.",
+    "translation": "演奏音阶中匹配的音符以躲避车流。",
+    "category": "B"
+  },
+  "7740": {
+    "id": "7740",
+    "source": "To access options or to take a break{C} use the guide gesture at any time during the game.",
+    "translation": "要访问选项或稍作休息{C} 请在游戏过程中随时使用引导手势。",
+    "category": "G"
+  },
+  "22644": {
+    "id": "22644",
+    "source": "Tube Mic",
+    "translation": "电子管麦克风",
+    "category": "A"
+  },
+  "32653": {
+    "id": "32653",
+    "source": "Amazing!",
+    "translation": "太棒了！",
+    "category": "A"
+  },
+  "31567": {
+    "id": "31567",
+    "source": "A classic ported 2x10 cab.",
+    "translation": "一款经典倒相式 2x10 音箱。",
+    "category": "E"
+  },
+  "34104": {
+    "id": "34104",
+    "source": "Successfully hit 4 chord sustains.",
+    "translation": "成功弹奏 4 个和弦延音。",
+    "category": "C"
+  },
+  "21801": {
+    "id": "21801",
+    "source": "The One With Zombies",
+    "translation": "The One With Zombies",
+    "category": "A"
+  },
+  "36718": {
+    "id": "36718",
+    "source": "Go To Top",
+    "translation": "回到顶部",
+    "category": "A"
+  },
+  "30453": {
+    "id": "30453",
+    "source": "A vintage tube bass head with powerful crunch.",
+    "translation": "复古电子管贝斯音箱头，具有强劲过载音色。",
+    "category": "E"
+  },
+  "31128": {
+    "id": "31128",
+    "source": "Orange OBC115 Bass Cab",
+    "translation": "Orange OBC115 贝斯音箱",
+    "category": "E"
+  },
+  "35531": {
+    "id": "35531",
+    "source": "Fast Jam",
+    "translation": "快速即兴",
+    "category": "A"
+  },
+  "12490": {
+    "id": "12490",
+    "source": "To start off{C} you'll need to have a few things handy.",
+    "translation": "开始之前{C} 你需要准备好几样东西。",
+    "category": "G"
+  },
+  "7375": {
+    "id": "7375",
+    "source": "Linking your saved game to Facebook will automatically load the save game. Continue?",
+    "translation": "将存档关联到Facebook将自动加载存档。继续吗？",
+    "category": "F"
+  },
+  "6077": {
+    "id": "6077",
+    "source": "Activate your Uplay Passport to access online multiplayer. If your Uplay Passport code is missing{C} or it has already been redeemed{C} you can buy a new one in the %s or start a free %d day trial.",
+    "translation": "激活你的 Uplay 护照以访问在线多人游戏。如果你的 Uplay 护照代码缺失{C}或已被兑换{C}你可以在 %s 中购买新的护照，或开始 %d 天免费试用。",
+    "category": "D"
+  },
+  "32864": {
+    "id": "32864",
+    "source": "Yeah{C} until he lost.",
+    "translation": "是的{C}直到他输掉为止。",
+    "category": "A"
+  },
+  "30589": {
+    "id": "30589",
+    "source": "Adds a vibrato effect with multiple waveforms.",
+    "translation": "添加具有多种波形的颤音效果。",
+    "category": "E"
+  },
+  "34212": {
+    "id": "34212",
+    "source": "chord tremolos",
+    "translation": "和弦颤音",
+    "category": "B"
+  },
+  "18447": {
+    "id": "18447",
+    "source": "Play the note on the purple string now.",
+    "translation": "现在演奏紫弦上的音符。",
+    "category": "B"
+  },
+  "32082": {
+    "id": "32082",
+    "source": "Run [1] meters in a single game.",
+    "translation": "在单局游戏中跑[1] 米。",
+    "category": "C"
+  },
+  "8413": {
+    "id": "8413",
+    "source": "Now check out this riff that uses that pre-bend.",
+    "translation": "现在看看这个使用预推弦的乐句。",
+    "category": "B"
+  },
+  "5931": {
+    "id": "5931",
+    "source": "Your connection to the PlayStation®Network has been lost. You have been returned to the main menu. Online features will not be available until you'll sign in again.",
+    "translation": "与 PlayStation®Network 的连接已断开。已返回主菜单。重新登录前，在线功能将不可用。",
+    "category": "D"
+  },
+  "11496": {
+    "id": "11496",
+    "source": "Now let's try to put a riff together based on those double stop hammer-ons.",
+    "translation": "现在让我们基于那些双音击弦来组合一个乐句。",
+    "category": "B"
+  },
+  "7003": {
+    "id": "7003",
+    "source": "sensor",
+    "translation": "传感器",
+    "category": "A"
+  },
+  "27176": {
+    "id": "27176",
+    "source": "Blue Cartridge",
+    "translation": "蓝色卡带",
+    "category": "A"
+  },
+  "34948": {
+    "id": "34948",
+    "source": "Distance Run",
+    "translation": "距离跑",
+    "category": "A"
+  },
+  "26886": {
+    "id": "26886",
+    "source": "PLAY TIME",
+    "translation": "游玩时长",
+    "category": "A"
+  },
+  "35175": {
+    "id": "35175",
+    "source": "Consecutive quick lane changes increase your score bonus.",
+    "translation": "连续快速变道可增加你的得分奖励。",
+    "category": "C"
+  },
+  "26941": {
+    "id": "26941",
+    "source": "Turn on Auto-continue in Riff Repeater.",
+    "translation": "在乐句重复器中开启自动继续。",
+    "category": "F"
+  },
+  "36858": {
+    "id": "36858",
+    "source": "We've recently updated our Terms of Use. Do you want to accept them now{C} or should we ask you again at a later time? It will only take a minute.",
+    "translation": "我们最近更新了使用条款。你想现在接受吗{C}还是稍后再问你？这只需要一分钟。",
+    "category": "G"
+  },
+  "18514": {
+    "id": "18514",
+    "source": "Pressing too hard or lightly can also change the sound.",
+    "translation": "按得太重或太轻也会改变声音。",
+    "category": "G"
+  },
+  "30042": {
+    "id": "30042",
+    "source": "AEOLIAN METAL",
+    "translation": "爱奥尼亚金属",
+    "category": "A"
+  },
+  "24467": {
+    "id": "24467",
+    "source": "This compound bend starts on the 7th fret of the D string.",
+    "translation": "此复合推弦起始于D弦的第7品。",
+    "category": "B"
+  },
+  "27915": {
+    "id": "27915",
+    "source": "OK{C} now let's put it all together in a song.",
+    "translation": "好的{C} 现在让我们把这些组合成一首歌。",
+    "category": "B"
+  },
+  "18997": {
+    "id": "18997",
+    "source": "Learn how to play prebends.",
+    "translation": "学习如何演奏预推弦。",
+    "category": "B"
+  },
+  "19089": {
+    "id": "19089",
+    "source": "Info and Help",
+    "translation": "信息与帮助",
+    "category": "A"
+  },
+  "31713": {
+    "id": "31713",
+    "source": "SENSITIVITY",
+    "translation": "灵敏度",
+    "category": "A"
+  },
+  "36111": {
+    "id": "36111",
+    "source": "CANNOT CHANGE PATH",
+    "translation": "无法更改路径",
+    "category": "A"
+  },
+  "24335": {
+    "id": "24335",
+    "source": "You're on the wrong string. This slide is on the low E string.",
+    "translation": "你按错了琴弦。这个滑音是在低音E弦上。",
+    "category": "B"
+  },
+  "9193": {
+    "id": "9193",
+    "source": "Also{C} it might help to tilt the pick a little bit so it's hitting the string at more of an angle.",
+    "translation": "另外{C} 稍微倾斜拨片可能也有帮助，这样它以更大的角度击打琴弦。",
+    "category": "B"
+  },
+  "19792": {
+    "id": "19792",
+    "source": "New high!",
+    "translation": "新纪录！",
+    "category": "A"
+  },
+  "35961": {
+    "id": "35961",
+    "source": "If your setup currently uses an HDMI OUT connector only{C} you may be prone to experiencing a delay between playing the strings and hearing your notes through the speaker. {L}{L}Consider changing your configuration to more closely match one of the ideal examples above.",
+    "translation": "如果你的设置目前仅使用 HDMI OUT 接口{C}你可能会经历拨弦与听到扬声器声音之间的延迟。{L}{L}建议更改配置，使其更接近上述理想示例之一。",
+    "category": "E"
+  },
+  "31802": {
+    "id": "31802",
+    "source": "You can also attach an electric pickup with a quarter inch jack to your instrument{C} or you can play in Disconnected Mode{C} which requires no audio input.",
+    "translation": "你也可以用四分之一英寸插头的拾音器连接到你的乐器{C} 或者你可以使用断开连接模式{C} 该模式无需音频输入。",
+    "category": "E"
+  },
+  "30172": {
+    "id": "30172",
+    "source": "METAL JAM",
+    "translation": "金属即兴",
+    "category": "A"
+  },
+  "36055": {
+    "id": "36055",
+    "source": "Idle",
+    "translation": "闲置",
+    "category": "A"
+  },
+  "20052": {
+    "id": "20052",
+    "source": "BOMB",
+    "translation": "炸弹",
+    "category": "A"
+  },
+  "35524": {
+    "id": "35524",
+    "source": "Simple Electronic",
+    "translation": "简单电子",
+    "category": "E"
+  },
+  "17663": {
+    "id": "17663",
+    "source": "Perform Again",
+    "translation": "再次演奏",
+    "category": "A"
+  },
+  "17452": {
+    "id": "17452",
+    "source": "Nice one! Pluck the orange string.",
+    "translation": "不错！拨动橙色琴弦。",
+    "category": "B"
+  },
+  "25820": {
+    "id": "25820",
+    "source": "If you want to keep quick access to your instrument{C} invest in a stand. Just propping it up any old place is a recipe for heartbreak.",
+    "translation": "如果你想随时快速取用乐器{C}建议购买一个支架。随意靠在某个地方很容易导致损坏。",
+    "category": "G"
+  },
+  "32820": {
+    "id": "32820",
+    "source": "No more games! Feel the ultimate power of doom!",
+    "translation": "没有更多游戏了！感受终极的毁灭之力！",
+    "category": "G"
+  },
+  "6206": {
+    "id": "6206",
+    "source": "Are you sure you want to quit? Any unsaved progress will be lost.",
+    "translation": "确定要退出吗？未保存的进度将会丢失。",
+    "category": "G"
+  },
+  "35421": {
+    "id": "35421",
+    "source": "J-pop",
+    "translation": "J-pop",
+    "category": "B"
+  },
+  "31451": {
+    "id": "31451",
+    "source": "Adds a swooshing jet-plane phaser effect.",
+    "translation": "添加类似喷气式飞机呼啸声的相位效果。",
+    "category": "G"
+  },
+  "7805": {
+    "id": "7805",
+    "source": "Exit to main menu",
+    "translation": "返回主菜单",
+    "category": "A"
+  },
+  "17744": {
+    "id": "17744",
+    "source": "Getting new play suggestions",
+    "translation": "正在获取新的演奏建议",
+    "category": "G"
+  },
+  "19198": {
+    "id": "19198",
+    "source": "Restringing Extras:{L}G String - Bridge",
+    "translation": "换弦附加项：{L}G 弦 - 琴桥",
+    "category": "B"
+  },
+  "18869": {
+    "id": "18869",
+    "source": "Learn{C} practice{C} and master barre chords.",
+    "translation": "学习{C}练习{C}并掌握横按和弦。",
+    "category": "B"
+  },
+  "17492": {
+    "id": "17492",
+    "source": "YOU JUST PLAYED YOUR FIRST RIFF!",
+    "translation": "你刚刚演奏了你的第一个乐句！",
+    "category": "G"
+  },
+  "27770": {
+    "id": "27770",
+    "source": "Lightly cover the string.",
+    "translation": "轻轻覆盖琴弦。",
+    "category": "B"
+  },
+  "32523": {
+    "id": "32523",
+    "source": "Bats attack in swarms. Experiment with light and heavy strums.",
+    "translation": "蝙蝠群发起攻击。尝试使用轻扫和重扫。",
+    "category": "G"
+  },
+  "34068": {
+    "id": "34068",
+    "source": "Play a Practice Track.",
+    "translation": "弹奏练习曲目。",
+    "category": "B"
+  },
+  "37199": {
+    "id": "37199",
+    "source": "REAL TONE CABLE GAIN",
+    "translation": "Real Tone Cable 增益",
+    "category": "E"
+  },
+  "31413": {
+    "id": "31413",
+    "source": "Adds a lo-fi filter for removing low or high frequencies.",
+    "translation": "添加用于去除低频或高频的低保真滤波器。",
+    "category": "G"
+  },
+  "22087": {
+    "id": "22087",
+    "source": "Venue Select",
+    "translation": "场地选择",
+    "category": "A"
+  },
+  "20459": {
+    "id": "20459",
+    "source": "Adjust the volume of the connected guitar.",
+    "translation": "调整连接吉他的音量。",
+    "category": "F"
+  },
+  "31795": {
+    "id": "31795",
+    "source": "Rocksmith 2014 does not come with a hard copy game instruction manual. Instead{C} it has a digital instruction manual.",
+    "translation": "Rocksmith 2014 不附带纸质游戏说明书。相反{C}它提供数字版说明书。",
+    "category": "G"
+  },
+  "30028": {
+    "id": "30028",
+    "source": "PHRYGIAN ROCK",
+    "translation": "弗里吉亚摇滚",
+    "category": "B"
+  },
+  "18749": {
+    "id": "18749",
+    "source": "Rest your strumming arm on the top of the guitar body so that your hand hangs comfortably over the strings. You should be able to take your hand off the neck without the guitar tipping.",
+    "translation": "将扫弦手臂搁在琴身上方，让手舒适地悬在琴弦上方。你应该能在不碰琴颈的情况下让吉他保持平衡。",
+    "category": "B"
+  },
+  "27336": {
+    "id": "27336",
+    "source": "A♭m7(♭5)",
+    "translation": "A♭m7(♭5)",
+    "category": "A"
+  },
+  "18888": {
+    "id": "18888",
+    "source": "These are slides.",
+    "translation": "这些是滑音。",
+    "category": "B"
+  },
+  "26223": {
+    "id": "26223",
+    "source": "Reverb Pedals simulate the ambient sound of a space{C} like a room or concert hall.",
+    "translation": "混响效果器模拟空间的环境声{C}如房间或音乐厅。",
+    "category": "G"
+  },
+  "25701": {
+    "id": "25701",
+    "source": "Cut your fingernails… they get in the way of fretting the notes.",
+    "translation": "剪短指甲……它们会妨碍按品。",
+    "category": "B"
+  },
+  "35074": {
+    "id": "35074",
+    "source": "Lvl 6",
+    "translation": "6级",
+    "category": "A"
+  },
+  "6330": {
+    "id": "6330",
+    "source": "You have not selected a storage device.  You will need to select a storage device in order to save game progress.  Do you want to select one now?",
+    "translation": "未选择存储设备。保存游戏进度需要选择存储设备。现在要选择一个吗？",
+    "category": "F"
+  },
+  "18457": {
+    "id": "18457",
+    "source": "When playing a sustain{C} make sure not to interrupt the sound by putting down or pulling off any fingers.",
+    "translation": "在演奏延音时{C}请确保不要通过放下或抬起手指来中断声音。",
+    "category": "G"
+  },
+  "24164": {
+    "id": "24164",
+    "source": "Each piece of gear has its own settings{C} so there's no end to what you can make.",
+    "translation": "每件设备都有独立的设置{C}因此你能创造出的声音没有尽头。",
+    "category": "F"
+  },
+  "18195": {
+    "id": "18195",
+    "source": "Check{L}Guitar{L}Tuning",
+    "translation": "检查{L}吉他{L}调弦",
+    "category": "A"
+  },
+  "25083": {
+    "id": "25083",
+    "source": "Palm mutes make notes shorter and a little more muffled. The musical term for playing short notes is \"staccato\".",
+    "translation": "手掌制音使音符变短且略显沉闷。演奏短音符的音乐术语是“断奏”。",
+    "category": "B"
+  },
+  "7367": {
+    "id": "7367",
+    "source": "Cannot join a ranked match in progress.",
+    "translation": "无法加入正在进行的排位赛。",
+    "category": "D"
+  },
+  "22233": {
+    "id": "22233",
+    "source": "For multiple notes{C} alternate plucking with your index and middle fingers.",
+    "translation": "对于多个音符{C}请用食指和中指交替拨弦。",
+    "category": "B"
+  },
+  "21910": {
+    "id": "21910",
+    "source": "The Rocksmith Pulse Pulse",
+    "translation": "Rocksmith 脉冲",
+    "category": "G"
+  },
+  "23378": {
+    "id": "23378",
+    "source": "Fullscreen",
+    "translation": "全屏",
+    "category": "A"
+  },
+  "18873": {
+    "id": "18873",
+    "source": "Learn{C} practice{C} and master power chords.",
+    "translation": "学习{C}练习{C}并掌握强力和弦。",
+    "category": "B"
+  },
+  "20259": {
+    "id": "20259",
+    "source": "TBD",
+    "translation": "待定",
+    "category": "A"
+  },
+  "17635": {
+    "id": "17635",
+    "source": "Unlocked Technique",
+    "translation": "已解锁技巧",
+    "category": "B"
+  },
+  "20047": {
+    "id": "20047",
+    "source": "Pick the string fast to run!",
+    "translation": "快速拨弦以奔跑！",
+    "category": "B"
+  },
+  "28257": {
+    "id": "28257",
+    "source": "How about we move on.",
+    "translation": "我们继续吧。",
+    "category": "G"
+  },
+  "32127": {
+    "id": "32127",
+    "source": "Collect all but the last banana in a chain [1] times in a single game.",
+    "translation": "在一局游戏中，收集一串香蕉中除最后一根外的所有香蕉 [1] 次。",
+    "category": "C"
+  },
+  "34316": {
+    "id": "34316",
+    "source": "You were really close to mastering the arpeggios in this song{C} last time. Go! Go! Arpeggio! is a fun way to hone your arpeggios and get ready to attack them this time around.",
+    "translation": "你上次几乎就掌握了这首歌的分解和弦{C}了。加油！加油！分解和弦！这是一种磨练分解和弦的好方法，让你准备好这次去攻克它。",
+    "category": "B"
+  },
+  "36774": {
+    "id": "36774",
+    "source": "If you want to play without a Rocksmith Real Tone cable{C} you can change your input mode from the Main Menu.",
+    "translation": "如果你想在不使用 Rocksmith Real Tone Cable 的情况下演奏{C} 你可以从主菜单更改输入模式。",
+    "category": "E"
+  },
+  "27817": {
+    "id": "27817",
+    "source": "Excellent!",
+    "translation": "优秀！",
+    "category": "A"
+  },
+  "37278": {
+    "id": "37278",
+    "source": "Original Tuning",
+    "translation": "原始调弦",
+    "category": "A"
+  },
+  "29018": {
+    "id": "29018",
+    "source": "DORIAN",
+    "translation": "Dorian",
+    "category": "A"
+  },
+  "17448": {
+    "id": "17448",
+    "source": "This is the tuner. Your goal is to move the needle into the center of the gauge{C} until the number reaches zero.",
+    "translation": "这是调音器。你的目标是将指针移动到表盘中央{C} 直到数字达到零。",
+    "category": "G"
+  },
+  "22697": {
+    "id": "22697",
+    "source": "Hold the pick between your thumb and forefinger",
+    "translation": "用拇指和食指夹住拨片",
+    "category": "B"
+  },
+  "35520": {
+    "id": "35520",
+    "source": "Simple Rock",
+    "translation": "简单摇滚",
+    "category": "A"
+  },
+  "22497": {
+    "id": "22497",
+    "source": "Enhance",
+    "translation": "增强",
+    "category": "A"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "selected": 200,
+  "seed": 42,
+  "per_category": 20,
+  "eligible_categories": {
+    "B": 3943,
+    "A": 4995,
+    "G": 2935,
+    "E": 1221,
+    "D": 758,
+    "F": 560,
+    "C": 750
+  },
+  "sample_categories": {
+    "A": 58,
+    "B": 42,
+    "C": 20,
+    "D": 20,
+    "E": 20,
+    "F": 20,
+    "G": 20
+  },
+  "excluded": {
+    "router_skip": 585,
+    "locked_or_legacy": 320
+  },
+  "completed": 200,
+  "failed": 0,
+  "changed": 17,
+  "change_rate": 0.085,
+  "skipped": 2,
+  "rejections": {
+    "32082": {
+      "id": "32082",
+      "source": "Run [1] meters in a single game.",
+      "translation": "在单局游戏中跑[1] 米。",
+      "category": "C",
+      "revised": "在单局游戏中跑[1] 米。",
+      "candidate": "在单局游戏中跑 [1] 米。",
+      "reason": "模型未提供理由，需复核",
+      "rejection": "whitespace-only polishing"
+    },
+    "7375": {
+      "id": "7375",
+      "source": "Linking your saved game to Facebook will automatically load the save game. Continue?",
+      "translation": "将存档关联到Facebook将自动加载存档。继续吗？",
+      "category": "F",
+      "revised": "将存档关联到Facebook将自动加载存档。继续吗？",
+      "candidate": "将存档关联到 Facebook 将自动加载存档。继续吗？",
+      "reason": "模型未提供理由，需复核",
+      "rejection": "whitespace-only polishing"
+    }
+  },
+  "errors": {},
+  "final_violations": {}
+}
