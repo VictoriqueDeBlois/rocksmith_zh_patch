@@ -45,3 +45,17 @@ data/proofread_routed.json.part*.json
 
 data/proofread_routed.json.sample.json
 
+# --- 大型中间产物(不入库; 保留在本地) ---
+data/proofread_routed.json
+data/proofread_routed.json.report.json
+data/proofread_routed_changes.json
+data/proofread_sample*.json
+data/proofread_sample2*.json
+data/rule_scan_candidates.json
+data/translations_local.json
+data/translations_remote.json
+data/translations_merged.json
+data/translations_merged.reaudit.json
+data/translations_proofread.json
+data/proofread_changes.json
+scripts/proofreader/selftest/release_*.json

@@ -28,7 +28,7 @@
 
 | 作用 | 路径 |
 |---|---|
-| 全部 AI 现译（主对象） | `<PROJECT_ROOT>\data\translations_remaining.json` |
+| 全部 AI 现译（主对象） | `./data\translations_remaining.json` |
 | 人工锁定（跳过） | `...\data\proofread_manual.json` |
 | 人工 UI 术语（跳过） | `...\config\overrides.json` |
 | 汉化组（默认跳过） | `...\data\translations_legacy.json` |
@@ -103,7 +103,7 @@ JSON 结构：`translations_remaining.json` 是 `{ "id": "中文" }`，英文原
 
 ## 8. 输出要求（GPT 交付物）
 
-请产出一个 JSON 文件（建议路径 `<PROJECT_ROOT>\data\gpt_review_proposals.json`），结构：
+请产出一个 JSON 文件（建议路径 `./data\gpt_review_proposals.json`），结构：
 
 ```json
 {

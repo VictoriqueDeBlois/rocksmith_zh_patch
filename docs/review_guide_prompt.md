@@ -4,7 +4,7 @@
 
 ```
 请阅读并审阅这个文件（只读，不要修改任何仓库文件、不要执行写操作）：
-<PROJECT_ROOT>\docs\proofread_sample500_review.md
+./docs\proofread_sample500_review.md
 
 你的任务：
 1. 逐行审阅清单里的“现译（qwen3.8）”，判断是否有错译、漏译、术语不一致、不通顺、

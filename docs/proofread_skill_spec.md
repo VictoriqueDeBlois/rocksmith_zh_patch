@@ -125,7 +125,7 @@ USER 内容：`[{"id","source","translation"}]` 数组。
 
 ## 10. 参考（GPT 可读）
 
-- 规则全文：`<PROJECT_ROOT>\review.md`
+- 规则全文：`./review.md`
 - 术语/上下文：`...\docs\gpt_fullproofread_guide.md`
 - 现有调用/并发示例：`...\scripts\translate_remaining.py`、`...\scripts\localization.py`
 - 数据样例：`...\data\translations_remaining.json`、`...\learnplay_cache4\localization\maingame.csv`

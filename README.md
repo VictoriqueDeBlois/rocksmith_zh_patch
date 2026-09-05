@@ -1,5 +1,9 @@
 # Rocksmith 2014 中文化管线 (rocksmith_zh_patch)
 
+> Rocksmith 2014 (Remastered) Simplified-Chinese localization toolchain & scripts.
+> 只包含脚本、流程和本仓库作者整理的译文/审阅记录；**不包含游戏本体或任何游戏资源文件**。
+> 使用需要你自己拥有合法游戏并自行解包(见下文“复现需要”)。
+
 把 Rocksmith 2014 (Remastered / learnplay) 的英文 UI 文本补全为中文。
 沿用之前 agent 的方案：把中文写入 `maingame.csv` 的 **English 列**
 (第 2 列)，游戏以英文语言运行时即显示中文；`cache8` 里的字体
