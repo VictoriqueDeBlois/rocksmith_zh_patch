@@ -330,6 +330,8 @@ def main() -> None:
         return
 
     total_weight = sum(int(w.get("weight", 1)) for w in workers)
+    # 若之前用单 worker 直接写过 --out, 把已完成部分按文本归属预填到各 part, 便于续传
+    main_done = load_json(out_path) if out_path.exists() else {}
     threads = []
     for idx, w in enumerate(workers):
         start = sum(int(workers[j].get("weight", 1)) for j in range(idx)) * len(texts) // total_weight
@@ -338,6 +340,11 @@ def main() -> None:
         part_path = Path(str(out_path).replace(".json", f".part.{w['name']}.json"))
         fpart = Path(str(out_path).replace(".json", f".part.{w['name']}.failed.json"))
         done = load_json(part_path)
+        if main_done:
+            for text in slice_texts:
+                for sid in text_to_ids[text]:
+                    if sid in main_done:
+                        done[sid] = main_done[sid]
         th = threading.Thread(
             target=translate_worker,
             args=(w, slice_texts, text_to_ids, done, part_path, fpart),
