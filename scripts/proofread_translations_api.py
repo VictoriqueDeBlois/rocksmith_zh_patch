@@ -73,7 +73,7 @@ def chat_once(cfg: dict, items: list[dict], timeout: int) -> list[dict]:
         ],
         "stream": False,
         "response_format": {"type": "json_object"},
-        "max_tokens": 8192,
+        "max_tokens": 16384,
     }
     temp = cfg.get("temperature")
     if temp is not None:
@@ -84,9 +84,15 @@ def chat_once(cfg: dict, items: list[dict], timeout: int) -> list[dict]:
     }
     req = urllib.request.Request(url, data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
                                  headers=headers, method="POST")
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        result = json.load(resp)
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            result = json.load(resp)
+    except urllib.error.HTTPError as exc:
+        body = exc.read().decode("utf-8", "replace")[:600]
+        raise RuntimeError(f"HTTP {exc.code}: {body}") from exc
     content = result["choices"][0]["message"]["content"]
+    if not content or not content.strip():
+        raise RuntimeError("API 返回空内容")
     # 去掉可能的 ```json ... ``` 围栏
     content = re.sub(r"^```(?:json)?\s*", "", content.strip())
     content = re.sub(r"\s*```$", "", content)
@@ -131,7 +137,7 @@ def main() -> None:
     ap.add_argument("--out", required=True, help="校对结果 json")
     ap.add_argument("--changes", default=None, help="改动明细 json")
     ap.add_argument("--api-config", required=True, help="config/api.json (DeepSeek)")
-    ap.add_argument("--batch-size", type=int, default=40)
+    ap.add_argument("--batch-size", type=int, default=16)
     ap.add_argument("--concurrency", type=int, default=8)
     ap.add_argument("--limit", type=int, default=0, help="只校对随机抽样 N 条(0=全量)")
     ap.add_argument("--seed", type=int, default=42)
@@ -177,7 +183,7 @@ def main() -> None:
     print(f"剩余未校对批次: {len(batches)} (并发 {args.concurrency})", flush=True)
 
     lock = threading.Lock()
-    stats = {"n": 0}
+    stats = {"n": 0, "ph_skipped": 0}
 
     def process(batch: list[dict]) -> None:
         last_error = ""
@@ -196,10 +202,16 @@ def main() -> None:
             by_id_batch = {it["id"]: it for it in batch}
             for sid, text in received.items():
                 text = text.replace(",", "，").strip()
-                before = by_id_batch[sid]["translation"]
+                it = by_id_batch[sid]
+                # 占位符保护：校对不得丢失/改动 {C} {B} {L} [1] 等占位符
+                if sorted(PLACEHOLDER_RE.findall(it["source"])) != sorted(PLACEHOLDER_RE.findall(text)):
+                    done[sid] = it["translation"]  # 保留原译文，避免丢占位符
+                    stats["ph_skipped"] += 1
+                    continue
+                before = it["translation"]
                 if text != before:
                     changes[sid] = {
-                        "source": by_id_batch[sid]["source"],
+                        "source": it["source"],
                         "before": before,
                         "after": text,
                     }
@@ -208,14 +220,14 @@ def main() -> None:
             if args.changes:
                 write_json(Path(args.changes), changes)
             stats["n"] += len(received)
-            print(f"+{len(received)} -> total {len(done)} | 累计改动 {len(changes)}", flush=True)
+            print(f"+{len(received)} -> total {len(done)} | 累计改动 {len(changes)} | 占位符保护跳过 {stats['ph_skipped']}", flush=True)
 
     with ThreadPoolExecutor(max_workers=max(1, args.concurrency)) as ex:
         futs = [ex.submit(process, b) for b in batches]
         for f in as_completed(futs):
             f.result()
 
-    print(f"校对完成: {len(done)} 条, 有改动 {len(changes)} 条 -> {args.out}", flush=True)
+    print(f"校对完成: {len(done)} 条, 有改动 {len(changes)} 条, 占位符保护跳过 {stats['ph_skipped']} 条 -> {args.out}", flush=True)
 
 
 if __name__ == "__main__":
