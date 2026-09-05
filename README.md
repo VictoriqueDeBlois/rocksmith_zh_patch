@@ -137,3 +137,16 @@ uv run python scripts\merge_and_audit_translations.py --current learnplay_cache4
 - 半角逗号会被替换为中文逗号，避免破坏 CSV 列结构。
 - 汉化组繁体译文未做繁→简转换，也未参与 AI 校对(按需求跳过)。
 - 音乐记号/音名/品牌名等由模型保留英文；纯数字/符号行不会送译。
+
+## 后台运行翻译 (Windows 无原生 tmux)
+
+用 `scripts\run_translate_bg.ps1` 把翻译放到隐藏后台进程跑，日志写
+`work\translate_bg.log`，关掉窗口也不影响；随时可看进度/停止。
+
+```powershell
+.\scripts\run_translate_bg.ps1 start        # 后台启动(自动续传)
+.\scripts\run_translate_bg.ps1 status       # 运行状态 + 已翻译条数
+.\scripts\run_translate_bg.ps1 log -Wait    # 实时跟随日志 (Ctrl+C 退出)
+.\scripts\run_translate_bg.ps1 log -Tail 30 # 只看最近 30 行
+.\scripts\run_translate_bg.ps1 stop         # 停止
+```

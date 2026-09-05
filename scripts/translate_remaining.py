@@ -343,11 +343,22 @@ def main() -> None:
     total_weight = sum(int(w.get("weight", 1)) for w in workers)
     # 若之前用单 worker 直接写过 --out, 把已完成部分按文本归属预填到各 part, 便于续传
     main_done = load_json(out_path) if out_path.exists() else {}
+    # 均权时用轮询分配, 避免“已完成文本集中在某一段”导致某张卡提前闲置
+    weights = [int(w.get("weight", 1)) for w in workers]
+    equal_weight = len(set(weights)) == 1
+    plan: list[tuple[dict, list[str]]] = []
+    if equal_weight and len(workers) > 1:
+        groups: dict[str, list[str]] = {w["name"]: [] for w in workers}
+        for i, text in enumerate(texts):
+            groups[workers[i % len(workers)]["name"]].append(text)
+        plan = [(w, groups[w["name"]]) for w in workers]
+    else:
+        for idx, w in enumerate(workers):
+            start = sum(weights[:idx]) * len(texts) // total_weight
+            end = sum(weights[: idx + 1]) * len(texts) // total_weight
+            plan.append((w, texts[start:end]))
     threads = []
-    for idx, w in enumerate(workers):
-        start = sum(int(workers[j].get("weight", 1)) for j in range(idx)) * len(texts) // total_weight
-        end = sum(int(workers[j].get("weight", 1)) for j in range(idx + 1)) * len(texts) // total_weight
-        slice_texts = texts[start:end]
+    for w, slice_texts in plan:
         part_path = Path(str(out_path).replace(".json", f".part.{w['name']}.json"))
         fpart = Path(str(out_path).replace(".json", f".part.{w['name']}.failed.json"))
         done = load_json(part_path)
